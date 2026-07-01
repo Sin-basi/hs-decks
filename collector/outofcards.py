@@ -2,7 +2,8 @@
 Out of Cards (outof.cards) 牌組蒐集器（不需金鑰）
 
 robots.txt 僅禁止後台/deckbuilder 儲存等路徑，牌組頁允許抓取。
-流程：列表頁 → 各牌組頁 → 抓頁面內的牌組代碼；牌組名稱取自 og:title。
+流程：列表頁（含分頁 ?page=2…）→ 各牌組頁 → 抓頁面內的牌組代碼；
+牌組名稱取自 og:title。
 """
 
 import re
@@ -16,6 +17,7 @@ from collector.decoder import extract_deckstrings
 
 BASE = "https://outof.cards"
 LISTING = "https://outof.cards/hearthstone/decks/"
+PAGES = 3  # 列表往後翻幾頁
 
 HEADERS = {
     "User-Agent": (
@@ -41,23 +43,26 @@ def _archetype_from_title(title: Optional[str]) -> Optional[str]:
     """從 og:title 取出乾淨的牌組名稱。"""
     if not title:
         return None
-    t = html.unescape(title)                     # &#x27; -> '
-    t = re.split(r'\s+Deck\b|\s*\|', t)[0].strip()  # 截到 " Deck" 或 " |" 之前
-    t = re.sub(r'\s+\d+(?:\.\d+)?$', '', t).strip()  # 去掉結尾的版本號，例如 " 11.0"
+    t = html.unescape(title)                          # &#x27; -> '
+    t = re.split(r'\s+Deck\b|\s*\|', t)[0].strip()    # 截到 " Deck" 或 " |" 之前
+    t = re.sub(r'\s+\d+(?:\.\d+)?$', '', t).strip()   # 去掉結尾的版本號，例如 " 11.0"
     return t or None
 
 
 def scrape_outofcards(limit: int = 25) -> list:
     """從 outof.cards 蒐集牌組。"""
     print(f"  抓取 outof.cards（最多 {limit} 副）...")
-    listing = _fetch(LISTING)
-    if not listing:
-        return []
 
     paths = []
-    for p in DECK_URL_RE.findall(listing):
-        if p not in paths:
-            paths.append(p)
+    for pg in range(1, PAGES + 1):
+        url = LISTING if pg == 1 else f"{LISTING}?page={pg}"
+        listing = _fetch(url)
+        if not listing:
+            continue
+        for p in DECK_URL_RE.findall(listing):
+            if p not in paths:
+                paths.append(p)
+        time.sleep(1)
     paths = paths[:limit]
     print(f"  → 找到 {len(paths)} 個牌組頁面")
 

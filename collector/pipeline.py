@@ -164,12 +164,12 @@ def collect_all_sources():
     items = []
     # 來源 1：Hearthstone-Decks.net（robots 允許）
     try:
-        items += scrape_hsdecks_net(limit=40)
+        items += scrape_hsdecks_net(limit=90)
     except Exception as e:
         print(f"  [hearthstone-decks.net 發生錯誤] {e}")
     # 來源 2：Out of Cards（robots 允許）
     try:
-        items += scrape_outofcards(limit=25)
+        items += scrape_outofcards(limit=60)
     except Exception as e:
         print(f"  [outof.cards 發生錯誤] {e}")
     # 來源 3：Reddit — 需官方 API 事先審核（2025/11 起），暫緩；

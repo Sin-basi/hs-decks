@@ -2,7 +2,7 @@
 Hearthstone-Decks.net 牌組蒐集器（不需金鑰）
 
 流程：
-  1. 抓列表頁（例如 /standard-decks/），找出各個別牌組頁的網址
+  1. 抓列表頁（例如 /standard-decks/，含後續分頁 page/2、page/3…），找出各個別牌組頁的網址
   2. 從網址 slug 解析牌組類型、傳說排名、勝負場
      例：quest-mage-11-legend-unknown-score-42-23
          → 類型 Quest Mage、排名 #11、戰績 42-23
@@ -33,6 +33,9 @@ HEADERS = {
 LISTING_PAGES = [
     "/standard-decks/",
 ]
+
+# 每個列表頁往後翻幾頁（第 1 頁 + 後續 page/2、page/3…）
+PAGES = 3
 
 # 個別牌組頁的網址：slug 內含 "legend"
 DECK_URL_RE = re.compile(r'https://hearthstone-decks\.net/([a-z0-9\-]*legend[a-z0-9\-]*)/')
@@ -72,15 +75,17 @@ def _parse_slug(slug: str) -> dict:
 
 def _collect_deck_urls(limit: int) -> list:
     urls = []
-    for page in LISTING_PAGES:
-        html = _fetch(BASE + page)
-        if not html:
-            continue
-        for slug in DECK_URL_RE.findall(html):
-            u = f"{BASE}/{slug}/"
-            if u not in urls:
-                urls.append(u)
-        time.sleep(1)
+    for base_path in LISTING_PAGES:
+        for pg in range(1, PAGES + 1):
+            page_path = base_path if pg == 1 else f"{base_path}page/{pg}/"
+            html = _fetch(BASE + page_path)
+            if not html:
+                continue
+            for slug in DECK_URL_RE.findall(html):
+                u = f"{BASE}/{slug}/"
+                if u not in urls:
+                    urls.append(u)
+            time.sleep(1)
     return urls[:limit]
 
 
