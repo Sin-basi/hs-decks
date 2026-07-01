@@ -79,26 +79,41 @@ def resolve_hero_class(decoded: dict, card_db: dict) -> dict:
     return decoded["hero_class"]
 
 
+def _enrich_card(card: dict, card_db: dict, locales: dict) -> dict:
+    """把一張卡（{id, count[, owner]}）填上費用、三語名稱、稀有度、卡圖字串 ID。"""
+    cid = card["id"]
+    info = card_db.get(cid, {})
+    entry = {
+        "id": cid,
+        "count": card["count"],
+        "cost": info.get("cost", 0),
+        "name_en": info.get("name_en", f"#{cid}"),
+        "rarity": info.get("rarity", ""),
+        "cardId": info.get("cardId", ""),
+    }
+    if "owner" in card:
+        entry["owner"] = card["owner"]
+    for lk, ldb in locales.items():
+        entry[f"name_{lk}"] = ldb.get(cid, entry["name_en"])
+    return entry
+
+
 def enrich_deck(deck: dict, card_db: dict, locales: dict) -> dict:
-    enriched = []
-    dust_cost = 0
     rarity_dust = {"COMMON": 40, "RARE": 100, "EPIC": 400, "LEGENDARY": 1600}
+    dust_cost = 0
     for card in deck["cards"]:
-        cid = card["id"]
-        info = card_db.get(cid, {})
-        entry = {
-            "id": cid, "count": card["count"],
-            "cost": info.get("cost", 0),
-            "name_en": info.get("name_en", f"#{cid}"),
-            "rarity": info.get("rarity", ""),
-            "cardId": info.get("cardId", ""),
-        }
-        for lk, ldb in locales.items():
-            entry[f"name_{lk}"] = ldb.get(cid, entry["name_en"])
+        info = card_db.get(card["id"], {})
         dust_cost += rarity_dust.get(info.get("rarity", ""), 0) * card["count"]
-        enriched.append(entry)
-    deck["cards"] = sorted(enriched, key=lambda c: (c["cost"], c["name_en"]))
+    deck["cards"] = sorted(
+        [_enrich_card(c, card_db, locales) for c in deck["cards"]],
+        key=lambda c: (c["cost"], c["name_en"]),
+    )
     deck["dust_cost"] = dust_cost
+    # 副牌（E.T.C./Zilliax）也做同樣的資料填充
+    deck["sideboard"] = sorted(
+        [_enrich_card(c, card_db, locales) for c in (deck.get("sideboard") or [])],
+        key=lambda c: (c.get("owner", 0), c["cost"], c["name_en"]),
+    )
     return deck
 
 
@@ -109,6 +124,8 @@ def process_scraped_data(scraped, card_db, locales):
         for code in item["deckstrings"]:
             decoded = decode_deckstring(code)
             if not decoded or decoded["total_cards"] != 30:
+                continue
+            if decoded.get("format") == 4:  # 扭曲模式：略過
                 continue
             fp = fingerprint(decoded)
             if fp in seen:
@@ -122,6 +139,7 @@ def process_scraped_data(scraped, card_db, locales):
                 "archetype": item.get("archetype"),
                 "total_cards": decoded["total_cards"],
                 "cards": decoded["cards"],
+                "sideboard": decoded.get("sideboard", []),
                 "source": {
                     "type": item.get("source", "manual"),
                     "url": item.get("post_url", ""),
@@ -162,9 +180,9 @@ def save_by_class(decks):
 def collect_all_sources():
     """從所有可用來源蒐集牌組代碼。"""
     items = []
-    # 來源 1：Hearthstone-Decks.net（robots 允許）
+    # 來源 1：Hearthstone-Decks.net（robots 允許；標準 + 狂野）
     try:
-        items += scrape_hsdecks_net(limit=90)
+        items += scrape_hsdecks_net(per_listing=45)
     except Exception as e:
         print(f"  [hearthstone-decks.net 發生錯誤] {e}")
     # 來源 2：Out of Cards（robots 允許）

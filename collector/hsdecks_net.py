@@ -2,14 +2,13 @@
 Hearthstone-Decks.net 牌組蒐集器（不需金鑰）
 
 流程：
-  1. 抓列表頁（例如 /standard-decks/，含後續分頁 page/2、page/3…），找出各個別牌組頁的網址
+  1. 掃描列表頁（standard + wild，各含後續分頁 page/2、page/3…），找出個別牌組頁網址
+     — 每個列表各給一個配額，確保標準與狂野都抓得到
   2. 從網址 slug 解析牌組類型、傳說排名、勝負場
      例：quest-mage-11-legend-unknown-score-42-23
-         → 類型 Quest Mage、排名 #11、戰績 42-23
   3. 進每個牌組頁抓出牌組代碼（頁面內的 deckstring）
 
-回傳的每個元素格式與 collector.scraper 相同，方便主管線統一處理，
-並額外帶一個 "archetype" 欄位（牌組類型名稱）。
+回傳格式與 collector.scraper 相同，並額外帶 "archetype"。
 """
 
 import re
@@ -29,12 +28,13 @@ HEADERS = {
     )
 }
 
-# 要掃描的列表頁（日後可加入 /wild-decks/ 等）
+# 要掃描的列表頁（標準 + 狂野）
 LISTING_PAGES = [
     "/standard-decks/",
+    "/wild-decks/",
 ]
 
-# 每個列表頁往後翻幾頁（第 1 頁 + 後續 page/2、page/3…）
+# 每個列表頁往後翻幾頁
 PAGES = 3
 
 # 個別牌組頁的網址：slug 內含 "legend"
@@ -73,26 +73,31 @@ def _parse_slug(slug: str) -> dict:
     return meta
 
 
-def _collect_deck_urls(limit: int) -> list:
+def _collect_deck_urls(per_listing: int) -> list:
+    """每個列表頁各收集最多 per_listing 個牌組網址（確保標準/狂野都有）。"""
     urls = []
     for base_path in LISTING_PAGES:
+        got = []
         for pg in range(1, PAGES + 1):
+            if len(got) >= per_listing:
+                break
             page_path = base_path if pg == 1 else f"{base_path}page/{pg}/"
             html = _fetch(BASE + page_path)
             if not html:
                 continue
             for slug in DECK_URL_RE.findall(html):
                 u = f"{BASE}/{slug}/"
-                if u not in urls:
-                    urls.append(u)
+                if u not in urls and u not in got:
+                    got.append(u)
             time.sleep(1)
-    return urls[:limit]
+        urls.extend(got[:per_listing])
+    return urls
 
 
-def scrape_hsdecks_net(limit: int = 40) -> list:
-    """從 Hearthstone-Decks.net 蒐集牌組。"""
-    print(f"  抓取 hearthstone-decks.net（最多 {limit} 副）...")
-    deck_urls = _collect_deck_urls(limit)
+def scrape_hsdecks_net(per_listing: int = 45) -> list:
+    """從 Hearthstone-Decks.net 蒐集牌組（標準 + 狂野各約 per_listing 副）。"""
+    print(f"  抓取 hearthstone-decks.net（標準/狂野各最多 {per_listing} 副）...")
+    deck_urls = _collect_deck_urls(per_listing)
     print(f"  → 找到 {len(deck_urls)} 個牌組頁面")
 
     results = []
@@ -107,7 +112,6 @@ def scrape_hsdecks_net(limit: int = 40) -> list:
         slug = u.rstrip("/").split("/")[-1]
         meta = _parse_slug(slug)
 
-        # 組成與 Reddit 相同格式的標題，讓 parse_legend_rank / parse_winrate 可沿用
         title = meta["archetype"] or slug
         if meta["legend_rank"] is not None:
             title += f" #{meta['legend_rank']} Legend"
@@ -123,9 +127,9 @@ def scrape_hsdecks_net(limit: int = 40) -> list:
             "author": "hearthstone-decks.net",
             "created_utc": 0,
             "archetype": meta["archetype"],
-            "deckstrings": codes[:1],  # 每頁通常只有一組代碼
+            "deckstrings": codes[:1],
         })
-        time.sleep(0.5)  # 禮貌性延遲，避免對站方造成負擔
+        time.sleep(0.5)
 
     print(f"  → 成功取得 {len(results)} 副含代碼的牌組")
     return results

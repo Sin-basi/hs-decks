@@ -146,6 +146,30 @@ def decode_deckstring(deckstring: str) -> Optional[dict]:
                 count, offset = _read_varint(data, offset)
                 cards.append({"id": card_id, "count": count})
 
+        # 12. 副牌 / sideboard（E.T.C. 樂團經理、Zilliax 模組等）
+        # 主牌之後若還有資料且旗標為 1，代表有副牌。
+        # 每張副牌都帶一個 owner（擁有者卡的 DB ID，例如 E.T.C. 本體）。
+        sideboard = []
+        if offset < len(data):
+            sb_flag, offset = _read_varint(data, offset)
+            if sb_flag == 1:
+                n1, offset = _read_varint(data, offset)
+                for _ in range(n1):
+                    cid, offset = _read_varint(data, offset)
+                    owner, offset = _read_varint(data, offset)
+                    sideboard.append({"id": cid, "count": 1, "owner": owner})
+                n2, offset = _read_varint(data, offset)
+                for _ in range(n2):
+                    cid, offset = _read_varint(data, offset)
+                    owner, offset = _read_varint(data, offset)
+                    sideboard.append({"id": cid, "count": 2, "owner": owner})
+                nN, offset = _read_varint(data, offset)
+                for _ in range(nN):
+                    cid, offset = _read_varint(data, offset)
+                    cnt, offset = _read_varint(data, offset)
+                    owner, offset = _read_varint(data, offset)
+                    sideboard.append({"id": cid, "count": cnt, "owner": owner})
+
         # 解析英雄職業
         hero_id = heroes[0] if heroes else 0
         hero_class_info = HERO_CLASS_MAP.get(hero_id)
@@ -181,6 +205,7 @@ def decode_deckstring(deckstring: str) -> Optional[dict]:
             "hero_id": hero_id,
             "hero_class": hero_class,
             "cards": sorted(cards, key=lambda c: c["id"]),
+            "sideboard": sorted(sideboard, key=lambda c: (c["owner"], c["id"])),
             "total_cards": total_cards,
         }
 
