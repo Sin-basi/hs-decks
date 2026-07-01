@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 卡牌資料庫（檔案大，自動化執行時會自動重新下載，不需上傳）
+/data/cards.json
+/data/cards_zhTW.json
+/data/cards_jaJP.json
+/data/classes/

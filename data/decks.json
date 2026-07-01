@@ -1,80 +1,6897 @@
 [
   {
-    "id": "a1b2c3d4e5f6",
-    "deckstring": "AAECAf0EBsABobcCnccC7vYCp/cCyIcDDHG7ApUDlgWNCL8ImMQCj9MCAAA=",
-    "format": { "en": "Standard", "zh": "標準", "ja": "スタンダード" },
-    "hero_class": { "en": "Mage", "zh": "法師", "ja": "メイジ" },
+    "id": "370ad02d47c9",
+    "deckstring": "AAECAZ8FBvD+BsODB8avB+XBB6vGB7roBwzJoATTnga6lgfOmwf1rwfiwQfowQfqwQf2wQeDwgfmxQfQ6gcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Paladin",
+      "zh": "聖騎士",
+      "ja": "パラディン"
+    },
+    "archetype": "End Of Turn Paladin",
     "total_cards": 30,
-    "dust_cost": 7840,
+    "cards": [
+      {
+        "id": 102227,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Glacial Shard",
+        "rarity": "COMMON",
+        "name_zhTW": "冰川裂片",
+        "name_jaJP": "グレイシャル・シャード"
+      },
+      {
+        "id": 69705,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Righteous Protector",
+        "rarity": "COMMON",
+        "name_zhTW": "正義保衛者",
+        "name_jaJP": "有徳の守護者"
+      },
+      {
+        "id": 118222,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sizzling Cinder",
+        "rarity": "COMMON",
+        "name_zhTW": "灼熱火靈",
+        "name_jaJP": "灼熱の火精"
+      },
+      {
+        "id": 123126,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Twilight Egg",
+        "rarity": "COMMON",
+        "name_zhTW": "暮光龍蛋",
+        "name_jaJP": "トワイライトの卵"
+      },
+      {
+        "id": 128336,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Battle Vicar",
+        "rarity": "RARE",
+        "name_zhTW": "戰鬥牧者",
+        "name_jaJP": "戦闘牧師"
+      },
+      {
+        "id": 123622,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Convalescence",
+        "rarity": "COMMON",
+        "name_zhTW": "康復期",
+        "name_jaJP": "療養期間"
+      },
+      {
+        "id": 123106,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Inspiring Maul",
+        "rarity": "COMMON",
+        "name_zhTW": "振奮之槌",
+        "name_jaJP": "奮起の大槌"
+      },
+      {
+        "id": 120821,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Past Gnomeregan",
+        "rarity": "EPIC",
+        "name_zhTW": "過去的諾姆瑞根",
+        "name_jaJP": "過去のノームレガン"
+      },
+      {
+        "id": 120774,
+        "count": 1,
+        "cost": 2,
+        "name_en": "The Fins Beyond Time",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "穿越時空的芬利",
+        "name_jaJP": "時を超越するヒレ"
+      },
+      {
+        "id": 117562,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Violet Treasuregill",
+        "rarity": "RARE",
+        "name_zhTW": "紫色獵寶魚人",
+        "name_jaJP": "スミレ色のお宝ハンター"
+      },
+      {
+        "id": 123691,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Sandfury Aura",
+        "rarity": "RARE",
+        "name_zhTW": "沙怒光環",
+        "name_jaJP": "砂猛のオーラ"
+      },
+      {
+        "id": 123139,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Flight Maneuvers",
+        "rarity": "EPIC",
+        "name_zhTW": "飛行行動",
+        "name_jaJP": "飛行機動"
+      },
+      {
+        "id": 115139,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Nightmare Lord Xavius",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "夢魘之王薩維斯",
+        "name_jaJP": "悪夢の王ザヴィウス"
+      },
+      {
+        "id": 123112,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Spearheart Sentry",
+        "rarity": "RARE",
+        "name_zhTW": "矛心哨兵",
+        "name_jaJP": "スピアハート・セントリー"
+      },
+      {
+        "id": 128058,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Earthen Drake",
+        "rarity": "RARE",
+        "name_zhTW": "大地飛龍",
+        "name_jaJP": "大地のドレイク"
+      },
+      {
+        "id": 123109,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Nozdormu, Bronze Aspect",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『青銅守護巨龍』諾茲多姆",
+        "name_jaJP": "ブロンズのアスペクト・ノズドルム"
+      },
+      {
+        "id": 114544,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Toreth the Unbreaking",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "不屈者托瑞斯",
+        "name_jaJP": "鉄壁のトレス"
+      },
+      {
+        "id": 123114,
+        "count": 2,
+        "cost": 6,
+        "name_en": "Scalebreaker Bulwark",
+        "rarity": "COMMON",
+        "name_zhTW": "破鱗者堅兵",
+        "name_jaJP": "スケイルブレイカーの防塁"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/end-of-turn-paladin-478-legend-unknown-score-11-8/",
+      "author": "hearthstone-decks.net",
+      "title": "End Of Turn Paladin #478 Legend (Score: 11-8)"
+    },
+    "legend_rank": 478,
+    "winrate": {
+      "wins": 11,
+      "losses": 8,
+      "total": 19,
+      "winrate": 57.9
+    },
+    "collected_at": "2026-07-01T16:21:07.692455+00:00",
+    "dust_cost": 9360
+  },
+  {
+    "id": "7b0ad3306d35",
+    "deckstring": "AAEBAf0GHtwGjg76DsMWhRfYuwKXwQLfxALnywKuzQKX0wLo5wLD6gKc+AKggAP8owOdqQPrrAPEuQPuvwOPzgPXzgPG3gPO4QP44wOS5AOm7wOPnwSDoATnoAQAAA==",
+    "format": {
+      "en": "Wild",
+      "zh": "狂野",
+      "ja": "ワイルド"
+    },
+    "hero_class": {
+      "en": "Warlock",
+      "zh": "術士",
+      "ja": "ウォーロック"
+    },
+    "archetype": "Reno Warlock",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 59223,
+        "count": 1,
+        "cost": 0,
+        "name_en": "Raise Dead",
+        "rarity": "COMMON",
+        "name_zhTW": "死者復生",
+        "name_jaJP": "死者蘇生"
+      },
+      {
+        "id": 61970,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Armor Vendor",
+        "rarity": "RARE",
+        "name_zhTW": "護甲商",
+        "name_jaJP": "鎧売り"
+      },
+      {
+        "id": 41111,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Glacial Shard",
+        "rarity": "COMMON",
+        "name_zhTW": "冰川裂片",
+        "name_jaJP": "グレイシャル・シャード"
+      },
+      {
+        "id": 54429,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Plague of Flames",
+        "rarity": "RARE",
+        "name_zhTW": "火焰災禍",
+        "name_jaJP": "炎の災厄"
+      },
+      {
+        "id": 59151,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Sphere of Sapience",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "智識之球",
+        "name_jaJP": "智慧の宝珠"
+      },
+      {
+        "id": 42471,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Defile",
+        "rarity": "RARE",
+        "name_zhTW": "褻瀆",
+        "name_jaJP": "冒涜"
+      },
+      {
+        "id": 41567,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Dirty Rat",
+        "rarity": "EPIC",
+        "name_zhTW": "骯髒的老鼠",
+        "name_jaJP": "ドブネズミ"
+      },
+      {
+        "id": 69735,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Drain Soul",
+        "rarity": "COMMON",
+        "name_zhTW": "吸取靈魂",
+        "name_jaJP": "魂吸収"
+      },
+      {
+        "id": 42670,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Gnomeferatu",
+        "rarity": "EPIC",
+        "name_zhTW": "吸血地精",
+        "name_jaJP": "ノームフェラトゥ"
+      },
+      {
+        "id": 53756,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Zephrys the Great",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "偉大的賽佛瑞斯",
+        "name_jaJP": "偉大なるゼフリス"
+      },
+      {
+        "id": 2949,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Brann Bronzebeard",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "布萊恩‧銅鬚",
+        "name_jaJP": "ブラン・ブロンズビアード"
+      },
+      {
+        "id": 54891,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Dark Skies",
+        "rarity": "EPIC",
+        "name_zhTW": "暗影天穹",
+        "name_jaJP": "空を覆う暗黒"
+      },
+      {
+        "id": 69519,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Hellfire",
+        "rarity": "COMMON",
+        "name_zhTW": "地獄烈焰",
+        "name_jaJP": "地獄の炎"
+      },
+      {
+        "id": 860,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Sense Demons",
+        "rarity": "COMMON",
+        "name_zhTW": "感知惡魔",
+        "name_jaJP": "悪魔感知"
+      },
+      {
+        "id": 46403,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Zola the Gorgon",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "蛇髮佐菈",
+        "name_jaJP": "ゴルゴン・ゾーラ"
+      },
+      {
+        "id": 61254,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Cascading Disaster",
+        "rarity": "EPIC",
+        "name_zhTW": "禍不單行",
+        "name_jaJP": "魂尽き事故"
+      },
+      {
+        "id": 61944,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Hysteria",
+        "rarity": "RARE",
+        "name_zhTW": "大暴走",
+        "name_jaJP": "ヒステリー"
+      },
+      {
+        "id": 40408,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Kazakus",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "卡札克斯",
+        "name_jaJP": "カザカス"
+      },
+      {
+        "id": 1806,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Voidcaller",
+        "rarity": "COMMON",
+        "name_zhTW": "虛無呼喚者",
+        "name_jaJP": "ヴォイドコーラー"
+      },
+      {
+        "id": 1914,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Loatheb",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "憎恨者",
+        "name_jaJP": "ロウゼブ"
+      },
+      {
+        "id": 49184,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Zilliax",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "齊里亞斯",
+        "name_jaJP": "ジリアックス"
+      },
+      {
+        "id": 57326,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Keli'dan the Breaker",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『破壞者』凱利丹",
+        "name_jaJP": "破壊者ケリダン"
+      },
+      {
+        "id": 2883,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Reno Jackson",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "里諾‧傑克森",
+        "name_jaJP": "レノ・ジャクソン"
+      },
+      {
+        "id": 61646,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Tickatus",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "提卡特斯",
+        "name_jaJP": "チケッタス"
+      },
+      {
+        "id": 48156,
+        "count": 1,
+        "cost": 7,
+        "name_en": "Lord Godfrey",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "高佛雷領主",
+        "name_jaJP": "ロード・ゴッドフリー"
+      },
+      {
+        "id": 63398,
+        "count": 1,
+        "cost": 7,
+        "name_en": "Mutanus the Devourer",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "吞噬者穆坦努斯",
+        "name_jaJP": "貪り喰らうものミュターヌス"
+      },
+      {
+        "id": 56516,
+        "count": 1,
+        "cost": 8,
+        "name_en": "Enhanced Dreadlord",
+        "rarity": "RARE",
+        "name_zhTW": "強化的驚懼領主",
+        "name_jaJP": "強化ドレッドロード"
+      },
+      {
+        "id": 69635,
+        "count": 1,
+        "cost": 8,
+        "name_en": "Twisting Nether",
+        "rarity": "EPIC",
+        "name_zhTW": "扭曲虛空",
+        "name_jaJP": "捻じれし冥界"
+      },
+      {
+        "id": 46056,
+        "count": 1,
+        "cost": 9,
+        "name_en": "Voidlord",
+        "rarity": "EPIC",
+        "name_zhTW": "虛無領主",
+        "name_jaJP": "ヴォイドロード"
+      },
+      {
+        "id": 43415,
+        "count": 1,
+        "cost": 10,
+        "name_en": "Bloodreaver Gul'dan",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『奪血者』古爾丹",
+        "name_jaJP": "屍山血河のグルダン"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/reno-warlock-164-legend-concuthanky/",
+      "author": "hearthstone-decks.net",
+      "title": "Reno Warlock #164 Legend"
+    },
+    "legend_rank": 164,
+    "winrate": null,
+    "collected_at": "2026-07-01T16:21:07.692661+00:00",
+    "dust_cost": 23940
+  },
+  {
+    "id": "70f151eb98e1",
+    "deckstring": "AAECAZICDqn1BqX8BqGBB8ODB6+HB6GJB4KYB/ioB/moB/qoB+DAB9nEB+XEB5PxBwiunwSIgweqrwesrwe4sge+sgfXwAeYxAcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Druid",
+      "zh": "德魯伊",
+      "ja": "ドルイド"
+    },
+    "archetype": "Azshara Druid",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 69550,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Innervate",
+        "rarity": "RARE",
+        "name_zhTW": "啟動",
+        "name_jaJP": "練気"
+      },
+      {
+        "id": 120746,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Waveshaping",
+        "rarity": "RARE",
+        "name_zhTW": "波動形塑",
+        "name_jaJP": "ウェーブシェイピング"
+      },
+      {
+        "id": 121150,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Acceleration Aura",
+        "rarity": "COMMON",
+        "name_zhTW": "加速光環",
+        "name_jaJP": "加速のオーラ"
+      },
+      {
+        "id": 120748,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Ebb and Flow",
+        "rarity": "COMMON",
+        "name_zhTW": "潮起潮落",
+        "name_jaJP": "干と満"
+      },
+      {
+        "id": 122967,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Felwood Treant",
+        "rarity": "RARE",
+        "name_zhTW": "費伍德樹人",
+        "name_jaJP": "フェルウッドのトレント"
+      },
+      {
+        "id": 115080,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Horn of Plenty",
+        "rarity": "COMMON",
+        "name_zhTW": "豐饒之角",
+        "name_jaJP": "豊穣の角"
+      },
+      {
+        "id": 123481,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Heartroot Stones",
+        "rarity": "COMMON",
+        "name_zhTW": "心根石",
+        "name_jaJP": "ハートルート石"
+      },
+      {
+        "id": 123416,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Welcome Home!",
+        "rarity": "EPIC",
+        "name_zhTW": "歡迎回家！",
+        "name_jaJP": "おかえりなさい！"
+      },
+      {
+        "id": 117762,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Elise the Navigator",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "領路者伊莉絲",
+        "name_jaJP": "探検家エリーズ"
+      },
+      {
+        "id": 115139,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Nightmare Lord Xavius",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "夢魘之王薩維斯",
+        "name_jaJP": "悪夢の王ザヴィウス"
+      },
+      {
+        "id": 119929,
+        "count": 1,
+        "cost": 4,
+        "name_en": "The Well of Eternity",
+        "rarity": "",
+        "name_zhTW": "永恆之井",
+        "name_jaJP": "久遠の聖泉"
+      },
+      {
+        "id": 119930,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Zin-Azshari",
+        "rarity": "",
+        "name_zhTW": "辛艾薩拉",
+        "name_jaJP": "ジン・アズシャリ"
+      },
+      {
+        "id": 115631,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Amirdrassil",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "埃達希爾",
+        "name_jaJP": "アミルドラシル"
+      },
+      {
+        "id": 119928,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Lady Azshara",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "艾薩拉女士",
+        "name_jaJP": "レディ・アズシャラ"
+      },
+      {
+        "id": 115873,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Evergreen Stag",
+        "rarity": "COMMON",
+        "name_zhTW": "常青雄鹿",
+        "name_jaJP": "常緑鹿"
+      },
+      {
+        "id": 121144,
+        "count": 2,
+        "cost": 6,
+        "name_en": "Twilight Timereaver",
+        "rarity": "RARE",
+        "name_zhTW": "暮光時間劫奪者",
+        "name_jaJP": "黄昏のタイムリーヴァー"
+      },
+      {
+        "id": 122976,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Wickerfang",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "藤牙",
+        "name_jaJP": "ウィッカーファング"
+      },
+      {
+        "id": 123493,
+        "count": 1,
+        "cost": 7,
+        "name_en": "Bashana Runetotem",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "巴珊娜‧符文圖騰",
+        "name_jaJP": "バシャナ・ルーントーテム"
+      },
+      {
+        "id": 114849,
+        "count": 1,
+        "cost": 7,
+        "name_en": "Naralex, Herald of the Flights",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『巨龍使者』納拉雷克斯",
+        "name_jaJP": "ドラゴン族の伝令ナラレックス"
+      },
+      {
+        "id": 129171,
+        "count": 1,
+        "cost": 7,
+        "name_en": "Underking",
+        "rarity": "EPIC",
+        "name_zhTW": "地底王者",
+        "name_jaJP": "地下王"
+      },
+      {
+        "id": 113321,
+        "count": 1,
+        "cost": 9,
+        "name_en": "Ysera, Emerald Aspect",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『翡翠守護巨龍』伊瑟拉",
+        "name_jaJP": "エメラルドのアスペクト・イセラ"
+      },
+      {
+        "id": 114213,
+        "count": 1,
+        "cost": 10,
+        "name_en": "Briarspawn Drake",
+        "rarity": "COMMON",
+        "name_zhTW": "棘生飛龍",
+        "name_jaJP": "ブライアースポーン・ドレイク"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/azshara-druid-244-legend-unknown-score-18-12/",
+      "author": "hearthstone-decks.net",
+      "title": "Azshara Druid #244 Legend (Score: 18-12)"
+    },
+    "legend_rank": 244,
+    "winrate": {
+      "wins": 18,
+      "losses": 12,
+      "total": 30,
+      "winrate": 60.0
+    },
+    "collected_at": "2026-07-01T16:21:07.692802+00:00",
+    "dust_cost": 15160
+  },
+  {
+    "id": "db8a4109dea3",
+    "deckstring": "AAECAQcCi6AE+cMHDuPmBqr8Bqv8BveDB+iHB9KXB7etB4+xB+yyB4S9B7XAB5XCB5vCB5zCBwAA",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Warrior",
+      "zh": "戰士",
+      "ja": "ウォリアー"
+    },
+    "archetype": "Dragon Warrior",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 122933,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Carrier Whelp",
+        "rarity": "COMMON",
+        "name_zhTW": "運送幼龍",
+        "name_jaJP": "運び屋チビドラゴン"
+      },
+      {
+        "id": 114218,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Darkrider",
+        "rarity": "RARE",
+        "name_zhTW": "黑暗騎兵",
+        "name_jaJP": "悪夢の騎手"
+      },
+      {
+        "id": 111459,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sanguine Depths",
+        "rarity": "RARE",
+        "name_zhTW": "血紅深淵",
+        "name_jaJP": "鮮赤の深淵"
+      },
+      {
+        "id": 123164,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Torch",
+        "rarity": "RARE",
+        "name_zhTW": "火炬",
+        "name_jaJP": "松明"
+      },
+      {
+        "id": 114219,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Brood Keeper",
+        "rarity": "COMMON",
+        "name_zhTW": "母巢守衛者",
+        "name_jaJP": "卵の守り手"
+      },
+      {
+        "id": 115191,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Petal Peddler",
+        "rarity": "COMMON",
+        "name_zhTW": "花卉小販",
+        "name_jaJP": "花輪の織り手"
+      },
+      {
+        "id": 120975,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Precursory Strike",
+        "rarity": "COMMON",
+        "name_zhTW": "預先出擊",
+        "name_jaJP": "先行攻撃"
+      },
+      {
+        "id": 123157,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Searing Fissure",
+        "rarity": "COMMON",
+        "name_zhTW": "灼熱裂縫",
+        "name_jaJP": "灼熱の亀裂"
+      },
+      {
+        "id": 123385,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Shadowed Informant",
+        "rarity": "RARE",
+        "name_zhTW": "暗影告密者",
+        "name_jaJP": "影の呪詛の情報屋"
+      },
+      {
+        "id": 115688,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Shadowflame Suffusion",
+        "rarity": "COMMON",
+        "name_zhTW": "暗焰噬襲",
+        "name_jaJP": "みなぎる影の炎"
+      },
+      {
+        "id": 122500,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Darkscale Broodmother",
+        "rarity": "RARE",
+        "name_zhTW": "暗鱗育母",
+        "name_jaJP": "暗鱗の太母"
+      },
+      {
+        "id": 123163,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Erupting Volcano",
+        "rarity": "RARE",
+        "name_zhTW": "噴發火山",
+        "name_jaJP": "怒りの火山"
+      },
+      {
+        "id": 120503,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Stadium Announcer",
+        "rarity": "RARE",
+        "name_zhTW": "競技場播報員",
+        "name_jaJP": "スタジアムのアナウンサー"
+      },
+      {
+        "id": 121196,
+        "count": 2,
+        "cost": 7,
+        "name_en": "Prescient Slitherdrake",
+        "rarity": "COMMON",
+        "name_zhTW": "預知滑龍",
+        "name_jaJP": "予知するスリザードレイク"
+      },
+      {
+        "id": 69643,
+        "count": 1,
+        "cost": 8,
+        "name_en": "Grommash Hellscream",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "葛羅瑪許‧地獄吼",
+        "name_jaJP": "グロマッシュ・ヘルスクリーム"
+      },
+      {
+        "id": 117714,
+        "count": 2,
+        "cost": 8,
+        "name_en": "Windpeak Wyrm",
+        "rarity": "COMMON",
+        "name_zhTW": "巔風飛龍",
+        "name_jaJP": "風岬のワーム"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/dragon-warrior-39-legend-unknown-score-30-18/",
+      "author": "hearthstone-decks.net",
+      "title": "Dragon Warrior #39 Legend (Score: 30-18)"
+    },
+    "legend_rank": 39,
+    "winrate": {
+      "wins": 30,
+      "losses": 18,
+      "total": 48,
+      "winrate": 62.5
+    },
+    "collected_at": "2026-07-01T16:21:07.692896+00:00",
+    "dust_cost": 3540
+  },
+  {
+    "id": "e53a56b8fb4c",
+    "deckstring": "AAECAaIHDJGfBKGBB4KYB9GdB+ylB6GoB4++B9C/B/bJB4rUB5vUB4jZBwn3nwTTngaQgwfBlwfHrge0wQfAwQedxQfVxQcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Rogue",
+      "zh": "盜賊",
+      "ja": "ローグ"
+    },
+    "archetype": "Herald Rogue",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 69521,
+        "count": 1,
+        "cost": 0,
+        "name_en": "Backstab",
+        "rarity": "COMMON",
+        "name_zhTW": "背刺",
+        "name_jaJP": "死角からの一刺し"
+      },
+      {
+        "id": 69623,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Preparation",
+        "rarity": "EPIC",
+        "name_zhTW": "準備",
+        "name_jaJP": "段取り"
+      },
+      {
+        "id": 126088,
+        "count": 1,
+        "cost": 0,
+        "name_en": "Shadow of Demise",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "逝亡魔影",
+        "name_jaJP": "破滅の影"
+      },
+      {
+        "id": 123060,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Agent of the Old Ones",
+        "rarity": "COMMON",
+        "name_zhTW": "古神特使",
+        "name_jaJP": "旧きものの代理人"
+      },
+      {
+        "id": 120647,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Deja Vu",
+        "rarity": "RARE",
+        "name_zhTW": "既視感",
+        "name_jaJP": "デジャヴ"
+      },
+      {
+        "id": 102227,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Glacial Shard",
+        "rarity": "COMMON",
+        "name_zhTW": "冰川裂片",
+        "name_jaJP": "グレイシャル・シャード"
+      },
+      {
+        "id": 115088,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Nightmare Fuel",
+        "rarity": "COMMON",
+        "name_zhTW": "夢魘燃料",
+        "name_jaJP": "悪夢の燃料"
+      },
+      {
+        "id": 119841,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Shapeshifter",
+        "rarity": "EPIC",
+        "name_zhTW": "變形者",
+        "name_jaJP": "変幻自在"
+      },
+      {
+        "id": 117697,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Cultist Map",
+        "rarity": "RARE",
+        "name_zhTW": "教徒地圖",
+        "name_jaJP": "狂信者の地図"
+      },
+      {
+        "id": 123605,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Rite of Twilight",
+        "rarity": "RARE",
+        "name_zhTW": "暮光儀式",
+        "name_jaJP": "トワイライトの儀"
+      },
+      {
+        "id": 123549,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Maniacal Follower",
+        "rarity": "EPIC",
+        "name_zhTW": "瘋狂追隨者",
+        "name_jaJP": "異様な従者"
+      },
+      {
+        "id": 118481,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Mirrex, the Crystalline",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『結晶龍』米雷克斯",
+        "name_jaJP": "水晶のミラレックス"
+      },
+      {
+        "id": 117762,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Elise the Navigator",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "領路者伊莉絲",
+        "name_jaJP": "探検家エリーズ"
+      },
+      {
+        "id": 122639,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Envoy of the End",
+        "rarity": "COMMON",
+        "name_zhTW": "終焉使者",
+        "name_jaJP": "終末の使者"
+      },
+      {
+        "id": 119532,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Opu the Unseen",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『無形者』歐普",
+        "name_jaJP": "見えざる者オプー"
+      },
+      {
+        "id": 125450,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Sinestra",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "賽絲特拉",
+        "name_jaJP": "シネストラ"
+      },
+      {
+        "id": 122832,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Ultraxion",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "奧特拉賽恩",
+        "name_jaJP": "ウルトラクシオン"
+      },
+      {
+        "id": 124150,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Vanessa the Ringleader",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "頭目凡妮莎",
+        "name_jaJP": "首謀者ヴァネッサ"
+      },
+      {
+        "id": 114849,
+        "count": 1,
+        "cost": 7,
+        "name_en": "Naralex, Herald of the Flights",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『巨龍使者』納拉雷克斯",
+        "name_jaJP": "ドラゴン族の伝令ナラレックス"
+      },
+      {
+        "id": 123072,
+        "count": 2,
+        "cost": 9,
+        "name_en": "Twilight Mistress",
+        "rarity": "EPIC",
+        "name_zhTW": "暮光女士",
+        "name_jaJP": "トワイライトの女主人"
+      },
+      {
+        "id": 125467,
+        "count": 1,
+        "cost": 10,
+        "name_en": "Deathwing, Worldbreaker",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『碎界者』死亡之翼",
+        "name_jaJP": "世界の破壊者デスウィング"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/herald-rogue-1-legend-unknown-score-18-9/",
+      "author": "hearthstone-decks.net",
+      "title": "Herald Rogue #1 Legend (Score: 18-9)"
+    },
+    "legend_rank": 1,
+    "winrate": {
+      "wins": 18,
+      "losses": 9,
+      "total": 27,
+      "winrate": 66.7
+    },
+    "collected_at": "2026-07-01T16:21:07.692984+00:00",
+    "dust_cost": 18120
+  },
+  {
+    "id": "8348cce5560f",
+    "deckstring": "AAECAaoICq+fBMODB4KYB9umB9+mB+WmB8u2B9C/B4LUB5vUBwr9nwTmlgf1rAe8sQePvgfDwAfJwAf3wAf2wQfm/QcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Shaman",
+      "zh": "薩滿",
+      "ja": "シャーマン"
+    },
+    "archetype": "Herald Shaman",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 121020,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Static Shock",
+        "rarity": "COMMON",
+        "name_zhTW": "靜電震擊",
+        "name_jaJP": "静電気"
+      },
+      {
+        "id": 130790,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Witch's Apprentice",
+        "rarity": "COMMON",
+        "name_zhTW": "女巫的學徒",
+        "name_jaJP": "魔女の弟子"
+      },
+      {
+        "id": 121675,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Sands of Time",
+        "rarity": "EPIC",
+        "name_zhTW": "時間之沙",
+        "name_jaJP": "時の砂"
+      },
+      {
+        "id": 123126,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Twilight Egg",
+        "rarity": "COMMON",
+        "name_zhTW": "暮光龍蛋",
+        "name_jaJP": "トワイライトの卵"
+      },
+      {
+        "id": 120437,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Primordial Overseer",
+        "rarity": "COMMON",
+        "name_zhTW": "原始監督者",
+        "name_jaJP": "始原の監督者"
+      },
+      {
+        "id": 122947,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Ritual of Power",
+        "rarity": "RARE",
+        "name_zhTW": "力量儀式",
+        "name_jaJP": "力の儀式"
+      },
+      {
+        "id": 122953,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Skywall Sentinel",
+        "rarity": "RARE",
+        "name_zhTW": "天空之牆哨兵",
+        "name_jaJP": "スカイウォールのセンチネル"
+      },
+      {
+        "id": 119653,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Avatar Form",
+        "rarity": "",
+        "name_zhTW": "石之聖者形態",
+        "name_jaJP": "変身・アバター"
+      },
+      {
+        "id": 117606,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Flight of the Firehawk",
+        "rarity": "COMMON",
+        "name_zhTW": "火鷹翱翔",
+        "name_jaJP": "炎の鷹の飛翔"
+      },
+      {
+        "id": 69551,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Hex",
+        "rarity": "COMMON",
+        "name_zhTW": "妖術",
+        "name_jaJP": "呪術"
+      },
+      {
+        "id": 69629,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Lightning Storm",
+        "rarity": "RARE",
+        "name_zhTW": "閃電風暴",
+        "name_jaJP": "ライトニングストーム"
+      },
+      {
+        "id": 117762,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Elise the Navigator",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "領路者伊莉絲",
+        "name_jaJP": "探検家エリーズ"
+      },
+      {
+        "id": 115139,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Nightmare Lord Xavius",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "夢魘之王薩維斯",
+        "name_jaJP": "悪夢の王ザヴィウス"
+      },
+      {
+        "id": 122639,
+        "count": 2,
+        "cost": 5,
+        "name_en": "Envoy of the End",
+        "rarity": "COMMON",
+        "name_zhTW": "終焉使者",
+        "name_jaJP": "終末の使者"
+      },
+      {
+        "id": 119643,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Muradin, High King",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『高山之王』穆拉丁",
+        "name_jaJP": "上王ムラディン"
+      },
+      {
+        "id": 119647,
+        "count": 1,
+        "cost": 6,
+        "name_en": "High King's Hammer",
+        "rarity": "",
+        "name_zhTW": "高山之王之錘",
+        "name_jaJP": "上王のハンマー"
+      },
+      {
+        "id": 122832,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Ultraxion",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "奧特拉賽恩",
+        "name_jaJP": "ウルトラクシオン"
+      },
+      {
+        "id": 125442,
+        "count": 1,
+        "cost": 8,
+        "name_en": "Al'Akir, Lord of Storms",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『風暴之王』奧拉基爾",
+        "name_jaJP": "嵐の王アラキア"
+      },
+      {
+        "id": 122999,
+        "count": 2,
+        "cost": 9,
+        "name_en": "Muradin's Last Stand",
+        "rarity": "RARE",
+        "name_zhTW": "穆拉丁的最後一博",
+        "name_jaJP": "ムラディンの背水の陣"
+      },
+      {
+        "id": 125467,
+        "count": 1,
+        "cost": 10,
+        "name_en": "Deathwing, Worldbreaker",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『碎界者』死亡之翼",
+        "name_jaJP": "世界の破壊者デスウィング"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/herald-shaman-395-legend-unknown-score-24-16/",
+      "author": "hearthstone-decks.net",
+      "title": "Herald Shaman #395 Legend (Score: 24-16)"
+    },
+    "legend_rank": 395,
+    "winrate": {
+      "wins": 24,
+      "losses": 16,
+      "total": 40,
+      "winrate": 60.0
+    },
+    "collected_at": "2026-07-01T16:21:07.693076+00:00",
+    "dust_cost": 11320
+  },
+  {
+    "id": "da1f8fde725f",
+    "deckstring": "AAECAQcAD4agBI7UBJDUBOPmBuiHB4WVB9WmB+2sB/yvB4+xB9CyB9ayB5XCB5vCB5zCBwAA",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Warrior",
+      "zh": "戰士",
+      "ja": "ウォリアー"
+    },
+    "archetype": "Burn Warrior",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 121168,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Eternal Toil",
+        "rarity": "RARE",
+        "name_zhTW": "永恆苦難",
+        "name_jaJP": "永遠の苦悶"
+      },
+      {
+        "id": 111459,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sanguine Depths",
+        "rarity": "RARE",
+        "name_zhTW": "血紅深淵",
+        "name_jaJP": "鮮赤の深淵"
+      },
+      {
+        "id": 69638,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Slam",
+        "rarity": "COMMON",
+        "name_zhTW": "猛擊",
+        "name_jaJP": "叩きつけ"
+      },
+      {
+        "id": 121174,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Time-Twisted Seer",
+        "rarity": "COMMON",
+        "name_zhTW": "時間扭曲先知",
+        "name_jaJP": "時を曲げる予言者"
+      },
+      {
+        "id": 123164,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Torch",
+        "rarity": "RARE",
+        "name_zhTW": "火炬",
+        "name_jaJP": "松明"
+      },
+      {
+        "id": 76304,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Bash",
+        "rarity": "COMMON",
+        "name_zhTW": "重擊",
+        "name_jaJP": "強打"
+      },
+      {
+        "id": 120975,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Precursory Strike",
+        "rarity": "COMMON",
+        "name_zhTW": "預先出擊",
+        "name_jaJP": "先行攻撃"
+      },
+      {
+        "id": 120429,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Prize Vendor",
+        "rarity": "COMMON",
+        "name_zhTW": "獎品商人",
+        "name_jaJP": "景品引換係"
+      },
+      {
+        "id": 117381,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Rockskipper",
+        "rarity": "COMMON",
+        "name_zhTW": "躍石魚人",
+        "name_jaJP": "ストーンストッカー"
+      },
+      {
+        "id": 123157,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Searing Fissure",
+        "rarity": "COMMON",
+        "name_zhTW": "灼熱裂縫",
+        "name_jaJP": "灼熱の亀裂"
+      },
+      {
+        "id": 115688,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Shadowflame Suffusion",
+        "rarity": "COMMON",
+        "name_zhTW": "暗焰噬襲",
+        "name_jaJP": "みなぎる影の炎"
+      },
+      {
+        "id": 76302,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Shield Block",
+        "rarity": "COMMON",
+        "name_zhTW": "盾牌格擋",
+        "name_jaJP": "シールドブロック"
+      },
+      {
+        "id": 119637,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Axe of the Forefathers",
+        "rarity": "COMMON",
+        "name_zhTW": "先祖之斧",
+        "name_jaJP": "先祖伝来の斧"
+      },
+      {
+        "id": 123163,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Erupting Volcano",
+        "rarity": "RARE",
+        "name_zhTW": "噴發火山",
+        "name_jaJP": "怒りの火山"
+      },
+      {
+        "id": 120828,
+        "count": 2,
+        "cost": 5,
+        "name_en": "For Glory!",
+        "rarity": "COMMON",
+        "name_zhTW": "為了榮耀！",
+        "name_jaJP": "栄光のために！"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/burn-warrior-129-legend-unknown-score-11-5/",
+      "author": "hearthstone-decks.net",
+      "title": "Burn Warrior #129 Legend (Score: 11-5)"
+    },
+    "legend_rank": 129,
+    "winrate": {
+      "wins": 11,
+      "losses": 5,
+      "total": 16,
+      "winrate": 68.8
+    },
+    "collected_at": "2026-07-01T16:21:07.693154+00:00",
+    "dust_cost": 1680
+  },
+  {
+    "id": "124358d57d7c",
+    "deckstring": "AAECAa0GBqiWB/ypB4CqB4SqB+SyB4O/BwzwnwTLoASg+wbD/waFhgfFlAedrQeFvwebvweixAeyxQeW/AcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Priest",
+      "zh": "牧師",
+      "ja": "プリースト"
+    },
+    "archetype": "Control Priest",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 69707,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Flash Heal",
+        "rarity": "COMMON",
+        "name_zhTW": "快速治療",
+        "name_jaJP": "瞬間回復"
+      },
+      {
+        "id": 122779,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Mend",
+        "rarity": "COMMON",
+        "name_zhTW": "治療",
+        "name_jaJP": "治癒"
+      },
+      {
+        "id": 117544,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Reach Equilibrium",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "光暗均衡",
+        "name_jaJP": "光と影の均衡"
+      },
+      {
+        "id": 122757,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Ruby Sanctum",
+        "rarity": "RARE",
+        "name_zhTW": "晶紅聖所",
+        "name_jaJP": "ルビーの聖域"
+      },
+      {
+        "id": 114080,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Lunarwing Messenger",
+        "rarity": "COMMON",
+        "name_zhTW": "月翼信使",
+        "name_jaJP": "月翼の使者"
+      },
+      {
+        "id": 130582,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Devouring Plague",
+        "rarity": "COMMON",
+        "name_zhTW": "噬靈瘟疫",
+        "name_jaJP": "貪蝕の疫病"
+      },
+      {
+        "id": 121188,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Eternal Firebolt",
+        "rarity": "COMMON",
+        "name_zhTW": "永恆火焰箭",
+        "name_jaJP": "永遠のファイアボルト"
+      },
+      {
+        "id": 120477,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Intertwined Fate",
+        "rarity": "RARE",
+        "name_zhTW": "交織命運",
+        "name_jaJP": "絡み合った運命"
+      },
+      {
+        "id": 115461,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Kaldorei Priestess",
+        "rarity": "RARE",
+        "name_zhTW": "卡多雷女祭司",
+        "name_jaJP": "カルドレイのプリーステス"
+      },
+      {
+        "id": 123426,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Cleansing Cleric",
+        "rarity": "EPIC",
+        "name_zhTW": "淨化教士",
+        "name_jaJP": "浄化の聖職者"
+      },
+      {
+        "id": 117317,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Gravedawn Sunbloom",
+        "rarity": "COMMON",
+        "name_zhTW": "墓曉太陽之花",
+        "name_jaJP": "グレイブドーンの陽向花"
+      },
+      {
+        "id": 69616,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Shadow Word: Ruin",
+        "rarity": "EPIC",
+        "name_zhTW": "暗言術：滅",
+        "name_jaJP": "密言・崩"
+      },
+      {
+        "id": 123570,
+        "count": 2,
+        "cost": 5,
+        "name_en": "Medivh's Triumph",
+        "rarity": "EPIC",
+        "name_zhTW": "麥迪文的凱旋",
+        "name_jaJP": "メディヴの勝利"
+      },
+      {
+        "id": 114627,
+        "count": 2,
+        "cost": 6,
+        "name_en": "Moonwell",
+        "rarity": "EPIC",
+        "name_zhTW": "月井",
+        "name_jaJP": "月の泉"
+      },
+      {
+        "id": 122755,
+        "count": 1,
+        "cost": 7,
+        "name_en": "The Black Blood",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "黑血",
+        "name_jaJP": "黒血"
+      },
+      {
+        "id": 120064,
+        "count": 1,
+        "cost": 10,
+        "name_en": "Atiesh the Greatstaff",
+        "rarity": "",
+        "name_zhTW": "阿泰絲大法杖",
+        "name_jaJP": "大杖アティシュ"
+      },
+      {
+        "id": 120068,
+        "count": 1,
+        "cost": 10,
+        "name_en": "Karazhan the Sanctum",
+        "rarity": "",
+        "name_zhTW": "聖所卡拉贊",
+        "name_jaJP": "聖域カラザン"
+      },
+      {
+        "id": 120060,
+        "count": 1,
+        "cost": 10,
+        "name_en": "Medivh the Hallowed",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『聖者』麥迪文",
+        "name_jaJP": "崇められしメディヴ"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/control-priest-103-legend-unknown-score-22-10/",
+      "author": "hearthstone-decks.net",
+      "title": "Control Priest #103 Legend (Score: 22-10)"
+    },
+    "legend_rank": 103,
+    "winrate": {
+      "wins": 22,
+      "losses": 10,
+      "total": 32,
+      "winrate": 68.8
+    },
+    "collected_at": "2026-07-01T16:21:07.693225+00:00",
+    "dust_cost": 9040
+  },
+  {
+    "id": "97379dbca8c5",
+    "deckstring": "AAECAaIHCOylB4aoB4eoB4ioB6GoB8u2B/bJB4jZBwuRnwT3nwTZogaQgwfBlwfmowfHrge0wQfVxQeqyQfD8gcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Rogue",
+      "zh": "盜賊",
+      "ja": "ローグ"
+    },
+    "archetype": "Burn Rogue",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 69521,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Backstab",
+        "rarity": "COMMON",
+        "name_zhTW": "背刺",
+        "name_jaJP": "死角からの一刺し"
+      },
+      {
+        "id": 69623,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Preparation",
+        "rarity": "EPIC",
+        "name_zhTW": "準備",
+        "name_jaJP": "段取り"
+      },
+      {
+        "id": 126088,
+        "count": 1,
+        "cost": 0,
+        "name_en": "Shadow of Demise",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "逝亡魔影",
+        "name_jaJP": "破滅の影"
+      },
+      {
+        "id": 123060,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Agent of the Old Ones",
+        "rarity": "COMMON",
+        "name_zhTW": "古神特使",
+        "name_jaJP": "旧きものの代理人"
+      },
+      {
+        "id": 120647,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Deja Vu",
+        "rarity": "RARE",
+        "name_zhTW": "既視感",
+        "name_jaJP": "デジャヴ"
+      },
+      {
+        "id": 115088,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Nightmare Fuel",
+        "rarity": "COMMON",
+        "name_zhTW": "夢魘燃料",
+        "name_jaJP": "悪夢の燃料"
+      },
+      {
+        "id": 121675,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Sands of Time",
+        "rarity": "EPIC",
+        "name_zhTW": "時間之沙",
+        "name_jaJP": "時の砂"
+      },
+      {
+        "id": 119841,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Shapeshifter",
+        "rarity": "EPIC",
+        "name_zhTW": "變形者",
+        "name_jaJP": "変幻自在"
+      },
+      {
+        "id": 129347,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Spymistress",
+        "rarity": "COMMON",
+        "name_zhTW": "間諜首領",
+        "name_jaJP": "スパイミストレス"
+      },
+      {
+        "id": 117697,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Cultist Map",
+        "rarity": "RARE",
+        "name_zhTW": "教徒地圖",
+        "name_jaJP": "狂信者の地図"
+      },
+      {
+        "id": 102745,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Fan of Knives",
+        "rarity": "COMMON",
+        "name_zhTW": "飛舞刀刃",
+        "name_jaJP": "ナイフの雨"
+      },
+      {
+        "id": 123605,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Rite of Twilight",
+        "rarity": "RARE",
+        "name_zhTW": "暮光儀式",
+        "name_jaJP": "トワイライトの儀"
+      },
+      {
+        "id": 119816,
+        "count": 1,
+        "cost": 2,
+        "name_en": "The Kingslayers",
+        "rarity": "",
+        "name_zhTW": "弒君之刃",
+        "name_jaJP": "王殺しの双剣"
+      },
+      {
+        "id": 119270,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Chrono Daggers",
+        "rarity": "RARE",
+        "name_zhTW": "時光匕首",
+        "name_jaJP": "クロノダガー"
+      },
+      {
+        "id": 119815,
+        "count": 1,
+        "cost": 3,
+        "name_en": "King Llane",
+        "rarity": "",
+        "name_zhTW": "萊恩王",
+        "name_jaJP": "レイン王"
+      },
+      {
+        "id": 124074,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Tunneling Geomancer",
+        "rarity": "EPIC",
+        "name_zhTW": "坑道地卜師",
+        "name_jaJP": "掘り進む地霊術師"
+      },
+      {
+        "id": 119814,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Garona Halforcen",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "迦羅娜‧半血",
+        "name_jaJP": "ガローナ・ハーフオーケン"
+      },
+      {
+        "id": 119532,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Opu the Unseen",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『無形者』歐普",
+        "name_jaJP": "見えざる者オプー"
+      },
+      {
+        "id": 124150,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Vanessa the Ringleader",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "頭目凡妮莎",
+        "name_jaJP": "首謀者ヴァネッサ"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/burn-rogue-217-legend-unknown-score-20-12/",
+      "author": "hearthstone-decks.net",
+      "title": "Burn Rogue #217 Legend (Score: 20-12)"
+    },
+    "legend_rank": 217,
+    "winrate": {
+      "wins": 20,
+      "losses": 12,
+      "total": 32,
+      "winrate": 62.5
+    },
+    "collected_at": "2026-07-01T16:21:07.693310+00:00",
+    "dust_cost": 10000
+  },
+  {
+    "id": "6fce8b35a512",
+    "deckstring": "AAECAZICDKn1BqGBB4iDB5KDB8ODB6+HB6yIB4KYB+ixB+DAB+LAB+XEBwmunwSqrwesrwe4sge+sgeEvQfXwAfYwAeT8QcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Druid",
+      "zh": "德魯伊",
+      "ja": "ドルイド"
+    },
+    "archetype": "Merithra Druid",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 69550,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Innervate",
+        "rarity": "RARE",
+        "name_zhTW": "啟動",
+        "name_jaJP": "練気"
+      },
+      {
+        "id": 120746,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Waveshaping",
+        "rarity": "RARE",
+        "name_zhTW": "波動形塑",
+        "name_jaJP": "ウェーブシェイピング"
+      },
+      {
+        "id": 121150,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Acceleration Aura",
+        "rarity": "COMMON",
+        "name_zhTW": "加速光環",
+        "name_jaJP": "加速のオーラ"
+      },
+      {
+        "id": 120748,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Ebb and Flow",
+        "rarity": "COMMON",
+        "name_zhTW": "潮起潮落",
+        "name_jaJP": "干と満"
+      },
+      {
+        "id": 122967,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Felwood Treant",
+        "rarity": "RARE",
+        "name_zhTW": "費伍德樹人",
+        "name_jaJP": "フェルウッドのトレント"
+      },
+      {
+        "id": 115080,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Horn of Plenty",
+        "rarity": "COMMON",
+        "name_zhTW": "豐饒之角",
+        "name_jaJP": "豊穣の角"
+      },
+      {
+        "id": 121064,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Press the Advantage",
+        "rarity": "COMMON",
+        "name_zhTW": "發揮優勢",
+        "name_jaJP": "推し進め！"
+      },
+      {
+        "id": 122500,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Darkscale Broodmother",
+        "rarity": "RARE",
+        "name_zhTW": "暗鱗育母",
+        "name_jaJP": "暗鱗の太母"
+      },
+      {
+        "id": 122968,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Broodwatcher",
+        "rarity": "EPIC",
+        "name_zhTW": "龍巢看守者",
+        "name_jaJP": "卵の番人"
+      },
+      {
+        "id": 117762,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Elise the Navigator",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "領路者伊莉絲",
+        "name_jaJP": "探検家エリーズ"
+      },
+      {
+        "id": 115139,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Nightmare Lord Xavius",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "夢魘之王薩維斯",
+        "name_jaJP": "悪夢の王ザヴィウス"
+      },
+      {
+        "id": 115631,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Amirdrassil",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "埃達希爾",
+        "name_jaJP": "アミルドラシル"
+      },
+      {
+        "id": 121144,
+        "count": 2,
+        "cost": 6,
+        "name_en": "Twilight Timereaver",
+        "rarity": "RARE",
+        "name_zhTW": "暮光時間劫奪者",
+        "name_jaJP": "黄昏のタイムリーヴァー"
+      },
+      {
+        "id": 122976,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Wickerfang",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "藤牙",
+        "name_jaJP": "ウィッカーファング"
+      },
+      {
+        "id": 123493,
+        "count": 1,
+        "cost": 7,
+        "name_en": "Bashana Runetotem",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "巴珊娜‧符文圖騰",
+        "name_jaJP": "バシャナ・ルーントーテム"
+      },
+      {
+        "id": 114849,
+        "count": 1,
+        "cost": 7,
+        "name_en": "Naralex, Herald of the Flights",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『巨龍使者』納拉雷克斯",
+        "name_jaJP": "ドラゴン族の伝令ナラレックス"
+      },
+      {
+        "id": 129171,
+        "count": 2,
+        "cost": 7,
+        "name_en": "Underking",
+        "rarity": "EPIC",
+        "name_zhTW": "地底王者",
+        "name_jaJP": "地下王"
+      },
+      {
+        "id": 122978,
+        "count": 1,
+        "cost": 8,
+        "name_en": "Merithra of the Dream",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『夢境之龍』麥琳瑟拉",
+        "name_jaJP": "夢のメリスラ"
+      },
+      {
+        "id": 115090,
+        "count": 1,
+        "cost": 8,
+        "name_en": "Shaladrassil",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "夏達希爾",
+        "name_jaJP": "シャラドラシル"
+      },
+      {
+        "id": 113321,
+        "count": 1,
+        "cost": 9,
+        "name_en": "Ysera, Emerald Aspect",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『翡翠守護巨龍』伊瑟拉",
+        "name_jaJP": "エメラルドのアスペクト・イセラ"
+      },
+      {
+        "id": 115756,
+        "count": 1,
+        "cost": 10,
+        "name_en": "Fyrakk the Blazing",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『熾炎者』菲拉卡",
+        "name_jaJP": "劫火のフィラーク"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/merithra-druid-96-legend-unknown-score-11-4/",
+      "author": "hearthstone-decks.net",
+      "title": "Merithra Druid #96 Legend (Score: 11-4)"
+    },
+    "legend_rank": 96,
+    "winrate": {
+      "wins": 11,
+      "losses": 4,
+      "total": 15,
+      "winrate": 73.3
+    },
+    "collected_at": "2026-07-01T16:21:07.693382+00:00",
+    "dust_cost": 18840
+  },
+  {
+    "id": "4d88041e22fa",
+    "deckstring": "AAECAf0EBu/8BsODB6ebB/mbB+SyB/KyBwyb8gbxkQewmwf6mwfVnQfRpgfLtgf5wweGxAeSxAeG4AecgggAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Mage",
+      "zh": "法師",
+      "ja": "メイジ"
+    },
+    "archetype": "Quest Mage",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 121675,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sands of Time",
+        "rarity": "EPIC",
+        "name_zhTW": "時間之沙",
+        "name_jaJP": "時の砂"
+      },
+      {
+        "id": 118192,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Scrappy Scavenger",
+        "rarity": "COMMON",
+        "name_zhTW": "襤褸拾荒者",
+        "name_jaJP": "排他的な廃品集め"
+      },
+      {
+        "id": 123410,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sleet Storm",
+        "rarity": "COMMON",
+        "name_zhTW": "冰雨風暴",
+        "name_jaJP": "みぞれ嵐"
+      },
+      {
+        "id": 116977,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Spark of Life",
+        "rarity": "RARE",
+        "name_zhTW": "生命火花",
+        "name_jaJP": "命の煌めき"
+      },
+      {
+        "id": 118183,
+        "count": 1,
+        "cost": 1,
+        "name_en": "The Forbidden Sequence",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "禁忌序列",
+        "name_jaJP": "禁じられしシーケンス"
+      },
+      {
+        "id": 123398,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Winterspring Whelp",
+        "rarity": "COMMON",
+        "name_zhTW": "冬泉谷幼龍",
+        "name_jaJP": "凍てつく谷のチビドラゴン"
+      },
+      {
+        "id": 126982,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Runed Orb",
+        "rarity": "COMMON",
+        "name_zhTW": "符文寶珠",
+        "name_jaJP": "ルーン・オーブ"
+      },
+      {
+        "id": 123385,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Shadowed Informant",
+        "rarity": "RARE",
+        "name_zhTW": "暗影告密者",
+        "name_jaJP": "影の呪詛の情報屋"
+      },
+      {
+        "id": 118265,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Story of the Waygate",
+        "rarity": "RARE",
+        "name_zhTW": "甬道之門的故事",
+        "name_jaJP": "ウェイゲートの物語"
+      },
+      {
+        "id": 121188,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Eternal Firebolt",
+        "rarity": "COMMON",
+        "name_zhTW": "永恆火焰箭",
+        "name_jaJP": "永遠のファイアボルト"
+      },
+      {
+        "id": 114287,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Q'onzu",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "寇祖",
+        "name_jaJP": "クオンズ"
+      },
+      {
+        "id": 131356,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Raptor Herald",
+        "rarity": "EPIC",
+        "name_zhTW": "迅猛龍使者",
+        "name_jaJP": "ラプターの伝令"
+      },
+      {
+        "id": 112923,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Stonehill Defender",
+        "rarity": "RARE",
+        "name_zhTW": "石丘防衛者",
+        "name_jaJP": "ストーンヒルの守護者"
+      },
+      {
+        "id": 118266,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Storage Scuffle",
+        "rarity": "RARE",
+        "name_zhTW": "翻箱倒櫃",
+        "name_jaJP": "貯蔵庫の乱闘"
+      },
+      {
+        "id": 119633,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Alter Time",
+        "rarity": "RARE",
+        "name_zhTW": "扭轉時間",
+        "name_jaJP": "時の手直し"
+      },
+      {
+        "id": 121202,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Morchie",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "米羅克",
+        "name_jaJP": "ミロクー"
+      },
+      {
+        "id": 115139,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Nightmare Lord Xavius",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "夢魘之王薩維斯",
+        "name_jaJP": "悪夢の王ザヴィウス"
+      },
+      {
+        "id": 118485,
+        "count": 2,
+        "cost": 7,
+        "name_en": "Techysaurus",
+        "rarity": "RARE",
+        "name_zhTW": "科技改造龍",
+        "name_jaJP": "テクノサウルス"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/quest-mage-11-legend-unknown-score-42-23/",
+      "author": "hearthstone-decks.net",
+      "title": "Quest Mage #11 Legend (Score: 42-23)"
+    },
     "legend_rank": 11,
-    "winrate": { "wins": 42, "losses": 23, "winrate": 64.6 },
-    "source": { "type": "reddit", "author": "FrostNovaGM", "title": "Quest Mage #11 Legend (Score: 42-23)", "url": "#" },
-    "collected_at": "2026-07-01T08:00:00+00:00",
-    "archetype": "Quest Mage"
+    "winrate": {
+      "wins": 42,
+      "losses": 23,
+      "total": 65,
+      "winrate": 64.6
+    },
+    "collected_at": "2026-07-01T16:21:07.693451+00:00",
+    "dust_cost": 9660
   },
   {
-    "id": "b2c3d4e5f6a1",
-    "deckstring": "AAECAQcEkbwCnfACm/ACkvgCDRyQA6gF1AXvB7II+wzUswKIsQLMzQKf0wIA",
-    "format": { "en": "Standard", "zh": "標準", "ja": "スタンダード" },
-    "hero_class": { "en": "Warrior", "zh": "戰士", "ja": "ウォリアー" },
+    "id": "4b71d5edbcf5",
+    "deckstring": "AAECAR8EmacHmqcHm6cHxbEHDamfBKqfBKj9Bq+SB4WVB86bB+6fB5CnB5inB7TAB7nAB7vAB97EBwAA",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Hunter",
+      "zh": "獵人",
+      "ja": "ハンター"
+    },
+    "archetype": "No Hand Hunter",
     "total_cards": 30,
-    "dust_cost": 5280,
-    "legend_rank": 215,
-    "winrate": { "wins": 38, "losses": 17, "winrate": 69.1 },
-    "source": { "type": "reddit", "author": "SMOrcKing", "title": "Pirate Warrior #215 Legend 69% WR", "url": "#" },
-    "collected_at": "2026-07-01T07:30:00+00:00",
-    "archetype": "Pirate Warrior"
+    "cards": [
+      {
+        "id": 69546,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Arcane Shot",
+        "rarity": "RARE",
+        "name_zhTW": "秘法射擊",
+        "name_jaJP": "魔力の一矢"
+      },
+      {
+        "id": 119704,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Quel'dorei Fletcher",
+        "rarity": "RARE",
+        "name_zhTW": "奎爾多雷造箭師",
+        "name_jaJP": "ケルドライ・フレッチャー"
+      },
+      {
+        "id": 118766,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Raptor-Nest Nurse",
+        "rarity": "COMMON",
+        "name_zhTW": "迅猛龍巢保母",
+        "name_jaJP": "ラプターの乳母"
+      },
+      {
+        "id": 122937,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Reinforcement Rallier",
+        "rarity": "COMMON",
+        "name_zhTW": "援軍集結者",
+        "name_jaJP": "増援の加勢者"
+      },
+      {
+        "id": 118222,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sizzling Cinder",
+        "rarity": "COMMON",
+        "name_zhTW": "灼熱火靈",
+        "name_jaJP": "灼熱の火精"
+      },
+      {
+        "id": 114344,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Slumbering Sprite",
+        "rarity": "EPIC",
+        "name_zhTW": "沉眠樹精",
+        "name_jaJP": "まどろみスプライト"
+      },
+      {
+        "id": 123486,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Tame Pet",
+        "rarity": "COMMON",
+        "name_zhTW": "馴服寵物",
+        "name_jaJP": "飼いならされたペット"
+      },
+      {
+        "id": 69545,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Tracking",
+        "rarity": "RARE",
+        "name_zhTW": "追蹤",
+        "name_jaJP": "追跡術"
+      },
+      {
+        "id": 117039,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Wound Prey",
+        "rarity": "COMMON",
+        "name_zhTW": "獵物致傷",
+        "name_jaJP": "獲物の傷"
+      },
+      {
+        "id": 119696,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Precise Shot",
+        "rarity": "EPIC",
+        "name_zhTW": "精準射擊",
+        "name_jaJP": "正確な一矢"
+      },
+      {
+        "id": 117381,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Rockskipper",
+        "rarity": "COMMON",
+        "name_zhTW": "躍石魚人",
+        "name_jaJP": "ストーンストッカー"
+      },
+      {
+        "id": 122932,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Sylvanas's Triumph",
+        "rarity": "COMMON",
+        "name_zhTW": "希瓦娜斯的凱旋",
+        "name_jaJP": "シルヴァナスの勝利"
+      },
+      {
+        "id": 121029,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Niri of the Crater",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "環形山的妮莉",
+        "name_jaJP": "クレーターのニリ"
+      },
+      {
+        "id": 119705,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Ranger Captain Alleria",
+        "rarity": "",
+        "name_zhTW": "遊俠隊長艾蘭里亞",
+        "name_jaJP": "レンジャー隊長アレリア"
+      },
+      {
+        "id": 119707,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Ranger General Sylvanas",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "遊俠將軍希瓦娜斯",
+        "name_jaJP": "レンジャー将軍シルヴァナス"
+      },
+      {
+        "id": 119706,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Ranger Initiate Vereesa",
+        "rarity": "",
+        "name_zhTW": "遊俠新兵凡蕾莎",
+        "name_jaJP": "レンジャー新隊員ヴェリーサ"
+      },
+      {
+        "id": 122939,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Confront the Tol'vir",
+        "rarity": "EPIC",
+        "name_zhTW": "面對托維爾",
+        "name_jaJP": "トルヴィアとの対決"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/no-hand-hunter-91-legend-unknown-score-18-8/",
+      "author": "hearthstone-decks.net",
+      "title": "No Hand Hunter #91 Legend (Score: 18-8)"
+    },
+    "legend_rank": 91,
+    "winrate": {
+      "wins": 18,
+      "losses": 8,
+      "total": 26,
+      "winrate": 69.2
+    },
+    "collected_at": "2026-07-01T16:21:07.693527+00:00",
+    "dust_cost": 6760
   },
   {
-    "id": "c3d4e5f6a1b2",
-    "deckstring": "AAECAaoIBPbsAvLvApn3Aq2ABw3bA/kD/gP+BdkH8AeTCdkT+6oC9r0Cx8EC",
-    "format": { "en": "Standard", "zh": "標準", "ja": "スタンダード" },
-    "hero_class": { "en": "Shaman", "zh": "薩滿", "ja": "シャーマン" },
+    "id": "7e5ecd75974c",
+    "deckstring": "AAECAf0EBMODB7OHB4i+B/rEBw3opQfWsgfWvAeGxAeSxAfnxAfoxAfwxAfzxAf0xAf7xAesxgeT2gcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Mage",
+      "zh": "法師",
+      "ja": "メイジ"
+    },
+    "archetype": "Leyline Mage",
     "total_cards": 30,
-    "dust_cost": 6120,
-    "legend_rank": 42,
-    "winrate": { "wins": 28, "losses": 14, "winrate": 66.7 },
-    "source": { "type": "reddit", "author": "ElementLord", "title": "Evolve Shaman #42 Legend (28-14)", "url": "#" },
-    "collected_at": "2026-07-01T06:45:00+00:00",
-    "archetype": "Evolve Shaman"
+    "cards": [
+      {
+        "id": 126227,
+        "count": 2,
+        "cost": 1,
+        "name_en": "First Flame",
+        "rarity": "RARE",
+        "name_zhTW": "第一道火焰",
+        "name_jaJP": "一の炎"
+      },
+      {
+        "id": 123410,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sleet Storm",
+        "rarity": "COMMON",
+        "name_zhTW": "冰雨風暴",
+        "name_jaJP": "みぞれ嵐"
+      },
+      {
+        "id": 121174,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Time-Twisted Seer",
+        "rarity": "COMMON",
+        "name_zhTW": "時間扭曲先知",
+        "name_jaJP": "時を曲げる予言者"
+      },
+      {
+        "id": 123398,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Winterspring Whelp",
+        "rarity": "COMMON",
+        "name_zhTW": "冬泉谷幼龍",
+        "name_jaJP": "凍てつく谷のチビドラゴン"
+      },
+      {
+        "id": 123508,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Leyline Nexus",
+        "rarity": "COMMON",
+        "name_zhTW": "地脈奧核",
+        "name_jaJP": "レイラインの結合"
+      },
+      {
+        "id": 123515,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Mystic Runesaber",
+        "rarity": "COMMON",
+        "name_zhTW": "秘符刃豹",
+        "name_jaJP": "神秘のルーンセイバー"
+      },
+      {
+        "id": 115635,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Smoldering Grove",
+        "rarity": "RARE",
+        "name_zhTW": "悶燃之林",
+        "name_jaJP": "木立のくすぶり"
+      },
+      {
+        "id": 119528,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Arcane Barrage",
+        "rarity": "COMMON",
+        "name_zhTW": "秘法彈幕",
+        "name_jaJP": "魔力連射"
+      },
+      {
+        "id": 123496,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Ley Walker",
+        "rarity": "EPIC",
+        "name_zhTW": "地脈行者",
+        "name_jaJP": "レイウォーカー"
+      },
+      {
+        "id": 123692,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Arcane Flow",
+        "rarity": "RARE",
+        "name_zhTW": "秘法湧流",
+        "name_jaJP": "魔力の流れ"
+      },
+      {
+        "id": 122632,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Archmage Kalec",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "大法師卡雷克",
+        "name_jaJP": "大魔術師カレク"
+      },
+      {
+        "id": 123495,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Bursting Leyline",
+        "rarity": "EPIC",
+        "name_zhTW": "爆發地脈",
+        "name_jaJP": "レイライン噴出"
+      },
+      {
+        "id": 115139,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Nightmare Lord Xavius",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "夢魘之王薩維斯",
+        "name_jaJP": "悪夢の王ザヴィウス"
+      },
+      {
+        "id": 123507,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Surge Needle",
+        "rarity": "RARE",
+        "name_zhTW": "極濤磁針",
+        "name_jaJP": "サージニードル"
+      },
+      {
+        "id": 123504,
+        "count": 2,
+        "cost": 5,
+        "name_en": "Crystallized Leyline",
+        "rarity": "RARE",
+        "name_zhTW": "晶化地脈",
+        "name_jaJP": "結晶化したレイライン"
+      },
+      {
+        "id": 123514,
+        "count": 1,
+        "cost": 6,
+        "name_en": "The Arcanomicon",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "奧輿全覽圖",
+        "name_jaJP": "アーカノミコン"
+      },
+      {
+        "id": 122454,
+        "count": 2,
+        "cost": 10,
+        "name_en": "Spellweaver's Brilliance",
+        "rarity": "COMMON",
+        "name_zhTW": "織法者的光輝",
+        "name_jaJP": "呪文の紡ぎ手の偉才"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/leyline-mage-285-legend-unknown-score-13-10/",
+      "author": "hearthstone-decks.net",
+      "title": "Leyline Mage #285 Legend (Score: 13-10)"
+    },
+    "legend_rank": 285,
+    "winrate": {
+      "wins": 13,
+      "losses": 10,
+      "total": 23,
+      "winrate": 56.5
+    },
+    "collected_at": "2026-07-01T16:21:07.693595+00:00",
+    "dust_cost": 7860
   },
   {
-    "id": "d4e5f6a1b2c3",
-    "deckstring": "AAECAa0GBJibA5mbA/KsA5GxAw2XAuUE9gf2B40I0QrTCtcK8gz3DO+SA7ulAw==",
-    "format": { "en": "Wild", "zh": "狂野", "ja": "ワイルド" },
-    "hero_class": { "en": "Priest", "zh": "牧師", "ja": "プリースト" },
+    "id": "6f099057428e",
+    "deckstring": "AAECAZICCqn1BqX8BsODB6+HB4KYB/ioB/moB/qoB+DAB+XEBwqunwSIgwehiQeqrwesrwe4sge+sgfXwAeYxAfZxAcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Druid",
+      "zh": "德魯伊",
+      "ja": "ドルイド"
+    },
+    "archetype": "Azshara Druid",
     "total_cards": 30,
-    "dust_cost": 9600,
+    "cards": [
+      {
+        "id": 69550,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Innervate",
+        "rarity": "RARE",
+        "name_zhTW": "啟動",
+        "name_jaJP": "練気"
+      },
+      {
+        "id": 120746,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Waveshaping",
+        "rarity": "RARE",
+        "name_zhTW": "波動形塑",
+        "name_jaJP": "ウェーブシェイピング"
+      },
+      {
+        "id": 121150,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Acceleration Aura",
+        "rarity": "COMMON",
+        "name_zhTW": "加速光環",
+        "name_jaJP": "加速のオーラ"
+      },
+      {
+        "id": 120748,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Ebb and Flow",
+        "rarity": "COMMON",
+        "name_zhTW": "潮起潮落",
+        "name_jaJP": "干と満"
+      },
+      {
+        "id": 122967,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Felwood Treant",
+        "rarity": "RARE",
+        "name_zhTW": "費伍德樹人",
+        "name_jaJP": "フェルウッドのトレント"
+      },
+      {
+        "id": 115080,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Horn of Plenty",
+        "rarity": "COMMON",
+        "name_zhTW": "豐饒之角",
+        "name_jaJP": "豊穣の角"
+      },
+      {
+        "id": 123481,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Heartroot Stones",
+        "rarity": "COMMON",
+        "name_zhTW": "心根石",
+        "name_jaJP": "ハートルート石"
+      },
+      {
+        "id": 123416,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Welcome Home!",
+        "rarity": "EPIC",
+        "name_zhTW": "歡迎回家！",
+        "name_jaJP": "おかえりなさい！"
+      },
+      {
+        "id": 117762,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Elise the Navigator",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "領路者伊莉絲",
+        "name_jaJP": "探検家エリーズ"
+      },
+      {
+        "id": 115139,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Nightmare Lord Xavius",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "夢魘之王薩維斯",
+        "name_jaJP": "悪夢の王ザヴィウス"
+      },
+      {
+        "id": 119929,
+        "count": 1,
+        "cost": 4,
+        "name_en": "The Well of Eternity",
+        "rarity": "",
+        "name_zhTW": "永恆之井",
+        "name_jaJP": "久遠の聖泉"
+      },
+      {
+        "id": 119930,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Zin-Azshari",
+        "rarity": "",
+        "name_zhTW": "辛艾薩拉",
+        "name_jaJP": "ジン・アズシャリ"
+      },
+      {
+        "id": 115631,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Amirdrassil",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "埃達希爾",
+        "name_jaJP": "アミルドラシル"
+      },
+      {
+        "id": 119928,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Lady Azshara",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "艾薩拉女士",
+        "name_jaJP": "レディ・アズシャラ"
+      },
+      {
+        "id": 115873,
+        "count": 2,
+        "cost": 6,
+        "name_en": "Evergreen Stag",
+        "rarity": "COMMON",
+        "name_zhTW": "常青雄鹿",
+        "name_jaJP": "常緑鹿"
+      },
+      {
+        "id": 121144,
+        "count": 2,
+        "cost": 6,
+        "name_en": "Twilight Timereaver",
+        "rarity": "RARE",
+        "name_zhTW": "暮光時間劫奪者",
+        "name_jaJP": "黄昏のタイムリーヴァー"
+      },
+      {
+        "id": 122976,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Wickerfang",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "藤牙",
+        "name_jaJP": "ウィッカーファング"
+      },
+      {
+        "id": 123493,
+        "count": 1,
+        "cost": 7,
+        "name_en": "Bashana Runetotem",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "巴珊娜‧符文圖騰",
+        "name_jaJP": "バシャナ・ルーントーテム"
+      },
+      {
+        "id": 113321,
+        "count": 1,
+        "cost": 9,
+        "name_en": "Ysera, Emerald Aspect",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『翡翠守護巨龍』伊瑟拉",
+        "name_jaJP": "エメラルドのアスペクト・イセラ"
+      },
+      {
+        "id": 114213,
+        "count": 1,
+        "cost": 10,
+        "name_en": "Briarspawn Drake",
+        "rarity": "COMMON",
+        "name_zhTW": "棘生飛龍",
+        "name_jaJP": "ブライアースポーン・ドレイク"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/azshara-druid-333-legend-unknown-score-13-10/",
+      "author": "hearthstone-decks.net",
+      "title": "Azshara Druid #333 Legend (Score: 13-10)"
+    },
+    "legend_rank": 333,
+    "winrate": {
+      "wins": 13,
+      "losses": 10,
+      "total": 23,
+      "winrate": 56.5
+    },
+    "collected_at": "2026-07-01T16:21:07.693665+00:00",
+    "dust_cost": 13240
+  },
+  {
+    "id": "e2e01029bcad",
+    "deckstring": "AAECAea5AwaongaKqgeSqgeTqgfLtgeUvwcM4fgF3v8G/oMHqocHtJcHtpcH550HobEHwLEH6LEHkr8Hlb8HAAA=",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Demon Hunter",
+      "zh": "惡魔獵人",
+      "ja": "デモンハンター"
+    },
+    "archetype": "Broxigar Demon Hunter",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 120083,
+        "count": 1,
+        "cost": 0,
+        "name_en": "First Portal to Argus",
+        "rarity": "",
+        "name_zhTW": "第一道阿古斯傳送門",
+        "name_jaJP": "第一のアルガスへのポータル"
+      },
+      {
+        "id": 117684,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Hive Map",
+        "rarity": "COMMON",
+        "name_zhTW": "巢穴地圖",
+        "name_jaJP": "巣穴の地図"
+      },
+      {
+        "id": 97377,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Illidari Studies",
+        "rarity": "COMMON",
+        "name_zhTW": "伊利達瑞研究",
+        "name_jaJP": "イリダン党の予習"
+      },
+      {
+        "id": 121675,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Sands of Time",
+        "rarity": "EPIC",
+        "name_zhTW": "時間之沙",
+        "name_jaJP": "時の砂"
+      },
+      {
+        "id": 122773,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sigil of the Seas",
+        "rarity": "COMMON",
+        "name_zhTW": "海洋符印",
+        "name_jaJP": "海の秘印"
+      },
+      {
+        "id": 120993,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Time-Lost Glaive",
+        "rarity": "COMMON",
+        "name_zhTW": "時佚戰刃",
+        "name_jaJP": "時迷いのグレイヴ"
+      },
+      {
+        "id": 120074,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Broxigar",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "布洛克斯",
+        "name_jaJP": "ブロキシガー"
+      },
+      {
+        "id": 122770,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Broxigar's Last Stand",
+        "rarity": "RARE",
+        "name_zhTW": "布洛克斯的最後一博",
+        "name_jaJP": "ブロキシガーの背水の陣"
+      },
+      {
+        "id": 114654,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Grim Harvest",
+        "rarity": "COMMON",
+        "name_zhTW": "恐怖收割",
+        "name_jaJP": "不吉な収穫"
+      },
+      {
+        "id": 117686,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Infestation",
+        "rarity": "RARE",
+        "name_zhTW": "蟲害",
+        "name_jaJP": "害虫蔓延"
+      },
+      {
+        "id": 121064,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Press the Advantage",
+        "rarity": "COMMON",
+        "name_zhTW": "發揮優勢",
+        "name_jaJP": "推し進め！"
+      },
+      {
+        "id": 115626,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Sigil of Cinder",
+        "rarity": "EPIC",
+        "name_zhTW": "灰燼符印",
+        "name_jaJP": "灰の秘印"
+      },
+      {
+        "id": 120082,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Axe of Cenarius",
+        "rarity": "",
+        "name_zhTW": "塞納留斯之斧",
+        "name_jaJP": "セナリウスの斧"
+      },
+      {
+        "id": 121024,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Lasting Legacy",
+        "rarity": "RARE",
+        "name_zhTW": "薪火相傳",
+        "name_jaJP": "遺志の継承"
+      },
+      {
+        "id": 122772,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Nespirah, Enthralled",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『被奴役者』奈斯畢拉",
+        "name_jaJP": "捕らわれしネスピラー"
+      },
+      {
+        "id": 115198,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Wyvern's Slumber",
+        "rarity": "EPIC",
+        "name_zhTW": "沉眠的蠍尾獅",
+        "name_jaJP": "ワイバーンのまどろみ"
+      },
+      {
+        "id": 118503,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Horn of Feasting",
+        "rarity": "COMMON",
+        "name_zhTW": "饗宴之角",
+        "name_jaJP": "饗宴の角"
+      },
+      {
+        "id": 102184,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Kayn Sunfury",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "凱恩‧日怒",
+        "name_jaJP": "ケイン・サンフューリー"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/broxigar-demon-hunter-106-legend-unknown-score-29-10/",
+      "author": "hearthstone-decks.net",
+      "title": "Broxigar Demon Hunter #106 Legend (Score: 29-10)"
+    },
+    "legend_rank": 106,
+    "winrate": {
+      "wins": 29,
+      "losses": 10,
+      "total": 39,
+      "winrate": 74.4
+    },
+    "collected_at": "2026-07-01T16:21:07.693727+00:00",
+    "dust_cost": 7960
+  },
+  {
+    "id": "d569544f71b3",
+    "deckstring": "AAECAaoICMODB4KYB9umB9+mB+WmB9C/B4LUB5vUBwvmlgfwqgf1rAexsAe8sQfLtgfDwAfJwAf3wAf2wQfm/QcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Shaman",
+      "zh": "薩滿",
+      "ja": "シャーマン"
+    },
+    "archetype": "Herald Shaman",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 121020,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Static Shock",
+        "rarity": "COMMON",
+        "name_zhTW": "靜電震擊",
+        "name_jaJP": "静電気"
+      },
+      {
+        "id": 130790,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Witch's Apprentice",
+        "rarity": "COMMON",
+        "name_zhTW": "女巫的學徒",
+        "name_jaJP": "魔女の弟子"
+      },
+      {
+        "id": 121675,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sands of Time",
+        "rarity": "EPIC",
+        "name_zhTW": "時間之沙",
+        "name_jaJP": "時の砂"
+      },
+      {
+        "id": 123126,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Twilight Egg",
+        "rarity": "COMMON",
+        "name_zhTW": "暮光龍蛋",
+        "name_jaJP": "トワイライトの卵"
+      },
+      {
+        "id": 120881,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Wailing Vapor",
+        "rarity": "COMMON",
+        "name_zhTW": "哀嚎水氣",
+        "name_jaJP": "慟哭の蒸気"
+      },
+      {
+        "id": 120437,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Primordial Overseer",
+        "rarity": "COMMON",
+        "name_zhTW": "原始監督者",
+        "name_jaJP": "始原の監督者"
+      },
+      {
+        "id": 122947,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Ritual of Power",
+        "rarity": "RARE",
+        "name_zhTW": "力量儀式",
+        "name_jaJP": "力の儀式"
+      },
+      {
+        "id": 122953,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Skywall Sentinel",
+        "rarity": "RARE",
+        "name_zhTW": "天空之牆哨兵",
+        "name_jaJP": "スカイウォールのセンチネル"
+      },
+      {
+        "id": 120176,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Thunderquake",
+        "rarity": "RARE",
+        "name_zhTW": "雷霆震盪",
+        "name_jaJP": "雷の振動"
+      },
+      {
+        "id": 119653,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Avatar Form",
+        "rarity": "",
+        "name_zhTW": "石之聖者形態",
+        "name_jaJP": "変身・アバター"
+      },
+      {
+        "id": 117606,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Flight of the Firehawk",
+        "rarity": "COMMON",
+        "name_zhTW": "火鷹翱翔",
+        "name_jaJP": "炎の鷹の飛翔"
+      },
+      {
+        "id": 117762,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Elise the Navigator",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "領路者伊莉絲",
+        "name_jaJP": "探検家エリーズ"
+      },
+      {
+        "id": 115139,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Nightmare Lord Xavius",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "夢魘之王薩維斯",
+        "name_jaJP": "悪夢の王ザヴィウス"
+      },
+      {
+        "id": 119643,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Muradin, High King",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『高山之王』穆拉丁",
+        "name_jaJP": "上王ムラディン"
+      },
+      {
+        "id": 119647,
+        "count": 1,
+        "cost": 6,
+        "name_en": "High King's Hammer",
+        "rarity": "",
+        "name_zhTW": "高山之王之錘",
+        "name_jaJP": "上王のハンマー"
+      },
+      {
+        "id": 122832,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Ultraxion",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "奧特拉賽恩",
+        "name_jaJP": "ウルトラクシオン"
+      },
+      {
+        "id": 125442,
+        "count": 1,
+        "cost": 8,
+        "name_en": "Al'Akir, Lord of Storms",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『風暴之王』奧拉基爾",
+        "name_jaJP": "嵐の王アラキア"
+      },
+      {
+        "id": 122999,
+        "count": 2,
+        "cost": 9,
+        "name_en": "Muradin's Last Stand",
+        "rarity": "RARE",
+        "name_zhTW": "穆拉丁的最後一博",
+        "name_jaJP": "ムラディンの背水の陣"
+      },
+      {
+        "id": 125467,
+        "count": 1,
+        "cost": 10,
+        "name_en": "Deathwing, Worldbreaker",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『碎界者』死亡之翼",
+        "name_jaJP": "世界の破壊者デスウィング"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/herald-shaman-172-legend-unknown-score-9-6/",
+      "author": "hearthstone-decks.net",
+      "title": "Herald Shaman #172 Legend (Score: 9-6)"
+    },
+    "legend_rank": 172,
+    "winrate": {
+      "wins": 9,
+      "losses": 6,
+      "total": 15,
+      "winrate": 60.0
+    },
+    "collected_at": "2026-07-01T16:21:07.693804+00:00",
+    "dust_cost": 11680
+  },
+  {
+    "id": "89c9586d97c7",
+    "deckstring": "AAECAR8InaAEqYEHmacHmqcHm6cHxbEHg8AH5MQHC6mfBOKJB6+SB+6fB8u2B7vAB97EB+DEB+PEB/nEB6H9BwAA",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Hunter",
+      "zh": "獵人",
+      "ja": "ハンター"
+    },
+    "archetype": "Companion Hunter",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 115938,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Critter Caretaker",
+        "rarity": "COMMON",
+        "name_zhTW": "小動物照料者",
+        "name_jaJP": "生き物係"
+      },
+      {
+        "id": 122883,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Earthen Roar",
+        "rarity": "RARE",
+        "name_zhTW": "大地咆哮",
+        "name_jaJP": "大地の咆哮"
+      },
+      {
+        "id": 118766,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Raptor-Nest Nurse",
+        "rarity": "COMMON",
+        "name_zhTW": "迅猛龍巢保母",
+        "name_jaJP": "ラプターの乳母"
+      },
+      {
+        "id": 121675,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sands of Time",
+        "rarity": "EPIC",
+        "name_zhTW": "時間之沙",
+        "name_jaJP": "時の砂"
+      },
+      {
+        "id": 123486,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Tame Pet",
+        "rarity": "COMMON",
+        "name_zhTW": "馴服寵物",
+        "name_jaJP": "飼いならされたペット"
+      },
+      {
+        "id": 69545,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Tracking",
+        "rarity": "RARE",
+        "name_zhTW": "追蹤",
+        "name_jaJP": "追跡術"
+      },
+      {
+        "id": 117039,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Wound Prey",
+        "rarity": "COMMON",
+        "name_zhTW": "獵物致傷",
+        "name_jaJP": "獲物の傷"
+      },
+      {
+        "id": 69661,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Crazed Alchemist",
+        "rarity": "RARE",
+        "name_zhTW": "瘋狂的鍊金師",
+        "name_jaJP": "イカレた錬金術師"
+      },
+      {
+        "id": 123491,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Migrating Elekk",
+        "rarity": "RARE",
+        "name_zhTW": "遷徙的伊萊克",
+        "name_jaJP": "新たな住まいを探すエレク"
+      },
+      {
+        "id": 121029,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Niri of the Crater",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "環形山的妮莉",
+        "name_jaJP": "クレーターのニリ"
+      },
+      {
+        "id": 119705,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Ranger Captain Alleria",
+        "rarity": "",
+        "name_zhTW": "遊俠隊長艾蘭里亞",
+        "name_jaJP": "レンジャー隊長アレリア"
+      },
+      {
+        "id": 119707,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Ranger General Sylvanas",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "遊俠將軍希瓦娜斯",
+        "name_jaJP": "レンジャー将軍シルヴァナス"
+      },
+      {
+        "id": 119706,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Ranger Initiate Vereesa",
+        "rarity": "",
+        "name_zhTW": "遊俠新兵凡蕾莎",
+        "name_jaJP": "レンジャー新隊員ヴェリーサ"
+      },
+      {
+        "id": 122939,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Confront the Tol'vir",
+        "rarity": "EPIC",
+        "name_zhTW": "面對托維爾",
+        "name_jaJP": "トルヴィアとの対決"
+      },
+      {
+        "id": 123488,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Spiritspeaker",
+        "rarity": "COMMON",
+        "name_zhTW": "靈語者",
+        "name_jaJP": "霊話師"
+      },
+      {
+        "id": 114857,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Broll Bearmantle",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "布洛‧熊皮",
+        "name_jaJP": "ブロール・ベアーマントル"
+      },
+      {
+        "id": 123492,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Talya Earthstrider",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "泰拉‧地行者",
+        "name_jaJP": "タルヤ・アースストライダー"
+      },
+      {
+        "id": 123513,
+        "count": 2,
+        "cost": 7,
+        "name_en": "Roam Free",
+        "rarity": "EPIC",
+        "name_zhTW": "自由遊蕩",
+        "name_jaJP": "自由散策"
+      },
+      {
+        "id": 130721,
+        "count": 2,
+        "cost": 8,
+        "name_en": "Call of the Wild",
+        "rarity": "EPIC",
+        "name_zhTW": "野性呼喚",
+        "name_jaJP": "荒野の呼び声"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/companion-hunter-48-legend-unknown-score-47-32/",
+      "author": "hearthstone-decks.net",
+      "title": "Companion Hunter #48 Legend (Score: 47-32)"
+    },
+    "legend_rank": 48,
+    "winrate": {
+      "wins": 47,
+      "losses": 32,
+      "total": 79,
+      "winrate": 59.5
+    },
+    "collected_at": "2026-07-01T16:21:07.693867+00:00",
+    "dust_cost": 10600
+  },
+  {
+    "id": "56cdab74d240",
+    "deckstring": "AAECAR8GmacHmqcHm6cHxbEH8b8H0cAHDKmfBOL6Bq+SB4WVB+KWB86bB+6fB5inB8u2B7TAB7nAB7vABwAA",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Hunter",
+      "zh": "獵人",
+      "ja": "ハンター"
+    },
+    "archetype": "Ace Hunter",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 119704,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Quel'dorei Fletcher",
+        "rarity": "RARE",
+        "name_zhTW": "奎爾多雷造箭師",
+        "name_jaJP": "ケルドライ・フレッチャー"
+      },
+      {
+        "id": 118766,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Raptor-Nest Nurse",
+        "rarity": "COMMON",
+        "name_zhTW": "迅猛龍巢保母",
+        "name_jaJP": "ラプターの乳母"
+      },
+      {
+        "id": 122937,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Reinforcement Rallier",
+        "rarity": "COMMON",
+        "name_zhTW": "援軍集結者",
+        "name_jaJP": "増援の加勢者"
+      },
+      {
+        "id": 121675,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sands of Time",
+        "rarity": "EPIC",
+        "name_zhTW": "時間之沙",
+        "name_jaJP": "時の砂"
+      },
+      {
+        "id": 118222,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sizzling Cinder",
+        "rarity": "COMMON",
+        "name_zhTW": "灼熱火靈",
+        "name_jaJP": "灼熱の火精"
+      },
+      {
+        "id": 69545,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Tracking",
+        "rarity": "RARE",
+        "name_zhTW": "追蹤",
+        "name_jaJP": "追跡術"
+      },
+      {
+        "id": 117039,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Wound Prey",
+        "rarity": "COMMON",
+        "name_zhTW": "獵物致傷",
+        "name_jaJP": "獲物の傷"
+      },
+      {
+        "id": 114018,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Exotic Houndmaster",
+        "rarity": "COMMON",
+        "name_zhTW": "奇特馴犬者",
+        "name_jaJP": "一風変わった猟犬使い"
+      },
+      {
+        "id": 117381,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Rockskipper",
+        "rarity": "COMMON",
+        "name_zhTW": "躍石魚人",
+        "name_jaJP": "ストーンストッカー"
+      },
+      {
+        "id": 122932,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Sylvanas's Triumph",
+        "rarity": "COMMON",
+        "name_zhTW": "希瓦娜斯的凱旋",
+        "name_jaJP": "シルヴァナスの勝利"
+      },
+      {
+        "id": 121029,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Niri of the Crater",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "環形山的妮莉",
+        "name_jaJP": "クレーターのニリ"
+      },
+      {
+        "id": 119705,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Ranger Captain Alleria",
+        "rarity": "",
+        "name_zhTW": "遊俠隊長艾蘭里亞",
+        "name_jaJP": "レンジャー隊長アレリア"
+      },
+      {
+        "id": 119707,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Ranger General Sylvanas",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "遊俠將軍希瓦娜斯",
+        "name_jaJP": "レンジャー将軍シルヴァナス"
+      },
+      {
+        "id": 119706,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Ranger Initiate Vereesa",
+        "rarity": "",
+        "name_zhTW": "遊俠新兵凡蕾莎",
+        "name_jaJP": "レンジャー新隊員ヴェリーサ"
+      },
+      {
+        "id": 122961,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Tol'vir Carver",
+        "rarity": "RARE",
+        "name_zhTW": "托維爾雕刻者",
+        "name_jaJP": "トルヴィアの肉切り屋"
+      },
+      {
+        "id": 122939,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Confront the Tol'vir",
+        "rarity": "EPIC",
+        "name_zhTW": "面對托維爾",
+        "name_jaJP": "トルヴィアとの対決"
+      },
+      {
+        "id": 117602,
+        "count": 2,
+        "cost": 5,
+        "name_en": "Supreme Dinomancy",
+        "rarity": "EPIC",
+        "name_zhTW": "至高恐龍學",
+        "name_jaJP": "恐竜術の極意"
+      },
+      {
+        "id": 122865,
+        "count": 1,
+        "cost": 7,
+        "name_en": "Magmaw",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "熔喉",
+        "name_jaJP": "マグモウ"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/ace-hunter-51-legend-unknown-score-19-14/",
+      "author": "hearthstone-decks.net",
+      "title": "Ace Hunter #51 Legend (Score: 19-14)"
+    },
+    "legend_rank": 51,
+    "winrate": {
+      "wins": 19,
+      "losses": 14,
+      "total": 33,
+      "winrate": 57.6
+    },
+    "collected_at": "2026-07-01T16:21:07.693958+00:00",
+    "dust_cost": 8260
+  },
+  {
+    "id": "5f0a31b75db9",
+    "deckstring": "AAECAQcChJ0H9sMHDoagBI7UBOPmBqX8Bqf8Bqn8BsyPB52ZB9WmB+KnB+qnB/yvB9CyB5zCBwAA",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Warrior",
+      "zh": "戰士",
+      "ja": "ウォリアー"
+    },
+    "archetype": "Gladiator Warrior",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 121168,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Eternal Toil",
+        "rarity": "RARE",
+        "name_zhTW": "永恆苦難",
+        "name_jaJP": "永遠の苦悶"
+      },
+      {
+        "id": 111459,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sanguine Depths",
+        "rarity": "RARE",
+        "name_zhTW": "血紅深淵",
+        "name_jaJP": "鮮赤の深淵"
+      },
+      {
+        "id": 116684,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Siphoning Growth",
+        "rarity": "RARE",
+        "name_zhTW": "虹吸生長",
+        "name_jaJP": "エナジードレイン"
+      },
+      {
+        "id": 69638,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Slam",
+        "rarity": "COMMON",
+        "name_zhTW": "猛擊",
+        "name_jaJP": "叩きつけ"
+      },
+      {
+        "id": 123164,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Torch",
+        "rarity": "RARE",
+        "name_zhTW": "火炬",
+        "name_jaJP": "松明"
+      },
+      {
+        "id": 114215,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Clutch of Corruption",
+        "rarity": "EPIC",
+        "name_zhTW": "腐化蛋窩",
+        "name_jaJP": "穢れの蔓延"
+      },
+      {
+        "id": 76302,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Shield Block",
+        "rarity": "COMMON",
+        "name_zhTW": "盾牌格擋",
+        "name_jaJP": "シールドブロック"
+      },
+      {
+        "id": 119786,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Unleash the Crocolisks",
+        "rarity": "COMMON",
+        "name_zhTW": "釋放鱷魚",
+        "name_jaJP": "クロコリスクの解放"
+      },
+      {
+        "id": 119637,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Axe of the Forefathers",
+        "rarity": "COMMON",
+        "name_zhTW": "先祖之斧",
+        "name_jaJP": "先祖伝来の斧"
+      },
+      {
+        "id": 114217,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Succumb to Madness",
+        "rarity": "RARE",
+        "name_zhTW": "臣服瘋狂",
+        "name_jaJP": "狂気への屈伏"
+      },
+      {
+        "id": 117917,
+        "count": 2,
+        "cost": 4,
+        "name_en": "City Defenses",
+        "rarity": "EPIC",
+        "name_zhTW": "城鎮防禦",
+        "name_jaJP": "秘境の守り手"
+      },
+      {
+        "id": 120828,
+        "count": 2,
+        "cost": 5,
+        "name_en": "For Glory!",
+        "rarity": "COMMON",
+        "name_zhTW": "為了榮耀！",
+        "name_jaJP": "栄光のために！"
+      },
+      {
+        "id": 123382,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Lo'Gosh's Last Stand",
+        "rarity": "COMMON",
+        "name_zhTW": "洛戈許的最後一博",
+        "name_jaJP": "ロゴッシュの背水の陣"
+      },
+      {
+        "id": 119778,
+        "count": 2,
+        "cost": 6,
+        "name_en": "Gladiatorial Combat",
+        "rarity": "EPIC",
+        "name_zhTW": "競技血戰",
+        "name_jaJP": "剣闘士の戦闘"
+      },
+      {
+        "id": 118404,
+        "count": 1,
+        "cost": 8,
+        "name_en": "The Great Dracorex",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "偉大的德雷克斯",
+        "name_jaJP": "偉大なるドラコレックス"
+      },
+      {
+        "id": 114213,
+        "count": 2,
+        "cost": 10,
+        "name_en": "Briarspawn Drake",
+        "rarity": "COMMON",
+        "name_zhTW": "棘生飛龍",
+        "name_jaJP": "ブライアースポーン・ドレイク"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/gladiator-warrior-453-legend-unknown-score-8-3/",
+      "author": "hearthstone-decks.net",
+      "title": "Gladiator Warrior #453 Legend (Score: 8-3)"
+    },
+    "legend_rank": 453,
+    "winrate": {
+      "wins": 8,
+      "losses": 3,
+      "total": 11,
+      "winrate": 72.7
+    },
+    "collected_at": "2026-07-01T16:21:07.694020+00:00",
+    "dust_cost": 5520
+  },
+  {
+    "id": "dd4d7869d7c1",
+    "deckstring": "AAECAaIHBsODB4aoB4eoB4ioB/bJB4jZBwyRnwT3nwTZogaQgwe+hwfBlwfHrgfZrweaswfLtge0wQfVxQcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Rogue",
+      "zh": "盜賊",
+      "ja": "ローグ"
+    },
+    "archetype": "Vanessa Rogue",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 69521,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Backstab",
+        "rarity": "COMMON",
+        "name_zhTW": "背刺",
+        "name_jaJP": "死角からの一刺し"
+      },
+      {
+        "id": 69623,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Preparation",
+        "rarity": "EPIC",
+        "name_zhTW": "準備",
+        "name_jaJP": "段取り"
+      },
+      {
+        "id": 126088,
+        "count": 1,
+        "cost": 0,
+        "name_en": "Shadow of Demise",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "逝亡魔影",
+        "name_jaJP": "破滅の影"
+      },
+      {
+        "id": 123060,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Agent of the Old Ones",
+        "rarity": "COMMON",
+        "name_zhTW": "古神特使",
+        "name_jaJP": "旧きものの代理人"
+      },
+      {
+        "id": 120647,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Deja Vu",
+        "rarity": "RARE",
+        "name_zhTW": "既視感",
+        "name_jaJP": "デジャヴ"
+      },
+      {
+        "id": 115088,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Nightmare Fuel",
+        "rarity": "COMMON",
+        "name_zhTW": "夢魘燃料",
+        "name_jaJP": "悪夢の燃料"
+      },
+      {
+        "id": 121675,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sands of Time",
+        "rarity": "EPIC",
+        "name_zhTW": "時間之沙",
+        "name_jaJP": "時の砂"
+      },
+      {
+        "id": 117697,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Cultist Map",
+        "rarity": "RARE",
+        "name_zhTW": "教徒地圖",
+        "name_jaJP": "狂信者の地図"
+      },
+      {
+        "id": 121242,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Eventuality",
+        "rarity": "COMMON",
+        "name_zhTW": "可能性",
+        "name_jaJP": "起こり得る結末"
+      },
+      {
+        "id": 102745,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Fan of Knives",
+        "rarity": "COMMON",
+        "name_zhTW": "飛舞刀刃",
+        "name_jaJP": "ナイフの雨"
+      },
+      {
+        "id": 120793,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Flashback",
+        "rarity": "RARE",
+        "name_zhTW": "回想",
+        "name_jaJP": "フラッシュバック"
+      },
+      {
+        "id": 123605,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Rite of Twilight",
+        "rarity": "RARE",
+        "name_zhTW": "暮光儀式",
+        "name_jaJP": "トワイライトの儀"
+      },
+      {
+        "id": 119816,
+        "count": 1,
+        "cost": 2,
+        "name_en": "The Kingslayers",
+        "rarity": "",
+        "name_zhTW": "弒君之刃",
+        "name_jaJP": "王殺しの双剣"
+      },
+      {
+        "id": 119815,
+        "count": 1,
+        "cost": 3,
+        "name_en": "King Llane",
+        "rarity": "",
+        "name_zhTW": "萊恩王",
+        "name_jaJP": "レイン王"
+      },
+      {
+        "id": 115646,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Everburning Phoenix",
+        "rarity": "RARE",
+        "name_zhTW": "永燃鳳凰",
+        "name_jaJP": "永炎のフェニックス"
+      },
+      {
+        "id": 119814,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Garona Halforcen",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "迦羅娜‧半血",
+        "name_jaJP": "ガローナ・ハーフオーケン"
+      },
+      {
+        "id": 115139,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Nightmare Lord Xavius",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "夢魘之王薩維斯",
+        "name_jaJP": "悪夢の王ザヴィウス"
+      },
+      {
+        "id": 124150,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Vanessa the Ringleader",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "頭目凡妮莎",
+        "name_jaJP": "首謀者ヴァネッサ"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/vanessa-rogue-9-legend-pacceyguy-score-106-72/",
+      "author": "hearthstone-decks.net",
+      "title": "Vanessa Rogue #9 Legend (Score: 106-72)"
+    },
+    "legend_rank": 9,
+    "winrate": {
+      "wins": 106,
+      "losses": 72,
+      "total": 178,
+      "winrate": 59.6
+    },
+    "collected_at": "2026-07-01T16:21:07.694084+00:00",
+    "dust_cost": 9400
+  },
+  {
+    "id": "79f8cb4e6ae6",
+    "deckstring": "AAECAa0GBqiWB/ypB4CqB4SqB+SyB4O/BwzwnwTLoASg+wbD/waFhge2lAedrQeFvwebvweixAeyxQeW/AcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Priest",
+      "zh": "牧師",
+      "ja": "プリースト"
+    },
+    "archetype": "Control Priest",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 69707,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Flash Heal",
+        "rarity": "COMMON",
+        "name_zhTW": "快速治療",
+        "name_jaJP": "瞬間回復"
+      },
+      {
+        "id": 122779,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Mend",
+        "rarity": "COMMON",
+        "name_zhTW": "治療",
+        "name_jaJP": "治癒"
+      },
+      {
+        "id": 117544,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Reach Equilibrium",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "光暗均衡",
+        "name_jaJP": "光と影の均衡"
+      },
+      {
+        "id": 122757,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Ruby Sanctum",
+        "rarity": "RARE",
+        "name_zhTW": "晶紅聖所",
+        "name_jaJP": "ルビーの聖域"
+      },
+      {
+        "id": 114080,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Lunarwing Messenger",
+        "rarity": "COMMON",
+        "name_zhTW": "月翼信使",
+        "name_jaJP": "月翼の使者"
+      },
+      {
+        "id": 130582,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Devouring Plague",
+        "rarity": "COMMON",
+        "name_zhTW": "噬靈瘟疫",
+        "name_jaJP": "貪蝕の疫病"
+      },
+      {
+        "id": 121188,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Eternal Firebolt",
+        "rarity": "COMMON",
+        "name_zhTW": "永恆火焰箭",
+        "name_jaJP": "永遠のファイアボルト"
+      },
+      {
+        "id": 120477,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Intertwined Fate",
+        "rarity": "RARE",
+        "name_zhTW": "交織命運",
+        "name_jaJP": "絡み合った運命"
+      },
+      {
+        "id": 115461,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Kaldorei Priestess",
+        "rarity": "RARE",
+        "name_zhTW": "卡多雷女祭司",
+        "name_jaJP": "カルドレイのプリーステス"
+      },
+      {
+        "id": 123426,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Cleansing Cleric",
+        "rarity": "EPIC",
+        "name_zhTW": "淨化教士",
+        "name_jaJP": "浄化の聖職者"
+      },
+      {
+        "id": 69616,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Shadow Word: Ruin",
+        "rarity": "EPIC",
+        "name_zhTW": "暗言術：滅",
+        "name_jaJP": "密言・崩"
+      },
+      {
+        "id": 117302,
+        "count": 2,
+        "cost": 5,
+        "name_en": "Ancient of Yore",
+        "rarity": "EPIC",
+        "name_zhTW": "往昔古樹",
+        "name_jaJP": "老いた古代樹"
+      },
+      {
+        "id": 123570,
+        "count": 2,
+        "cost": 5,
+        "name_en": "Medivh's Triumph",
+        "rarity": "EPIC",
+        "name_zhTW": "麥迪文的凱旋",
+        "name_jaJP": "メディヴの勝利"
+      },
+      {
+        "id": 114627,
+        "count": 2,
+        "cost": 6,
+        "name_en": "Moonwell",
+        "rarity": "EPIC",
+        "name_zhTW": "月井",
+        "name_jaJP": "月の泉"
+      },
+      {
+        "id": 122755,
+        "count": 1,
+        "cost": 7,
+        "name_en": "The Black Blood",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "黑血",
+        "name_jaJP": "黒血"
+      },
+      {
+        "id": 120064,
+        "count": 1,
+        "cost": 10,
+        "name_en": "Atiesh the Greatstaff",
+        "rarity": "",
+        "name_zhTW": "阿泰絲大法杖",
+        "name_jaJP": "大杖アティシュ"
+      },
+      {
+        "id": 120068,
+        "count": 1,
+        "cost": 10,
+        "name_en": "Karazhan the Sanctum",
+        "rarity": "",
+        "name_zhTW": "聖所卡拉贊",
+        "name_jaJP": "聖域カラザン"
+      },
+      {
+        "id": 120060,
+        "count": 1,
+        "cost": 10,
+        "name_en": "Medivh the Hallowed",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『聖者』麥迪文",
+        "name_jaJP": "崇められしメディヴ"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/control-priest-314-legend-unknown-score-12-5/",
+      "author": "hearthstone-decks.net",
+      "title": "Control Priest #314 Legend (Score: 12-5)"
+    },
+    "legend_rank": 314,
+    "winrate": {
+      "wins": 12,
+      "losses": 5,
+      "total": 17,
+      "winrate": 70.6
+    },
+    "collected_at": "2026-07-01T16:21:07.694147+00:00",
+    "dust_cost": 9760
+  },
+  {
+    "id": "35c8ceda30d8",
+    "deckstring": "AAECAZ8FBs6bB42dB8avB/WvB+XBB4TEBwzJoASU9QXQnga6lgfXlwf2wQeDwgfkxQflxQfmxQfnxQfD4wcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Paladin",
+      "zh": "聖騎士",
+      "ja": "パラディン"
+    },
+    "archetype": "Dude Paladin",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 117719,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Platysaur",
+        "rarity": "COMMON",
+        "name_zhTW": "鴨嘴龍",
+        "name_jaJP": "プラティサウルス"
+      },
+      {
+        "id": 69705,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Righteous Protector",
+        "rarity": "COMMON",
+        "name_zhTW": "正義保衛者",
+        "name_jaJP": "有徳の守護者"
+      },
+      {
+        "id": 118222,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Sizzling Cinder",
+        "rarity": "COMMON",
+        "name_zhTW": "灼熱火靈",
+        "name_jaJP": "灼熱の火精"
+      },
+      {
+        "id": 123126,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Twilight Egg",
+        "rarity": "COMMON",
+        "name_zhTW": "暮光龍蛋",
+        "name_jaJP": "トワイライトの卵"
+      },
+      {
+        "id": 123620,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Brash Battlemaster",
+        "rarity": "RARE",
+        "name_zhTW": "傲慢的戰鬥大師",
+        "name_jaJP": "遠慮知らずなバトルマスター"
+      },
+      {
+        "id": 123622,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Convalescence",
+        "rarity": "COMMON",
+        "name_zhTW": "康復期",
+        "name_jaJP": "療養期間"
+      },
+      {
+        "id": 102224,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Cult Neophyte",
+        "rarity": "RARE",
+        "name_zhTW": "見習教徒",
+        "name_jaJP": "教団の新入会員"
+      },
+      {
+        "id": 120821,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Past Gnomeregan",
+        "rarity": "EPIC",
+        "name_zhTW": "過去的諾姆瑞根",
+        "name_jaJP": "過去のノームレガン"
+      },
+      {
+        "id": 120774,
+        "count": 1,
+        "cost": 2,
+        "name_en": "The Fins Beyond Time",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "穿越時空的芬利",
+        "name_jaJP": "時を超越するヒレ"
+      },
+      {
+        "id": 117562,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Violet Treasuregill",
+        "rarity": "RARE",
+        "name_zhTW": "紫色獵寶魚人",
+        "name_jaJP": "スミレ色のお宝ハンター"
+      },
+      {
+        "id": 118413,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Hatching Ceremony",
+        "rarity": "COMMON",
+        "name_zhTW": "孵化典禮",
+        "name_jaJP": "孵化の儀式"
+      },
+      {
+        "id": 96916,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Muster for Battle",
+        "rarity": "RARE",
+        "name_zhTW": "整裝備戰",
+        "name_jaJP": "兵役招集"
+      },
+      {
+        "id": 123621,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Resilient Savior",
+        "rarity": "EPIC",
+        "name_zhTW": "頑強的救星",
+        "name_jaJP": "不屈の救世主"
+      },
+      {
+        "id": 123139,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Flight Maneuvers",
+        "rarity": "EPIC",
+        "name_zhTW": "飛行行動",
+        "name_jaJP": "飛行機動"
+      },
+      {
+        "id": 123396,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Genn, Cursed King",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『詛咒之王』吉恩",
+        "name_jaJP": "呪われた王ゲン"
+      },
+      {
+        "id": 127427,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Teamwork",
+        "rarity": "RARE",
+        "name_zhTW": "團隊合作",
+        "name_jaJP": "チームワーク"
+      },
+      {
+        "id": 123623,
+        "count": 2,
+        "cost": 5,
+        "name_en": "Emboldening Blade",
+        "rarity": "COMMON",
+        "name_zhTW": "激勵之刃",
+        "name_jaJP": "激励の剣"
+      },
+      {
+        "id": 123109,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Nozdormu, Bronze Aspect",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『青銅守護巨龍』諾茲多姆",
+        "name_jaJP": "ブロンズのアスペクト・ノズドルム"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/dude-paladin-174-legend-unknown-score-7-5/",
+      "author": "hearthstone-decks.net",
+      "title": "Dude Paladin #174 Legend (Score: 7-5)"
+    },
+    "legend_rank": 174,
+    "winrate": {
+      "wins": 7,
+      "losses": 5,
+      "total": 12,
+      "winrate": 58.3
+    },
+    "collected_at": "2026-07-01T16:21:07.694207+00:00",
+    "dust_cost": 8280
+  },
+  {
+    "id": "a624add439f8",
+    "deckstring": "AAECAea5Awa0lweKqgeSqgeTqgensQeUvwcM4fgF3v8G/oMHqocHtpcH550HnrEHobEHv7EHwLEHkr8Hlb8HAAA=",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Demon Hunter",
+      "zh": "惡魔獵人",
+      "ja": "デモンハンター"
+    },
+    "archetype": "No Minion Demon Hunter",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 120083,
+        "count": 1,
+        "cost": 0,
+        "name_en": "First Portal to Argus",
+        "rarity": "",
+        "name_zhTW": "第一道阿古斯傳送門",
+        "name_jaJP": "第一のアルガスへのポータル"
+      },
+      {
+        "id": 117684,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Hive Map",
+        "rarity": "COMMON",
+        "name_zhTW": "巢穴地圖",
+        "name_jaJP": "巣穴の地図"
+      },
+      {
+        "id": 97377,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Illidari Studies",
+        "rarity": "COMMON",
+        "name_zhTW": "伊利達瑞研究",
+        "name_jaJP": "イリダン党の予習"
+      },
+      {
+        "id": 122773,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sigil of the Seas",
+        "rarity": "COMMON",
+        "name_zhTW": "海洋符印",
+        "name_jaJP": "海の秘印"
+      },
+      {
+        "id": 120993,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Time-Lost Glaive",
+        "rarity": "COMMON",
+        "name_zhTW": "時佚戰刃",
+        "name_jaJP": "時迷いのグレイヴ"
+      },
+      {
+        "id": 120074,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Broxigar",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "布洛克斯",
+        "name_jaJP": "ブロキシガー"
+      },
+      {
+        "id": 122770,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Broxigar's Last Stand",
+        "rarity": "RARE",
+        "name_zhTW": "布洛克斯的最後一博",
+        "name_jaJP": "ブロキシガーの背水の陣"
+      },
+      {
+        "id": 114654,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Grim Harvest",
+        "rarity": "COMMON",
+        "name_zhTW": "恐怖收割",
+        "name_jaJP": "不吉な収穫"
+      },
+      {
+        "id": 117686,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Infestation",
+        "rarity": "RARE",
+        "name_zhTW": "蟲害",
+        "name_jaJP": "害虫蔓延"
+      },
+      {
+        "id": 115626,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Sigil of Cinder",
+        "rarity": "EPIC",
+        "name_zhTW": "灰燼符印",
+        "name_jaJP": "灰の秘印"
+      },
+      {
+        "id": 120082,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Axe of Cenarius",
+        "rarity": "",
+        "name_zhTW": "塞納留斯之斧",
+        "name_jaJP": "セナリウスの斧"
+      },
+      {
+        "id": 121024,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Lasting Legacy",
+        "rarity": "RARE",
+        "name_zhTW": "薪火相傳",
+        "name_jaJP": "遺志の継承"
+      },
+      {
+        "id": 122772,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Nespirah, Enthralled",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『被奴役者』奈斯畢拉",
+        "name_jaJP": "捕らわれしネスピラー"
+      },
+      {
+        "id": 121023,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Solitude",
+        "rarity": "COMMON",
+        "name_zhTW": "孤軍奮戰",
+        "name_jaJP": "独居"
+      },
+      {
+        "id": 115198,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Wyvern's Slumber",
+        "rarity": "EPIC",
+        "name_zhTW": "沉眠的蠍尾獅",
+        "name_jaJP": "ワイバーンのまどろみ"
+      },
+      {
+        "id": 118503,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Horn of Feasting",
+        "rarity": "COMMON",
+        "name_zhTW": "饗宴之角",
+        "name_jaJP": "饗宴の角"
+      },
+      {
+        "id": 120990,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Hounds of Fury",
+        "rarity": "RARE",
+        "name_zhTW": "憤怒獵犬",
+        "name_jaJP": "怒りの猟犬"
+      },
+      {
+        "id": 120999,
+        "count": 1,
+        "cost": 6,
+        "name_en": "The Eternal Hold",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "永恆牢獄",
+        "name_jaJP": "永劫の支配"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/no-minion-demon-hunter-55-legend-unknown-score-10-3/",
+      "author": "hearthstone-decks.net",
+      "title": "No Minion Demon Hunter #55 Legend (Score: 10-3)"
+    },
+    "legend_rank": 55,
+    "winrate": {
+      "wins": 10,
+      "losses": 3,
+      "total": 13,
+      "winrate": 76.9
+    },
+    "collected_at": "2026-07-01T16:21:07.694275+00:00",
+    "dust_cost": 7720
+  },
+  {
+    "id": "161bd2408e87",
+    "deckstring": "AAECAR8EmacHmqcHm6cHxbEHDamfBKqfBKj9Bq+SB4WVB86bB+6fB5CnB5inB8u2B7TAB7nAB7vABwAA",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Hunter",
+      "zh": "獵人",
+      "ja": "ハンター"
+    },
+    "archetype": "No Hand Hunter",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 69546,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Arcane Shot",
+        "rarity": "RARE",
+        "name_zhTW": "秘法射擊",
+        "name_jaJP": "魔力の一矢"
+      },
+      {
+        "id": 119704,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Quel'dorei Fletcher",
+        "rarity": "RARE",
+        "name_zhTW": "奎爾多雷造箭師",
+        "name_jaJP": "ケルドライ・フレッチャー"
+      },
+      {
+        "id": 118766,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Raptor-Nest Nurse",
+        "rarity": "COMMON",
+        "name_zhTW": "迅猛龍巢保母",
+        "name_jaJP": "ラプターの乳母"
+      },
+      {
+        "id": 122937,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Reinforcement Rallier",
+        "rarity": "COMMON",
+        "name_zhTW": "援軍集結者",
+        "name_jaJP": "増援の加勢者"
+      },
+      {
+        "id": 121675,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sands of Time",
+        "rarity": "EPIC",
+        "name_zhTW": "時間之沙",
+        "name_jaJP": "時の砂"
+      },
+      {
+        "id": 118222,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sizzling Cinder",
+        "rarity": "COMMON",
+        "name_zhTW": "灼熱火靈",
+        "name_jaJP": "灼熱の火精"
+      },
+      {
+        "id": 114344,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Slumbering Sprite",
+        "rarity": "EPIC",
+        "name_zhTW": "沉眠樹精",
+        "name_jaJP": "まどろみスプライト"
+      },
+      {
+        "id": 69545,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Tracking",
+        "rarity": "RARE",
+        "name_zhTW": "追蹤",
+        "name_jaJP": "追跡術"
+      },
+      {
+        "id": 117039,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Wound Prey",
+        "rarity": "COMMON",
+        "name_zhTW": "獵物致傷",
+        "name_jaJP": "獲物の傷"
+      },
+      {
+        "id": 119696,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Precise Shot",
+        "rarity": "EPIC",
+        "name_zhTW": "精準射擊",
+        "name_jaJP": "正確な一矢"
+      },
+      {
+        "id": 117381,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Rockskipper",
+        "rarity": "COMMON",
+        "name_zhTW": "躍石魚人",
+        "name_jaJP": "ストーンストッカー"
+      },
+      {
+        "id": 122932,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Sylvanas's Triumph",
+        "rarity": "COMMON",
+        "name_zhTW": "希瓦娜斯的凱旋",
+        "name_jaJP": "シルヴァナスの勝利"
+      },
+      {
+        "id": 121029,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Niri of the Crater",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "環形山的妮莉",
+        "name_jaJP": "クレーターのニリ"
+      },
+      {
+        "id": 119705,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Ranger Captain Alleria",
+        "rarity": "",
+        "name_zhTW": "遊俠隊長艾蘭里亞",
+        "name_jaJP": "レンジャー隊長アレリア"
+      },
+      {
+        "id": 119707,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Ranger General Sylvanas",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "遊俠將軍希瓦娜斯",
+        "name_jaJP": "レンジャー将軍シルヴァナス"
+      },
+      {
+        "id": 119706,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Ranger Initiate Vereesa",
+        "rarity": "",
+        "name_zhTW": "遊俠新兵凡蕾莎",
+        "name_jaJP": "レンジャー新隊員ヴェリーサ"
+      },
+      {
+        "id": 122939,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Confront the Tol'vir",
+        "rarity": "EPIC",
+        "name_zhTW": "面對托維爾",
+        "name_jaJP": "トルヴィアとの対決"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/no-hand-hunter-92-legend-unknown-score-10-5/",
+      "author": "hearthstone-decks.net",
+      "title": "No Hand Hunter #92 Legend (Score: 10-5)"
+    },
+    "legend_rank": 92,
+    "winrate": {
+      "wins": 10,
+      "losses": 5,
+      "total": 15,
+      "winrate": 66.7
+    },
+    "collected_at": "2026-07-01T16:21:07.694335+00:00",
+    "dust_cost": 7480
+  },
+  {
+    "id": "5692b0fc4a28",
+    "deckstring": "AAECAZICDKn1BqGBB5KDB8ODB6+HB6yIB4KYB+ixB+DAB+LAB+XEB5PxBwmunwSIgweqrwesrwe4sge+sgeEvQfXwAfYwAcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Druid",
+      "zh": "德魯伊",
+      "ja": "ドルイド"
+    },
+    "archetype": "Merithra Druid",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 69550,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Innervate",
+        "rarity": "RARE",
+        "name_zhTW": "啟動",
+        "name_jaJP": "練気"
+      },
+      {
+        "id": 120746,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Waveshaping",
+        "rarity": "RARE",
+        "name_zhTW": "波動形塑",
+        "name_jaJP": "ウェーブシェイピング"
+      },
+      {
+        "id": 121150,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Acceleration Aura",
+        "rarity": "COMMON",
+        "name_zhTW": "加速光環",
+        "name_jaJP": "加速のオーラ"
+      },
+      {
+        "id": 120748,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Ebb and Flow",
+        "rarity": "COMMON",
+        "name_zhTW": "潮起潮落",
+        "name_jaJP": "干と満"
+      },
+      {
+        "id": 122967,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Felwood Treant",
+        "rarity": "RARE",
+        "name_zhTW": "費伍德樹人",
+        "name_jaJP": "フェルウッドのトレント"
+      },
+      {
+        "id": 115080,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Horn of Plenty",
+        "rarity": "COMMON",
+        "name_zhTW": "豐饒之角",
+        "name_jaJP": "豊穣の角"
+      },
+      {
+        "id": 121064,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Press the Advantage",
+        "rarity": "COMMON",
+        "name_zhTW": "發揮優勢",
+        "name_jaJP": "推し進め！"
+      },
+      {
+        "id": 122500,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Darkscale Broodmother",
+        "rarity": "RARE",
+        "name_zhTW": "暗鱗育母",
+        "name_jaJP": "暗鱗の太母"
+      },
+      {
+        "id": 122968,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Broodwatcher",
+        "rarity": "EPIC",
+        "name_zhTW": "龍巢看守者",
+        "name_jaJP": "卵の番人"
+      },
+      {
+        "id": 117762,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Elise the Navigator",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "領路者伊莉絲",
+        "name_jaJP": "探検家エリーズ"
+      },
+      {
+        "id": 115139,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Nightmare Lord Xavius",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "夢魘之王薩維斯",
+        "name_jaJP": "悪夢の王ザヴィウス"
+      },
+      {
+        "id": 115631,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Amirdrassil",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "埃達希爾",
+        "name_jaJP": "アミルドラシル"
+      },
+      {
+        "id": 121144,
+        "count": 2,
+        "cost": 6,
+        "name_en": "Twilight Timereaver",
+        "rarity": "RARE",
+        "name_zhTW": "暮光時間劫奪者",
+        "name_jaJP": "黄昏のタイムリーヴァー"
+      },
+      {
+        "id": 122976,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Wickerfang",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "藤牙",
+        "name_jaJP": "ウィッカーファング"
+      },
+      {
+        "id": 123493,
+        "count": 1,
+        "cost": 7,
+        "name_en": "Bashana Runetotem",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "巴珊娜‧符文圖騰",
+        "name_jaJP": "バシャナ・ルーントーテム"
+      },
+      {
+        "id": 114849,
+        "count": 1,
+        "cost": 7,
+        "name_en": "Naralex, Herald of the Flights",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『巨龍使者』納拉雷克斯",
+        "name_jaJP": "ドラゴン族の伝令ナラレックス"
+      },
+      {
+        "id": 129171,
+        "count": 1,
+        "cost": 7,
+        "name_en": "Underking",
+        "rarity": "EPIC",
+        "name_zhTW": "地底王者",
+        "name_jaJP": "地下王"
+      },
+      {
+        "id": 122978,
+        "count": 1,
+        "cost": 8,
+        "name_en": "Merithra of the Dream",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『夢境之龍』麥琳瑟拉",
+        "name_jaJP": "夢のメリスラ"
+      },
+      {
+        "id": 115090,
+        "count": 1,
+        "cost": 8,
+        "name_en": "Shaladrassil",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "夏達希爾",
+        "name_jaJP": "シャラドラシル"
+      },
+      {
+        "id": 113321,
+        "count": 1,
+        "cost": 9,
+        "name_en": "Ysera, Emerald Aspect",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『翡翠守護巨龍』伊瑟拉",
+        "name_jaJP": "エメラルドのアスペクト・イセラ"
+      },
+      {
+        "id": 115756,
+        "count": 1,
+        "cost": 10,
+        "name_en": "Fyrakk the Blazing",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『熾炎者』菲拉卡",
+        "name_jaJP": "劫火のフィラーク"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/merithra-druid-57-legend-unknown-score-17-4/",
+      "author": "hearthstone-decks.net",
+      "title": "Merithra Druid #57 Legend (Score: 17-4)"
+    },
+    "legend_rank": 57,
+    "winrate": {
+      "wins": 17,
+      "losses": 4,
+      "total": 21,
+      "winrate": 81.0
+    },
+    "collected_at": "2026-07-01T16:21:07.694395+00:00",
+    "dust_cost": 18480
+  },
+  {
+    "id": "f218d1213d61",
+    "deckstring": "AAECAea5Awa2nwSongaKqgeSqgeTqgeUvwcM4fgF3v8G/oMHqocHtJcHtpcH550HobEHwLEH6LEHkr8Hlb8HAAA=",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Demon Hunter",
+      "zh": "惡魔獵人",
+      "ja": "デモンハンター"
+    },
+    "archetype": "Broxigar Demon Hunter",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 120083,
+        "count": 1,
+        "cost": 0,
+        "name_en": "First Portal to Argus",
+        "rarity": "",
+        "name_zhTW": "第一道阿古斯傳送門",
+        "name_jaJP": "第一のアルガスへのポータル"
+      },
+      {
+        "id": 117684,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Hive Map",
+        "rarity": "COMMON",
+        "name_zhTW": "巢穴地圖",
+        "name_jaJP": "巣穴の地図"
+      },
+      {
+        "id": 97377,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Illidari Studies",
+        "rarity": "COMMON",
+        "name_zhTW": "伊利達瑞研究",
+        "name_jaJP": "イリダン党の予習"
+      },
+      {
+        "id": 122773,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sigil of the Seas",
+        "rarity": "COMMON",
+        "name_zhTW": "海洋符印",
+        "name_jaJP": "海の秘印"
+      },
+      {
+        "id": 120993,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Time-Lost Glaive",
+        "rarity": "COMMON",
+        "name_zhTW": "時佚戰刃",
+        "name_jaJP": "時迷いのグレイヴ"
+      },
+      {
+        "id": 120074,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Broxigar",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "布洛克斯",
+        "name_jaJP": "ブロキシガー"
+      },
+      {
+        "id": 122770,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Broxigar's Last Stand",
+        "rarity": "RARE",
+        "name_zhTW": "布洛克斯的最後一博",
+        "name_jaJP": "ブロキシガーの背水の陣"
+      },
+      {
+        "id": 69558,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Chaos Strike",
+        "rarity": "COMMON",
+        "name_zhTW": "混沌之擊",
+        "name_jaJP": "混沌一閃"
+      },
+      {
+        "id": 114654,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Grim Harvest",
+        "rarity": "COMMON",
+        "name_zhTW": "恐怖收割",
+        "name_jaJP": "不吉な収穫"
+      },
+      {
+        "id": 117686,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Infestation",
+        "rarity": "RARE",
+        "name_zhTW": "蟲害",
+        "name_jaJP": "害虫蔓延"
+      },
+      {
+        "id": 121064,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Press the Advantage",
+        "rarity": "COMMON",
+        "name_zhTW": "發揮優勢",
+        "name_jaJP": "推し進め！"
+      },
+      {
+        "id": 115626,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Sigil of Cinder",
+        "rarity": "EPIC",
+        "name_zhTW": "灰燼符印",
+        "name_jaJP": "灰の秘印"
+      },
+      {
+        "id": 120082,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Axe of Cenarius",
+        "rarity": "",
+        "name_zhTW": "塞納留斯之斧",
+        "name_jaJP": "セナリウスの斧"
+      },
+      {
+        "id": 121024,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Lasting Legacy",
+        "rarity": "RARE",
+        "name_zhTW": "薪火相傳",
+        "name_jaJP": "遺志の継承"
+      },
+      {
+        "id": 122772,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Nespirah, Enthralled",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『被奴役者』奈斯畢拉",
+        "name_jaJP": "捕らわれしネスピラー"
+      },
+      {
+        "id": 115198,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Wyvern's Slumber",
+        "rarity": "EPIC",
+        "name_zhTW": "沉眠的蠍尾獅",
+        "name_jaJP": "ワイバーンのまどろみ"
+      },
+      {
+        "id": 118503,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Horn of Feasting",
+        "rarity": "COMMON",
+        "name_zhTW": "饗宴之角",
+        "name_jaJP": "饗宴の角"
+      },
+      {
+        "id": 102184,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Kayn Sunfury",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "凱恩‧日怒",
+        "name_jaJP": "ケイン・サンフューリー"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/broxigar-demon-hunter-7-legend-unknown-score-15-7/",
+      "author": "hearthstone-decks.net",
+      "title": "Broxigar Demon Hunter #7 Legend (Score: 15-7)"
+    },
+    "legend_rank": 7,
+    "winrate": {
+      "wins": 15,
+      "losses": 7,
+      "total": 22,
+      "winrate": 68.2
+    },
+    "collected_at": "2026-07-01T16:21:07.694456+00:00",
+    "dust_cost": 7600
+  },
+  {
+    "id": "eb323f86eb31",
+    "deckstring": "AAECAQcMn58EqfUGw4MH7o8H05cH1JcHgpgHhJ0H2LIHucMHyccHm9QHCY7UBOiHB4uYB9WmB+qnB/yvB9CyB7DBB5zCBwAA",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Warrior",
+      "zh": "戰士",
+      "ja": "ウォリアー"
+    },
+    "archetype": "Quest Warrior",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 117716,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Enter the Lost City",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "進入迷城",
+        "name_jaJP": "秘境への入口"
+      },
+      {
+        "id": 121168,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Eternal Toil",
+        "rarity": "RARE",
+        "name_zhTW": "永恆苦難",
+        "name_jaJP": "永遠の苦悶"
+      },
+      {
+        "id": 69535,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Execute",
+        "rarity": "COMMON",
+        "name_zhTW": "斬殺",
+        "name_jaJP": "止めの一撃"
+      },
+      {
+        "id": 123164,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Torch",
+        "rarity": "RARE",
+        "name_zhTW": "火炬",
+        "name_jaJP": "松明"
+      },
+      {
+        "id": 115688,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Shadowflame Suffusion",
+        "rarity": "COMMON",
+        "name_zhTW": "暗焰噬襲",
+        "name_jaJP": "みなぎる影の炎"
+      },
+      {
+        "id": 76302,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Shield Block",
+        "rarity": "COMMON",
+        "name_zhTW": "盾牌格擋",
+        "name_jaJP": "シールドブロック"
+      },
+      {
+        "id": 119786,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Unleash the Crocolisks",
+        "rarity": "COMMON",
+        "name_zhTW": "釋放鱷魚",
+        "name_jaJP": "クロコリスクの解放"
+      },
+      {
+        "id": 119637,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Axe of the Forefathers",
+        "rarity": "COMMON",
+        "name_zhTW": "先祖之斧",
+        "name_jaJP": "先祖伝来の斧"
+      },
+      {
+        "id": 116718,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Bulwark of Azzinoth",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "埃辛諾斯壁壘",
+        "name_jaJP": "アズィノスの防塁"
+      },
+      {
+        "id": 123849,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Cultivating Sprite",
+        "rarity": "EPIC",
+        "name_zhTW": "培育妖精",
+        "name_jaJP": "育みのスプライト"
+      },
+      {
+        "id": 117771,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Latorvian Armorer",
+        "rarity": "RARE",
+        "name_zhTW": "拉托維亞護甲師",
+        "name_jaJP": "ラトルヴィアの鎧職人"
+      },
+      {
+        "id": 117762,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Elise the Navigator",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "領路者伊莉絲",
+        "name_jaJP": "探検家エリーズ"
+      },
+      {
+        "id": 115139,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Nightmare Lord Xavius",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "夢魘之王薩維斯",
+        "name_jaJP": "悪夢の王ザヴィウス"
+      },
+      {
+        "id": 117715,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Shellnado",
+        "rarity": "RARE",
+        "name_zhTW": "殼捲風",
+        "name_jaJP": "甲羅旋風"
+      },
+      {
+        "id": 121176,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Bitter End",
+        "rarity": "RARE",
+        "name_zhTW": "苦澀終焉",
+        "name_jaJP": "苦々しい結末"
+      },
+      {
+        "id": 120828,
+        "count": 2,
+        "cost": 5,
+        "name_en": "For Glory!",
+        "rarity": "COMMON",
+        "name_zhTW": "為了榮耀！",
+        "name_jaJP": "栄光のために！"
+      },
+      {
+        "id": 123056,
+        "count": 2,
+        "cost": 6,
+        "name_en": "Decimation",
+        "rarity": "EPIC",
+        "name_zhTW": "屠戮",
+        "name_jaJP": "壊滅状態"
+      },
+      {
+        "id": 123321,
+        "count": 1,
+        "cost": 7,
+        "name_en": "Commander Geddon",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "指揮官迦頓",
+        "name_jaJP": "司令官ゲドン"
+      },
+      {
+        "id": 118404,
+        "count": 1,
+        "cost": 8,
+        "name_en": "The Great Dracorex",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "偉大的德雷克斯",
+        "name_jaJP": "偉大なるドラコレックス"
+      },
+      {
+        "id": 113321,
+        "count": 1,
+        "cost": 9,
+        "name_en": "Ysera, Emerald Aspect",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『翡翠守護巨龍』伊瑟拉",
+        "name_jaJP": "エメラルドのアスペクト・イセラ"
+      },
+      {
+        "id": 125467,
+        "count": 1,
+        "cost": 10,
+        "name_en": "Deathwing, Worldbreaker",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『碎界者』死亡之翼",
+        "name_jaJP": "世界の破壊者デスウィング"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/quest-warrior-168-legend-unknown-score-6-4/",
+      "author": "hearthstone-decks.net",
+      "title": "Quest Warrior #168 Legend (Score: 6-4)"
+    },
+    "legend_rank": 168,
+    "winrate": {
+      "wins": 6,
+      "losses": 4,
+      "total": 10,
+      "winrate": 60.0
+    },
+    "collected_at": "2026-07-01T16:21:07.694549+00:00",
+    "dust_cost": 15240
+  },
+  {
+    "id": "9d9d2177ec73",
+    "deckstring": "AAECAR8KnaAEzp4GqYEHmacHmqcHm6cHxbEHg8AH5MQHof0HCqmfBOKJB6+SB+6fB8u2B7vAB97EB+DEB+PEB/nEBwAA",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Hunter",
+      "zh": "獵人",
+      "ja": "ハンター"
+    },
+    "archetype": "Companion Hunter",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 115938,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Critter Caretaker",
+        "rarity": "COMMON",
+        "name_zhTW": "小動物照料者",
+        "name_jaJP": "生き物係"
+      },
+      {
+        "id": 122883,
+        "count": 1,
+        "cost": 1,
+        "name_en": "Earthen Roar",
+        "rarity": "RARE",
+        "name_zhTW": "大地咆哮",
+        "name_jaJP": "大地の咆哮"
+      },
+      {
+        "id": 118766,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Raptor-Nest Nurse",
+        "rarity": "COMMON",
+        "name_zhTW": "迅猛龍巢保母",
+        "name_jaJP": "ラプターの乳母"
+      },
+      {
+        "id": 121675,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sands of Time",
+        "rarity": "EPIC",
+        "name_zhTW": "時間之沙",
+        "name_jaJP": "時の砂"
+      },
+      {
+        "id": 123486,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Tame Pet",
+        "rarity": "COMMON",
+        "name_zhTW": "馴服寵物",
+        "name_jaJP": "飼いならされたペット"
+      },
+      {
+        "id": 69545,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Tracking",
+        "rarity": "RARE",
+        "name_zhTW": "追蹤",
+        "name_jaJP": "追跡術"
+      },
+      {
+        "id": 117039,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Wound Prey",
+        "rarity": "COMMON",
+        "name_zhTW": "獵物致傷",
+        "name_jaJP": "獲物の傷"
+      },
+      {
+        "id": 69661,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Crazed Alchemist",
+        "rarity": "RARE",
+        "name_zhTW": "瘋狂的鍊金師",
+        "name_jaJP": "イカレた錬金術師"
+      },
+      {
+        "id": 123491,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Migrating Elekk",
+        "rarity": "RARE",
+        "name_zhTW": "遷徙的伊萊克",
+        "name_jaJP": "新たな住まいを探すエレク"
+      },
+      {
+        "id": 121029,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Niri of the Crater",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "環形山的妮莉",
+        "name_jaJP": "クレーターのニリ"
+      },
+      {
+        "id": 119705,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Ranger Captain Alleria",
+        "rarity": "",
+        "name_zhTW": "遊俠隊長艾蘭里亞",
+        "name_jaJP": "レンジャー隊長アレリア"
+      },
+      {
+        "id": 119707,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Ranger General Sylvanas",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "遊俠將軍希瓦娜斯",
+        "name_jaJP": "レンジャー将軍シルヴァナス"
+      },
+      {
+        "id": 119706,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Ranger Initiate Vereesa",
+        "rarity": "",
+        "name_zhTW": "遊俠新兵凡蕾莎",
+        "name_jaJP": "レンジャー新隊員ヴェリーサ"
+      },
+      {
+        "id": 122939,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Confront the Tol'vir",
+        "rarity": "EPIC",
+        "name_zhTW": "面對托維爾",
+        "name_jaJP": "トルヴィアとの対決"
+      },
+      {
+        "id": 102222,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Royal Librarian",
+        "rarity": "COMMON",
+        "name_zhTW": "皇家圖書管理員",
+        "name_jaJP": "王立図書館の司書"
+      },
+      {
+        "id": 123488,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Spiritspeaker",
+        "rarity": "COMMON",
+        "name_zhTW": "靈語者",
+        "name_jaJP": "霊話師"
+      },
+      {
+        "id": 114857,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Broll Bearmantle",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "布洛‧熊皮",
+        "name_jaJP": "ブロール・ベアーマントル"
+      },
+      {
+        "id": 123492,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Talya Earthstrider",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "泰拉‧地行者",
+        "name_jaJP": "タルヤ・アースストライダー"
+      },
+      {
+        "id": 123513,
+        "count": 2,
+        "cost": 7,
+        "name_en": "Roam Free",
+        "rarity": "EPIC",
+        "name_zhTW": "自由遊蕩",
+        "name_jaJP": "自由散策"
+      },
+      {
+        "id": 130721,
+        "count": 1,
+        "cost": 8,
+        "name_en": "Call of the Wild",
+        "rarity": "EPIC",
+        "name_zhTW": "野性呼喚",
+        "name_jaJP": "荒野の呼び声"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/companion-hunter-368-legend-unknown-score-12-3/",
+      "author": "hearthstone-decks.net",
+      "title": "Companion Hunter #368 Legend (Score: 12-3)"
+    },
+    "legend_rank": 368,
+    "winrate": {
+      "wins": 12,
+      "losses": 3,
+      "total": 15,
+      "winrate": 80.0
+    },
+    "collected_at": "2026-07-01T16:21:07.694645+00:00",
+    "dust_cost": 10240
+  },
+  {
+    "id": "d0b158532772",
+    "deckstring": "AAECAf0EBu/8BsODB6ebB/mbB/KyB5PaBwyb8gbxkQewmwf6mwfVnQfRpgfLtgf5wweGxAeSxAeG4AecgggAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Mage",
+      "zh": "法師",
+      "ja": "メイジ"
+    },
+    "archetype": "Quest Mage",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 126227,
+        "count": 1,
+        "cost": 1,
+        "name_en": "First Flame",
+        "rarity": "RARE",
+        "name_zhTW": "第一道火焰",
+        "name_jaJP": "一の炎"
+      },
+      {
+        "id": 121675,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sands of Time",
+        "rarity": "EPIC",
+        "name_zhTW": "時間之沙",
+        "name_jaJP": "時の砂"
+      },
+      {
+        "id": 118192,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Scrappy Scavenger",
+        "rarity": "COMMON",
+        "name_zhTW": "襤褸拾荒者",
+        "name_jaJP": "排他的な廃品集め"
+      },
+      {
+        "id": 123410,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sleet Storm",
+        "rarity": "COMMON",
+        "name_zhTW": "冰雨風暴",
+        "name_jaJP": "みぞれ嵐"
+      },
+      {
+        "id": 116977,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Spark of Life",
+        "rarity": "RARE",
+        "name_zhTW": "生命火花",
+        "name_jaJP": "命の煌めき"
+      },
+      {
+        "id": 118183,
+        "count": 1,
+        "cost": 1,
+        "name_en": "The Forbidden Sequence",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "禁忌序列",
+        "name_jaJP": "禁じられしシーケンス"
+      },
+      {
+        "id": 123398,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Winterspring Whelp",
+        "rarity": "COMMON",
+        "name_zhTW": "冬泉谷幼龍",
+        "name_jaJP": "凍てつく谷のチビドラゴン"
+      },
+      {
+        "id": 126982,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Runed Orb",
+        "rarity": "COMMON",
+        "name_zhTW": "符文寶珠",
+        "name_jaJP": "ルーン・オーブ"
+      },
+      {
+        "id": 123385,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Shadowed Informant",
+        "rarity": "RARE",
+        "name_zhTW": "暗影告密者",
+        "name_jaJP": "影の呪詛の情報屋"
+      },
+      {
+        "id": 118265,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Story of the Waygate",
+        "rarity": "RARE",
+        "name_zhTW": "甬道之門的故事",
+        "name_jaJP": "ウェイゲートの物語"
+      },
+      {
+        "id": 114287,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Q'onzu",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "寇祖",
+        "name_jaJP": "クオンズ"
+      },
+      {
+        "id": 131356,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Raptor Herald",
+        "rarity": "EPIC",
+        "name_zhTW": "迅猛龍使者",
+        "name_jaJP": "ラプターの伝令"
+      },
+      {
+        "id": 112923,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Stonehill Defender",
+        "rarity": "RARE",
+        "name_zhTW": "石丘防衛者",
+        "name_jaJP": "ストーンヒルの守護者"
+      },
+      {
+        "id": 118266,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Storage Scuffle",
+        "rarity": "RARE",
+        "name_zhTW": "翻箱倒櫃",
+        "name_jaJP": "貯蔵庫の乱闘"
+      },
+      {
+        "id": 119633,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Alter Time",
+        "rarity": "RARE",
+        "name_zhTW": "扭轉時間",
+        "name_jaJP": "時の手直し"
+      },
+      {
+        "id": 121202,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Morchie",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "米羅克",
+        "name_jaJP": "ミロクー"
+      },
+      {
+        "id": 115139,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Nightmare Lord Xavius",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "夢魘之王薩維斯",
+        "name_jaJP": "悪夢の王ザヴィウス"
+      },
+      {
+        "id": 118485,
+        "count": 2,
+        "cost": 7,
+        "name_en": "Techysaurus",
+        "rarity": "RARE",
+        "name_zhTW": "科技改造龍",
+        "name_jaJP": "テクノサウルス"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/quest-mage-5-legend-unknown-score-20-5/",
+      "author": "hearthstone-decks.net",
+      "title": "Quest Mage #5 Legend (Score: 20-5)"
+    },
     "legend_rank": 5,
-    "winrate": { "wins": 51, "losses": 19, "winrate": 72.9 },
-    "source": { "type": "reddit", "author": "ShadowForm", "title": "Reno Priest #5 Legend Wild (51-19)", "url": "#" },
-    "collected_at": "2026-06-30T22:00:00+00:00",
-    "archetype": "Reno Priest"
+    "winrate": {
+      "wins": 20,
+      "losses": 5,
+      "total": 25,
+      "winrate": 80.0
+    },
+    "collected_at": "2026-07-01T16:21:07.694704+00:00",
+    "dust_cost": 9720
   },
   {
-    "id": "e5f6a1b2c3d4",
-    "deckstring": "AAECAZ8FBKcFucEC2f4CkYADDUanBfQF9QX6BpvCAojHApvLAqbOAvjSAuPjAtj+AgA=",
-    "format": { "en": "Standard", "zh": "標準", "ja": "スタンダード" },
-    "hero_class": { "en": "Paladin", "zh": "聖騎士", "ja": "パラディン" },
+    "id": "c41c04c4f950",
+    "deckstring": "AAECAaIHBoaoB4eoB4ioB/bJB4rUB4jZBwyRnwT3nwTTngaQgwfBlweMrQfHrgfZrwe0wQedxQfVxQfD8gcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Rogue",
+      "zh": "盜賊",
+      "ja": "ローグ"
+    },
+    "archetype": "Herald Rogue",
     "total_cards": 30,
-    "dust_cost": 4560,
-    "legend_rank": 88,
-    "winrate": { "wins": 33, "losses": 18, "winrate": 64.7 },
-    "source": { "type": "reddit", "author": "Lightforged", "title": "Aggro Paladin #88 Legend (33-18)", "url": "#" },
-    "collected_at": "2026-06-30T20:15:00+00:00",
-    "archetype": "Aggro Paladin"
+    "cards": [
+      {
+        "id": 69521,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Backstab",
+        "rarity": "COMMON",
+        "name_zhTW": "背刺",
+        "name_jaJP": "死角からの一刺し"
+      },
+      {
+        "id": 69623,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Preparation",
+        "rarity": "EPIC",
+        "name_zhTW": "準備",
+        "name_jaJP": "段取り"
+      },
+      {
+        "id": 126088,
+        "count": 1,
+        "cost": 0,
+        "name_en": "Shadow of Demise",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "逝亡魔影",
+        "name_jaJP": "破滅の影"
+      },
+      {
+        "id": 123060,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Agent of the Old Ones",
+        "rarity": "COMMON",
+        "name_zhTW": "古神特使",
+        "name_jaJP": "旧きものの代理人"
+      },
+      {
+        "id": 120647,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Deja Vu",
+        "rarity": "RARE",
+        "name_zhTW": "既視感",
+        "name_jaJP": "デジャヴ"
+      },
+      {
+        "id": 102227,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Glacial Shard",
+        "rarity": "COMMON",
+        "name_zhTW": "冰川裂片",
+        "name_jaJP": "グレイシャル・シャード"
+      },
+      {
+        "id": 115088,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Nightmare Fuel",
+        "rarity": "COMMON",
+        "name_zhTW": "夢魘燃料",
+        "name_jaJP": "悪夢の燃料"
+      },
+      {
+        "id": 129347,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Spymistress",
+        "rarity": "COMMON",
+        "name_zhTW": "間諜首領",
+        "name_jaJP": "スパイミストレス"
+      },
+      {
+        "id": 117697,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Cultist Map",
+        "rarity": "RARE",
+        "name_zhTW": "教徒地圖",
+        "name_jaJP": "狂信者の地図"
+      },
+      {
+        "id": 120793,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Flashback",
+        "rarity": "RARE",
+        "name_zhTW": "回想",
+        "name_jaJP": "フラッシュバック"
+      },
+      {
+        "id": 120460,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Foxy Fraud",
+        "rarity": "COMMON",
+        "name_zhTW": "江狐騙子",
+        "name_jaJP": "狐の騙し屋"
+      },
+      {
+        "id": 123605,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Rite of Twilight",
+        "rarity": "RARE",
+        "name_zhTW": "暮光儀式",
+        "name_jaJP": "トワイライトの儀"
+      },
+      {
+        "id": 119816,
+        "count": 1,
+        "cost": 2,
+        "name_en": "The Kingslayers",
+        "rarity": "",
+        "name_zhTW": "弒君之刃",
+        "name_jaJP": "王殺しの双剣"
+      },
+      {
+        "id": 119815,
+        "count": 1,
+        "cost": 3,
+        "name_en": "King Llane",
+        "rarity": "",
+        "name_zhTW": "萊恩王",
+        "name_jaJP": "レイン王"
+      },
+      {
+        "id": 123549,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Maniacal Follower",
+        "rarity": "EPIC",
+        "name_zhTW": "瘋狂追隨者",
+        "name_jaJP": "異様な従者"
+      },
+      {
+        "id": 119814,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Garona Halforcen",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "迦羅娜‧半血",
+        "name_jaJP": "ガローナ・ハーフオーケン"
+      },
+      {
+        "id": 125450,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Sinestra",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "賽絲特拉",
+        "name_jaJP": "シネストラ"
+      },
+      {
+        "id": 124150,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Vanessa the Ringleader",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "頭目凡妮莎",
+        "name_jaJP": "首謀者ヴァネッサ"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/herald-rogue-6-legend-unknown-score-21-6/",
+      "author": "hearthstone-decks.net",
+      "title": "Herald Rogue #6 Legend (Score: 21-6)"
+    },
+    "legend_rank": 6,
+    "winrate": {
+      "wins": 21,
+      "losses": 6,
+      "total": 27,
+      "winrate": 77.8
+    },
+    "collected_at": "2026-07-01T16:21:07.694761+00:00",
+    "dust_cost": 9280
   },
   {
-    "id": "f6a1b2c3d4e5",
-    "deckstring": "AAECAZICBsUEig6gzgKZ0wKe0gLF8wIM/QLtA+kB5AigBcQGpAf+DJjSAp7SAtvTAgA=",
-    "format": { "en": "Standard", "zh": "標準", "ja": "スタンダード" },
-    "hero_class": { "en": "Druid", "zh": "德魯伊", "ja": "ドルイド" },
+    "id": "ebec5cb868ed",
+    "deckstring": "AAECAea5AwaongaKqgeSqgeTqgeesQeUvwcM4fgF3v8G/oMHqocHtJcHtpcH550HobEHwLEH6LEHkr8Hlb8HAAA=",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Demon Hunter",
+      "zh": "惡魔獵人",
+      "ja": "デモンハンター"
+    },
+    "archetype": "No Minion Demon Hunter",
     "total_cards": 30,
-    "dust_cost": 11200,
-    "legend_rank": 3,
-    "winrate": { "wins": 62, "losses": 21, "winrate": 74.7 },
-    "source": { "type": "reddit", "author": "TreeOfLife", "title": "Ramp Druid #3 Legend (62-21)", "url": "#" },
-    "collected_at": "2026-06-30T18:00:00+00:00",
-    "archetype": "Ramp Druid"
+    "cards": [
+      {
+        "id": 120083,
+        "count": 1,
+        "cost": 0,
+        "name_en": "First Portal to Argus",
+        "rarity": "",
+        "name_zhTW": "第一道阿古斯傳送門",
+        "name_jaJP": "第一のアルガスへのポータル"
+      },
+      {
+        "id": 117684,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Hive Map",
+        "rarity": "COMMON",
+        "name_zhTW": "巢穴地圖",
+        "name_jaJP": "巣穴の地図"
+      },
+      {
+        "id": 97377,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Illidari Studies",
+        "rarity": "COMMON",
+        "name_zhTW": "伊利達瑞研究",
+        "name_jaJP": "イリダン党の予習"
+      },
+      {
+        "id": 122773,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sigil of the Seas",
+        "rarity": "COMMON",
+        "name_zhTW": "海洋符印",
+        "name_jaJP": "海の秘印"
+      },
+      {
+        "id": 120993,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Time-Lost Glaive",
+        "rarity": "COMMON",
+        "name_zhTW": "時佚戰刃",
+        "name_jaJP": "時迷いのグレイヴ"
+      },
+      {
+        "id": 120074,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Broxigar",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "布洛克斯",
+        "name_jaJP": "ブロキシガー"
+      },
+      {
+        "id": 122770,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Broxigar's Last Stand",
+        "rarity": "RARE",
+        "name_zhTW": "布洛克斯的最後一博",
+        "name_jaJP": "ブロキシガーの背水の陣"
+      },
+      {
+        "id": 114654,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Grim Harvest",
+        "rarity": "COMMON",
+        "name_zhTW": "恐怖收割",
+        "name_jaJP": "不吉な収穫"
+      },
+      {
+        "id": 117686,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Infestation",
+        "rarity": "RARE",
+        "name_zhTW": "蟲害",
+        "name_jaJP": "害虫蔓延"
+      },
+      {
+        "id": 121064,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Press the Advantage",
+        "rarity": "COMMON",
+        "name_zhTW": "發揮優勢",
+        "name_jaJP": "推し進め！"
+      },
+      {
+        "id": 115626,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Sigil of Cinder",
+        "rarity": "EPIC",
+        "name_zhTW": "灰燼符印",
+        "name_jaJP": "灰の秘印"
+      },
+      {
+        "id": 120082,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Axe of Cenarius",
+        "rarity": "",
+        "name_zhTW": "塞納留斯之斧",
+        "name_jaJP": "セナリウスの斧"
+      },
+      {
+        "id": 121024,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Lasting Legacy",
+        "rarity": "RARE",
+        "name_zhTW": "薪火相傳",
+        "name_jaJP": "遺志の継承"
+      },
+      {
+        "id": 122772,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Nespirah, Enthralled",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『被奴役者』奈斯畢拉",
+        "name_jaJP": "捕らわれしネスピラー"
+      },
+      {
+        "id": 115198,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Wyvern's Slumber",
+        "rarity": "EPIC",
+        "name_zhTW": "沉眠的蠍尾獅",
+        "name_jaJP": "ワイバーンのまどろみ"
+      },
+      {
+        "id": 118503,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Horn of Feasting",
+        "rarity": "COMMON",
+        "name_zhTW": "饗宴之角",
+        "name_jaJP": "饗宴の角"
+      },
+      {
+        "id": 120990,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Hounds of Fury",
+        "rarity": "RARE",
+        "name_zhTW": "憤怒獵犬",
+        "name_jaJP": "怒りの猟犬"
+      },
+      {
+        "id": 102184,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Kayn Sunfury",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "凱恩‧日怒",
+        "name_jaJP": "ケイン・サンフューリー"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/no-minion-demon-hunter-61-legend-unknown-score-17-5/",
+      "author": "hearthstone-decks.net",
+      "title": "No Minion Demon Hunter #61 Legend (Score: 17-5)"
+    },
+    "legend_rank": 61,
+    "winrate": {
+      "wins": 17,
+      "losses": 5,
+      "total": 22,
+      "winrate": 77.3
+    },
+    "collected_at": "2026-07-01T16:21:07.694822+00:00",
+    "dust_cost": 7660
+  },
+  {
+    "id": "3d8ef3ef401f",
+    "deckstring": "AAECAZ8FBsODB42dB8avB+XBB4TEB+jFBwzJoASU9QW6lgfXlwfOmwf1rwf2wQeDwgfkxQfmxQfnxQfD4wcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Paladin",
+      "zh": "聖騎士",
+      "ja": "パラディン"
+    },
+    "archetype": "Dude Paladin",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 117719,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Platysaur",
+        "rarity": "COMMON",
+        "name_zhTW": "鴨嘴龍",
+        "name_jaJP": "プラティサウルス"
+      },
+      {
+        "id": 69705,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Righteous Protector",
+        "rarity": "COMMON",
+        "name_zhTW": "正義保衛者",
+        "name_jaJP": "有徳の守護者"
+      },
+      {
+        "id": 118222,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Sizzling Cinder",
+        "rarity": "COMMON",
+        "name_zhTW": "灼熱火靈",
+        "name_jaJP": "灼熱の火精"
+      },
+      {
+        "id": 123126,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Twilight Egg",
+        "rarity": "COMMON",
+        "name_zhTW": "暮光龍蛋",
+        "name_jaJP": "トワイライトの卵"
+      },
+      {
+        "id": 123620,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Brash Battlemaster",
+        "rarity": "RARE",
+        "name_zhTW": "傲慢的戰鬥大師",
+        "name_jaJP": "遠慮知らずなバトルマスター"
+      },
+      {
+        "id": 123622,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Convalescence",
+        "rarity": "COMMON",
+        "name_zhTW": "康復期",
+        "name_jaJP": "療養期間"
+      },
+      {
+        "id": 120821,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Past Gnomeregan",
+        "rarity": "EPIC",
+        "name_zhTW": "過去的諾姆瑞根",
+        "name_jaJP": "過去のノームレガン"
+      },
+      {
+        "id": 120774,
+        "count": 1,
+        "cost": 2,
+        "name_en": "The Fins Beyond Time",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "穿越時空的芬利",
+        "name_jaJP": "時を超越するヒレ"
+      },
+      {
+        "id": 117562,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Violet Treasuregill",
+        "rarity": "RARE",
+        "name_zhTW": "紫色獵寶魚人",
+        "name_jaJP": "スミレ色のお宝ハンター"
+      },
+      {
+        "id": 118413,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Hatching Ceremony",
+        "rarity": "COMMON",
+        "name_zhTW": "孵化典禮",
+        "name_jaJP": "孵化の儀式"
+      },
+      {
+        "id": 96916,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Muster for Battle",
+        "rarity": "RARE",
+        "name_zhTW": "整裝備戰",
+        "name_jaJP": "兵役招集"
+      },
+      {
+        "id": 123139,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Flight Maneuvers",
+        "rarity": "EPIC",
+        "name_zhTW": "飛行行動",
+        "name_jaJP": "飛行機動"
+      },
+      {
+        "id": 123396,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Genn, Cursed King",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『詛咒之王』吉恩",
+        "name_jaJP": "呪われた王ゲン"
+      },
+      {
+        "id": 115139,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Nightmare Lord Xavius",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "夢魘之王薩維斯",
+        "name_jaJP": "悪夢の王ザヴィウス"
+      },
+      {
+        "id": 127427,
+        "count": 2,
+        "cost": 4,
+        "name_en": "Teamwork",
+        "rarity": "RARE",
+        "name_zhTW": "團隊合作",
+        "name_jaJP": "チームワーク"
+      },
+      {
+        "id": 123624,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Arator the Redeemer",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『救贖者』阿拉特",
+        "name_jaJP": "救世主アラトー"
+      },
+      {
+        "id": 123623,
+        "count": 2,
+        "cost": 5,
+        "name_en": "Emboldening Blade",
+        "rarity": "COMMON",
+        "name_zhTW": "激勵之刃",
+        "name_jaJP": "激励の剣"
+      },
+      {
+        "id": 123109,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Nozdormu, Bronze Aspect",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『青銅守護巨龍』諾茲多姆",
+        "name_jaJP": "ブロンズのアスペクト・ノズドルム"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/dude-paladin-30-legend-unknown-score-26-20/",
+      "author": "hearthstone-decks.net",
+      "title": "Dude Paladin #30 Legend (Score: 26-20)"
+    },
+    "legend_rank": 30,
+    "winrate": {
+      "wins": 26,
+      "losses": 20,
+      "total": 46,
+      "winrate": 56.5
+    },
+    "collected_at": "2026-07-01T16:21:07.694879+00:00",
+    "dust_cost": 10920
+  },
+  {
+    "id": "f6f31b62e519",
+    "deckstring": "AAECAaoICq+fBP2fBMODB4KYB9umB9+mB+WmB9C/B4LUB5vUBwrmlgf1rAexsAe8sQePvgfDwAfJwAf3wAf2wQfm/QcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Shaman",
+      "zh": "薩滿",
+      "ja": "シャーマン"
+    },
+    "archetype": "Herald Shaman",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 121020,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Static Shock",
+        "rarity": "COMMON",
+        "name_zhTW": "靜電震擊",
+        "name_jaJP": "静電気"
+      },
+      {
+        "id": 130790,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Witch's Apprentice",
+        "rarity": "COMMON",
+        "name_zhTW": "女巫的學徒",
+        "name_jaJP": "魔女の弟子"
+      },
+      {
+        "id": 123126,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Twilight Egg",
+        "rarity": "COMMON",
+        "name_zhTW": "暮光龍蛋",
+        "name_jaJP": "トワイライトの卵"
+      },
+      {
+        "id": 120881,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Wailing Vapor",
+        "rarity": "COMMON",
+        "name_zhTW": "哀嚎水氣",
+        "name_jaJP": "慟哭の蒸気"
+      },
+      {
+        "id": 120437,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Primordial Overseer",
+        "rarity": "COMMON",
+        "name_zhTW": "原始監督者",
+        "name_jaJP": "始原の監督者"
+      },
+      {
+        "id": 122947,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Ritual of Power",
+        "rarity": "RARE",
+        "name_zhTW": "力量儀式",
+        "name_jaJP": "力の儀式"
+      },
+      {
+        "id": 122953,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Skywall Sentinel",
+        "rarity": "RARE",
+        "name_zhTW": "天空之牆哨兵",
+        "name_jaJP": "スカイウォールのセンチネル"
+      },
+      {
+        "id": 119653,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Avatar Form",
+        "rarity": "",
+        "name_zhTW": "石之聖者形態",
+        "name_jaJP": "変身・アバター"
+      },
+      {
+        "id": 117606,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Flight of the Firehawk",
+        "rarity": "COMMON",
+        "name_zhTW": "火鷹翱翔",
+        "name_jaJP": "炎の鷹の飛翔"
+      },
+      {
+        "id": 69551,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Hex",
+        "rarity": "COMMON",
+        "name_zhTW": "妖術",
+        "name_jaJP": "呪術"
+      },
+      {
+        "id": 69629,
+        "count": 1,
+        "cost": 3,
+        "name_en": "Lightning Storm",
+        "rarity": "RARE",
+        "name_zhTW": "閃電風暴",
+        "name_jaJP": "ライトニングストーム"
+      },
+      {
+        "id": 117762,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Elise the Navigator",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "領路者伊莉絲",
+        "name_jaJP": "探検家エリーズ"
+      },
+      {
+        "id": 115139,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Nightmare Lord Xavius",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "夢魘之王薩維斯",
+        "name_jaJP": "悪夢の王ザヴィウス"
+      },
+      {
+        "id": 122639,
+        "count": 2,
+        "cost": 5,
+        "name_en": "Envoy of the End",
+        "rarity": "COMMON",
+        "name_zhTW": "終焉使者",
+        "name_jaJP": "終末の使者"
+      },
+      {
+        "id": 119643,
+        "count": 1,
+        "cost": 5,
+        "name_en": "Muradin, High King",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『高山之王』穆拉丁",
+        "name_jaJP": "上王ムラディン"
+      },
+      {
+        "id": 119647,
+        "count": 1,
+        "cost": 6,
+        "name_en": "High King's Hammer",
+        "rarity": "",
+        "name_zhTW": "高山之王之錘",
+        "name_jaJP": "上王のハンマー"
+      },
+      {
+        "id": 122832,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Ultraxion",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "奧特拉賽恩",
+        "name_jaJP": "ウルトラクシオン"
+      },
+      {
+        "id": 125442,
+        "count": 1,
+        "cost": 8,
+        "name_en": "Al'Akir, Lord of Storms",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『風暴之王』奧拉基爾",
+        "name_jaJP": "嵐の王アラキア"
+      },
+      {
+        "id": 122999,
+        "count": 2,
+        "cost": 9,
+        "name_en": "Muradin's Last Stand",
+        "rarity": "RARE",
+        "name_zhTW": "穆拉丁的最後一博",
+        "name_jaJP": "ムラディンの背水の陣"
+      },
+      {
+        "id": 125467,
+        "count": 1,
+        "cost": 10,
+        "name_en": "Deathwing, Worldbreaker",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『碎界者』死亡之翼",
+        "name_jaJP": "世界の破壊者デスウィング"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/herald-shaman-26-legend-unknown-score-14-9/",
+      "author": "hearthstone-decks.net",
+      "title": "Herald Shaman #26 Legend (Score: 14-9)"
+    },
+    "legend_rank": 26,
+    "winrate": {
+      "wins": 14,
+      "losses": 9,
+      "total": 23,
+      "winrate": 60.9
+    },
+    "collected_at": "2026-07-01T16:21:07.694938+00:00",
+    "dust_cost": 10900
+  },
+  {
+    "id": "57daacdc54ce",
+    "deckstring": "AAECAaIHCNmiBuylB4aoB4eoB4ioB/KyB/bJB4jZBwuRnwT3nwTTngbBlwfmowftrAeMrQfZrwe0wQfVxQeqyQcAAA==",
+    "format": {
+      "en": "Standard",
+      "zh": "標準",
+      "ja": "スタンダード"
+    },
+    "hero_class": {
+      "en": "Rogue",
+      "zh": "盜賊",
+      "ja": "ローグ"
+    },
+    "archetype": "Burn Rogue",
+    "total_cards": 30,
+    "cards": [
+      {
+        "id": 69521,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Backstab",
+        "rarity": "COMMON",
+        "name_zhTW": "背刺",
+        "name_jaJP": "死角からの一刺し"
+      },
+      {
+        "id": 69623,
+        "count": 2,
+        "cost": 0,
+        "name_en": "Preparation",
+        "rarity": "EPIC",
+        "name_zhTW": "準備",
+        "name_jaJP": "段取り"
+      },
+      {
+        "id": 126088,
+        "count": 1,
+        "cost": 0,
+        "name_en": "Shadow of Demise",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "逝亡魔影",
+        "name_jaJP": "破滅の影"
+      },
+      {
+        "id": 123060,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Agent of the Old Ones",
+        "rarity": "COMMON",
+        "name_zhTW": "古神特使",
+        "name_jaJP": "旧きものの代理人"
+      },
+      {
+        "id": 102227,
+        "count": 2,
+        "cost": 1,
+        "name_en": "Glacial Shard",
+        "rarity": "COMMON",
+        "name_zhTW": "冰川裂片",
+        "name_jaJP": "グレイシャル・シャード"
+      },
+      {
+        "id": 117697,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Cultist Map",
+        "rarity": "RARE",
+        "name_zhTW": "教徒地圖",
+        "name_jaJP": "狂信者の地図"
+      },
+      {
+        "id": 102745,
+        "count": 1,
+        "cost": 2,
+        "name_en": "Fan of Knives",
+        "rarity": "COMMON",
+        "name_zhTW": "飛舞刀刃",
+        "name_jaJP": "ナイフの雨"
+      },
+      {
+        "id": 120793,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Flashback",
+        "rarity": "RARE",
+        "name_zhTW": "回想",
+        "name_jaJP": "フラッシュバック"
+      },
+      {
+        "id": 120460,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Foxy Fraud",
+        "rarity": "COMMON",
+        "name_zhTW": "江狐騙子",
+        "name_jaJP": "狐の騙し屋"
+      },
+      {
+        "id": 120429,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Prize Vendor",
+        "rarity": "COMMON",
+        "name_zhTW": "獎品商人",
+        "name_jaJP": "景品引換係"
+      },
+      {
+        "id": 123605,
+        "count": 2,
+        "cost": 2,
+        "name_en": "Rite of Twilight",
+        "rarity": "RARE",
+        "name_zhTW": "暮光儀式",
+        "name_jaJP": "トワイライトの儀"
+      },
+      {
+        "id": 119816,
+        "count": 1,
+        "cost": 2,
+        "name_en": "The Kingslayers",
+        "rarity": "",
+        "name_zhTW": "弒君之刃",
+        "name_jaJP": "王殺しの双剣"
+      },
+      {
+        "id": 119270,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Chrono Daggers",
+        "rarity": "RARE",
+        "name_zhTW": "時光匕首",
+        "name_jaJP": "クロノダガー"
+      },
+      {
+        "id": 119815,
+        "count": 1,
+        "cost": 3,
+        "name_en": "King Llane",
+        "rarity": "",
+        "name_zhTW": "萊恩王",
+        "name_jaJP": "レイン王"
+      },
+      {
+        "id": 124074,
+        "count": 2,
+        "cost": 3,
+        "name_en": "Tunneling Geomancer",
+        "rarity": "EPIC",
+        "name_zhTW": "坑道地卜師",
+        "name_jaJP": "掘り進む地霊術師"
+      },
+      {
+        "id": 119814,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Garona Halforcen",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "迦羅娜‧半血",
+        "name_jaJP": "ガローナ・ハーフオーケン"
+      },
+      {
+        "id": 121202,
+        "count": 1,
+        "cost": 4,
+        "name_en": "Morchie",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "米羅克",
+        "name_jaJP": "ミロクー"
+      },
+      {
+        "id": 119532,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Opu the Unseen",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "『無形者』歐普",
+        "name_jaJP": "見えざる者オプー"
+      },
+      {
+        "id": 124150,
+        "count": 1,
+        "cost": 6,
+        "name_en": "Vanessa the Ringleader",
+        "rarity": "LEGENDARY",
+        "name_zhTW": "頭目凡妮莎",
+        "name_jaJP": "首謀者ヴァネッサ"
+      }
+    ],
+    "source": {
+      "type": "hearthstone-decks.net",
+      "url": "https://hearthstone-decks.net/burn-rogue-204-legend-unknown-score-28-21/",
+      "author": "hearthstone-decks.net",
+      "title": "Burn Rogue #204 Legend (Score: 28-21)"
+    },
+    "legend_rank": 204,
+    "winrate": {
+      "wins": 28,
+      "losses": 21,
+      "total": 49,
+      "winrate": 57.1
+    },
+    "collected_at": "2026-07-01T16:21:07.695001+00:00",
+    "dust_cost": 10840
   }
 ]
