@@ -12,7 +12,6 @@ from datetime import datetime, timezone
 from collector.decoder import decode_deckstring, fingerprint
 from collector.scraper import scrape_all_subreddits, parse_legend_rank, parse_winrate
 from collector.hsdecks_net import scrape_hsdecks_net
-from collector.outofcards import scrape_outofcards
 
 # 輸出到專案根目錄的 data/ 資料夾（Next.js 會讀這裡）
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
@@ -185,13 +184,8 @@ def collect_all_sources():
         items += scrape_hsdecks_net(per_listing=45)
     except Exception as e:
         print(f"  [hearthstone-decks.net 發生錯誤] {e}")
-    # 來源 2：Out of Cards（robots 允許）
-    try:
-        items += scrape_outofcards(limit=60)
-    except Exception as e:
-        print(f"  [outof.cards 發生錯誤] {e}")
-    # 來源 3：Reddit — 需官方 API 事先審核（2025/11 起），暫緩；
-    #         程式仍保留在 collector/scraper.py，取得授權後再啟用。
+    # （Out of Cards 來源已移除：資料過時，2026-07-02）
+    # 來源 2：Reddit — 需官方 API 事先審核（2025/11 起）＋免費版限非商業，暫緩。
     # try:
     #     items += scrape_all_subreddits()
     # except Exception as e:
