@@ -45,3 +45,7 @@ next-env.d.ts
 /data/cards_zhTW.json
 /data/cards_jaJP.json
 /data/classes/
+
+# Python
+__pycache__/
+*.pyc
