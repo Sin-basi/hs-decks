@@ -1,23 +1,22 @@
 "use client";
 
 // 這是網站首頁。它會讀取 ../data/decks.json 裡的牌組資料並顯示出來。
-// 「use client」這一行一定要放在最上面，因為這個頁面有互動功能（篩選、複製按鈕、展開卡表）。
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useCallback, memo } from "react";
 import decksData from "../data/decks.json";
 
-// ── 主題色（黑／鐵灰為主，橘色作強調，走簡約黑/橘對比）──
-const BG = "#0d0d0f";        // 頁面底
-const PANEL = "#161619";     // 卡片底
-const PANEL2 = "#1e1e22";    // 卡表列底
-const BORDER = "#2b2b30";    // 鐵灰邊框
-const TEXT = "#ededed";      // 主要文字
-const MUTED = "#8a8a90";     // 次要文字
-const FAINT = "#5c5c63";     // 更淡的文字
-const ACCENT = "#ff7a1a";    // 橘色強調
-const OK = "#3f9d52";        // 「已複製」用的綠
+// ── 主題色（黑／鐵灰為主，橘色作強調，簡約黑/橘對比）──
+const BG = "#0d0d0f";
+const PANEL = "#161619";
+const PANEL2 = "#1e1e22";
+const BORDER = "#2b2b30";
+const TEXT = "#ededed";
+const MUTED = "#8a8a90";
+const FAINT = "#5c5c63";
+const ACCENT = "#ff7a1a";
+const OK = "#3f9d52";
 
-// 每個職業的代表色（只用在卡片頂端的細色條，作職業識別）
+// 每個職業的代表色（用在卡片頂端的細色條）
 const CLASS_COLORS = {
   Mage: "#3C9BF0", Warrior: "#C41E3A", Shaman: "#0070DE",
   Priest: "#A2ABB3", Paladin: "#F48CBA", Druid: "#FF7C0A",
@@ -28,7 +27,6 @@ const CLASS_COLORS = {
 const CLASSES = ["all", "Druid", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman", "Warlock", "Warrior", "Demon Hunter", "Death Knight"];
 const FORMATS = ["all", "Standard", "Wild"];
 
-// 三語系的介面文字
 const CLASS_NAMES = {
   zh: { all: "全部", Druid: "德魯伊", Hunter: "獵人", Mage: "法師", Paladin: "聖騎士", Priest: "牧師", Rogue: "盜賊", Shaman: "薩滿", Warlock: "術士", Warrior: "戰士", "Demon Hunter": "惡魔獵人", "Death Knight": "死亡騎士" },
   en: { all: "All", Druid: "Druid", Hunter: "Hunter", Mage: "Mage", Paladin: "Paladin", Priest: "Priest", Rogue: "Rogue", Shaman: "Shaman", Warlock: "Warlock", Warrior: "Warrior", "Demon Hunter": "Demon Hunter", "Death Knight": "Death Knight" },
@@ -45,22 +43,25 @@ const SORT_LABELS = {
   ja: { time: "新着", rank: "ランク", winrate: "勝率", dust: "ダスト" },
 };
 const UI_TEXT = {
-  zh: { decks: "副牌組", empty: "沒有符合條件的牌組", copy: "複製牌組代碼", copied: "已複製", by: "來源" },
-  en: { decks: "decks", empty: "No decks found", copy: "Copy deck code", copied: "Copied", by: "by" },
-  ja: { decks: "デッキ", empty: "該当するデッキがありません", copy: "デッキコードをコピー", copied: "コピー済み", by: "by" },
+  zh: { decks: "副牌組", empty: "沒有符合條件的牌組", copy: "複製牌組代碼", copied: "已複製", by: "來源", copyAll: "複製全部代碼" },
+  en: { decks: "decks", empty: "No decks found", copy: "Copy deck code", copied: "Copied", by: "by", copyAll: "Copy all codes" },
+  ja: { decks: "デッキ", empty: "該当するデッキがありません", copy: "デッキコードをコピー", copied: "コピー済み", by: "by", copyAll: "全コードをコピー" },
 };
 
-// 卡牌清單相關
 const CARDS_LABEL = { zh: "張卡牌", en: "cards", ja: "枚のカード" };
 const RARITY_COLORS = { LEGENDARY: "#ff9a3c", EPIC: "#b07de0", RARE: "#6aa0d8", COMMON: "#dcdce0", FREE: "#dcdce0" };
 const LANG_TO_NAMEKEY = { zh: "name_zhTW", en: "name_en", ja: "name_jaJP" };
+const LANG_TO_LOCALE = { zh: "zhTW", en: "enUS", ja: "jaJP" };
 
 function cardName(card, lang) {
   return card[LANG_TO_NAMEKEY[lang]] || card.name_en || `#${card.id}`;
 }
-
 function tileUrl(card) {
   return card.cardId ? `https://art.hearthstonejson.com/v1/tiles/${card.cardId}.png` : null;
+}
+// 懸停時顯示的完整卡面（依語言）
+function renderUrl(card, lang) {
+  return card.cardId ? `https://art.hearthstonejson.com/v1/render/latest/${LANG_TO_LOCALE[lang] || "enUS"}/256x/${card.cardId}.png` : null;
 }
 
 function timeSince(dateStr, lang) {
@@ -71,16 +72,23 @@ function timeSince(dateStr, lang) {
   return lang === "en" ? `${days}d ago` : `${days} 天前`;
 }
 
-// 一列卡牌（主牌與副牌共用）。side=true 時為副牌（E.T.C./Zilliax），縮排 + 橘色左條。
-function CardRow({ card, lang, side }) {
+// 一列卡牌（主牌與副牌共用）。滑鼠懸停時透過 onHover 浮出完整卡圖。
+function CardRow({ card, lang, side, onHover }) {
+  const rurl = renderUrl(card, lang);
+  const enter = rurl ? (e) => onHover({ url: rurl, x: e.clientX, y: e.clientY }) : undefined;
   return (
-    <div style={{
-      position: "relative", height: side ? 27 : 30, borderRadius: 3, overflow: "hidden",
-      display: "flex", alignItems: "center",
-      background: side ? "#111113" : PANEL2,
-      marginLeft: side ? 14 : 0,
-      borderLeft: side ? `2px solid ${ACCENT}` : "none",
-    }}>
+    <div
+      onMouseEnter={enter}
+      onMouseMove={enter}
+      onMouseLeave={rurl ? () => onHover(null) : undefined}
+      style={{
+        position: "relative", height: side ? 27 : 30, borderRadius: 3, overflow: "hidden",
+        display: "flex", alignItems: "center",
+        background: side ? "#111113" : PANEL2,
+        marginLeft: side ? 14 : 0,
+        borderLeft: side ? `2px solid ${ACCENT}` : "none",
+        cursor: rurl ? "pointer" : "default",
+      }}>
       {tileUrl(card) && (
         <img src={tileUrl(card)} alt="" loading="lazy" style={{
           position: "absolute", right: 0, top: 0, height: "100%", width: "62%",
@@ -108,7 +116,7 @@ function CardRow({ card, lang, side }) {
   );
 }
 
-function DeckCard({ deck, lang }) {
+const DeckCard = memo(function DeckCard({ deck, lang, onHover }) {
   const [copied, setCopied] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const classColor = CLASS_COLORS[deck.hero_class.en] || "#888";
@@ -180,8 +188,8 @@ function DeckCard({ deck, lang }) {
                   const band = sideboard.filter((s) => s.owner === c.id);
                   return (
                     <div key={i} style={{ display: "flex", flexDirection: "column", gap: 2 }}>
-                      <CardRow card={c} lang={lang} />
-                      {band.map((s, j) => <CardRow key={j} card={s} lang={lang} side />)}
+                      <CardRow card={c} lang={lang} onHover={onHover} />
+                      {band.map((s, j) => <CardRow key={j} card={s} lang={lang} side onHover={onHover} />)}
                     </div>
                   );
                 })}
@@ -192,13 +200,17 @@ function DeckCard({ deck, lang }) {
       </div>
     </div>
   );
-}
+});
 
 export default function Home() {
   const [formatFilter, setFormatFilter] = useState("all");
   const [classFilter, setClassFilter] = useState("all");
   const [lang, setLang] = useState("zh");
   const [sortBy, setSortBy] = useState("time");
+  const [hover, setHover] = useState(null);
+  const [copiedAll, setCopiedAll] = useState(false);
+
+  const onHover = useCallback((h) => setHover(h), []);
 
   const filtered = useMemo(() => {
     let list = [...decksData];
@@ -212,6 +224,14 @@ export default function Home() {
     });
     return list;
   }, [formatFilter, classFilter, sortBy]);
+
+  const copyAllCodes = () => {
+    const codes = filtered.map(d => d.deckstring).filter(Boolean).join("\n");
+    navigator.clipboard.writeText(codes).then(() => {
+      setCopiedAll(true);
+      setTimeout(() => setCopiedAll(false), 1500);
+    });
+  };
 
   const pill = (active) => ({
     padding: "6px 12px", borderRadius: 5, border: `1px solid ${active ? ACCENT : BORDER}`,
@@ -259,12 +279,18 @@ export default function Home() {
           ))}
         </div>
 
-        <div style={{ fontSize: 13, color: MUTED, marginBottom: 10 }}>
-          {filtered.length} {UI_TEXT[lang].decks}
+        <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 10 }}>
+          <span style={{ fontSize: 13, color: MUTED }}>{filtered.length} {UI_TEXT[lang].decks}</span>
+          <button onClick={copyAllCodes} style={{
+            padding: "4px 11px", borderRadius: 5, border: `1px solid ${copiedAll ? OK : BORDER}`,
+            background: "transparent", color: copiedAll ? OK : MUTED, fontSize: 12, cursor: "pointer", fontWeight: 500,
+          }}>
+            {copiedAll ? "✓ " + UI_TEXT[lang].copied : UI_TEXT[lang].copyAll}
+          </button>
         </div>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: 10 }}>
-          {filtered.map(deck => <DeckCard key={deck.id} deck={deck} lang={lang} />)}
+          {filtered.map(deck => <DeckCard key={deck.id} deck={deck} lang={lang} onHover={onHover} />)}
         </div>
 
         {filtered.length === 0 && (
@@ -279,6 +305,22 @@ export default function Home() {
           This is an unofficial fan site and is not affiliated with or endorsed by Blizzard Entertainment.
         </p>
       </footer>
+
+      {hover && (() => {
+        const W = 240, H = 356;
+        let left = hover.x + 24;
+        if (left + W > window.innerWidth) left = hover.x - W - 24;
+        if (left < 8) left = 8;
+        let top = hover.y - H / 2;
+        if (top < 8) top = 8;
+        if (top + H > window.innerHeight) top = window.innerHeight - H - 8;
+        return (
+          <img src={hover.url} alt="" style={{
+            position: "fixed", left, top, width: W, zIndex: 1000, pointerEvents: "none",
+            filter: "drop-shadow(0 8px 24px rgba(0,0,0,.75))",
+          }} />
+        );
+      })()}
     </div>
   );
 }
