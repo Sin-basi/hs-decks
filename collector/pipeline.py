@@ -53,6 +53,7 @@ def load_card_db() -> dict:
                 "rarity": card.get("rarity", ""),
                 "type": card.get("type", ""),
                 "cardClass": card.get("cardClass", ""),
+                "cardId": card.get("id", ""),
             }
     print(f"  卡牌資料庫已載入：{len(db)} 張卡牌")
     return db
@@ -90,6 +91,7 @@ def enrich_deck(deck: dict, card_db: dict, locales: dict) -> dict:
             "cost": info.get("cost", 0),
             "name_en": info.get("name_en", f"#{cid}"),
             "rarity": info.get("rarity", ""),
+            "cardId": info.get("cardId", ""),
         }
         for lk, ldb in locales.items():
             entry[f"name_{lk}"] = ldb.get(cid, entry["name_en"])

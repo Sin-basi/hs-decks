@@ -39,6 +39,19 @@ const UI_TEXT = {
   ja: { decks: "デッキ", empty: "該当するデッキがありません", copy: "デッキコードをコピー", copied: "コピー済み", by: "by" },
 };
 
+// 卡牌清單相關：清單文字、稀有度顏色、語系對應卡名欄位、卡圖網址
+const CARDS_LABEL = { zh: "張卡牌", en: "cards", ja: "枚のカード" };
+const RARITY_COLORS = { LEGENDARY: "#ff8000", EPIC: "#c56bff", RARE: "#5aa9ff", COMMON: "#e2e4ea", FREE: "#e2e4ea" };
+const LANG_TO_NAMEKEY = { zh: "name_zhTW", en: "name_en", ja: "name_jaJP" };
+
+function cardName(card, lang) {
+  return card[LANG_TO_NAMEKEY[lang]] || card.name_en || `#${card.id}`;
+}
+
+function tileUrl(card) {
+  return card.cardId ? `https://art.hearthstonejson.com/v1/tiles/${card.cardId}.png` : null;
+}
+
 function timeSince(dateStr, lang) {
   const hours = Math.floor((new Date() - new Date(dateStr)) / 3600000);
   if (hours < 1) return { zh: "剛剛", en: "just now", ja: "たった今" }[lang];
@@ -49,6 +62,7 @@ function timeSince(dateStr, lang) {
 
 function DeckCard({ deck, lang }) {
   const [copied, setCopied] = useState(false);
+  const [expanded, setExpanded] = useState(false);
   const classColor = CLASS_COLORS[deck.hero_class.en] || "#888";
   const t = UI_TEXT[lang];
 
@@ -101,6 +115,41 @@ function DeckCard({ deck, lang }) {
         }}>
           {copied ? t.copied : t.copy}
         </button>
+
+        {deck.cards && deck.cards.length > 0 && (
+          <>
+            <button onClick={() => setExpanded((v) => !v)} style={{
+              width: "100%", padding: "5px 0", marginTop: 4, borderRadius: 4,
+              border: "1px solid #2a2a4a", background: "transparent",
+              color: "#94a3b8", fontSize: 11, cursor: "pointer",
+            }}>
+              {expanded ? "▴ " : "▾ "}{deck.cards.length} {CARDS_LABEL[lang]}
+            </button>
+            {expanded && (
+              <div style={{ marginTop: 6, display: "flex", flexDirection: "column", gap: 2 }}>
+                {deck.cards.map((c, i) => (
+                  <div key={i} style={{
+                    position: "relative", height: 26, borderRadius: 3,
+                    overflow: "hidden", display: "flex", alignItems: "center",
+                    background: "#12122a",
+                  }}>
+                    {tileUrl(c) && (
+                      <img src={tileUrl(c)} alt="" loading="lazy" style={{
+                        position: "absolute", right: 0, top: 0, height: "100%",
+                        width: "65%", objectFit: "cover",
+                        WebkitMaskImage: "linear-gradient(to right, transparent, #000 55%)",
+                        maskImage: "linear-gradient(to right, transparent, #000 55%)",
+                      }} />
+                    )}
+                    <span style={{ position: "relative", zIndex: 1, width: 22, textAlign: "center", color: "#59b0ff", fontWeight: 700, fontSize: 12 }}>{c.cost}</span>
+                    <span style={{ position: "relative", zIndex: 1, flex: 1, minWidth: 0, fontSize: 11, fontWeight: 500, color: RARITY_COLORS[c.rarity] || "#e2e4ea", textShadow: "0 1px 3px #000, 0 0 5px #000", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", paddingRight: 4 }}>{cardName(c, lang)}</span>
+                    <span style={{ position: "relative", zIndex: 1, width: 24, textAlign: "center", fontSize: 11, fontWeight: 700, color: c.count >= 2 ? "#fbbf24" : "#8891a5" }}>{c.count >= 2 ? "×2" : "×1"}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </>
+        )}
       </div>
     </div>
   );
