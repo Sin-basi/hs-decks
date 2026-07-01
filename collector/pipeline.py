@@ -12,10 +12,28 @@ from datetime import datetime, timezone
 from collector.decoder import decode_deckstring, fingerprint
 from collector.scraper import scrape_all_subreddits, parse_legend_rank, parse_winrate
 from collector.hsdecks_net import scrape_hsdecks_net
+from collector.outofcards import scrape_outofcards
 
 # 輸出到專案根目錄的 data/ 資料夾（Next.js 會讀這裡）
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 CARDDB_PATH = os.path.join(OUTPUT_DIR, "cards.json")
+
+# 卡牌資料庫的 cardClass（大寫）→ 三語職業名稱。
+# 用來從英雄卡本身判斷職業，比 decoder 內建的英雄 ID 對照表可靠得多
+# （爐石有上百種英雄造型，硬表列不完）。
+CARDCLASS_TO_NAMES = {
+    "DRUID":       {"en": "Druid",        "zh": "德魯伊",   "ja": "ドルイド"},
+    "HUNTER":      {"en": "Hunter",       "zh": "獵人",     "ja": "ハンター"},
+    "MAGE":        {"en": "Mage",         "zh": "法師",     "ja": "メイジ"},
+    "PALADIN":     {"en": "Paladin",      "zh": "聖騎士",   "ja": "パラディン"},
+    "PRIEST":      {"en": "Priest",       "zh": "牧師",     "ja": "プリースト"},
+    "ROGUE":       {"en": "Rogue",        "zh": "盜賊",     "ja": "ローグ"},
+    "SHAMAN":      {"en": "Shaman",       "zh": "薩滿",     "ja": "シャーマン"},
+    "WARLOCK":     {"en": "Warlock",      "zh": "術士",     "ja": "ウォーロック"},
+    "WARRIOR":     {"en": "Warrior",      "zh": "戰士",     "ja": "ウォリアー"},
+    "DEMONHUNTER": {"en": "Demon Hunter", "zh": "惡魔獵人", "ja": "デモンハンター"},
+    "DEATHKNIGHT": {"en": "Death Knight", "zh": "死亡騎士", "ja": "デスナイト"},
+}
 
 
 def load_card_db() -> dict:
@@ -34,6 +52,7 @@ def load_card_db() -> dict:
                 "cost": card.get("cost", 0),
                 "rarity": card.get("rarity", ""),
                 "type": card.get("type", ""),
+                "cardClass": card.get("cardClass", ""),
             }
     print(f"  卡牌資料庫已載入：{len(db)} 張卡牌")
     return db
@@ -46,6 +65,17 @@ def load_card_db_localized(locale: str) -> dict:
     with open(path, "r", encoding="utf-8") as f:
         raw = json.load(f)
     return {c.get("dbfId"): c.get("name", "") for c in raw if c.get("dbfId")}
+
+
+def resolve_hero_class(decoded: dict, card_db: dict) -> dict:
+    """優先用英雄卡的 cardClass 判斷職業，查不到才退回 decoder 的結果。"""
+    if card_db:
+        hero_info = card_db.get(decoded.get("hero_id"))
+        if hero_info:
+            names = CARDCLASS_TO_NAMES.get(hero_info.get("cardClass", ""))
+            if names:
+                return names
+    return decoded["hero_class"]
 
 
 def enrich_deck(deck: dict, card_db: dict, locales: dict) -> dict:
@@ -86,7 +116,7 @@ def process_scraped_data(scraped, card_db, locales):
                 "id": hashlib.md5(fp.encode()).hexdigest()[:12],
                 "deckstring": code,
                 "format": decoded["format_name"],
-                "hero_class": decoded["hero_class"],
+                "hero_class": resolve_hero_class(decoded, card_db),
                 "archetype": item.get("archetype"),
                 "total_cards": decoded["total_cards"],
                 "cards": decoded["cards"],
@@ -130,13 +160,18 @@ def save_by_class(decks):
 def collect_all_sources():
     """從所有可用來源蒐集牌組代碼。"""
     items = []
-    # 來源 1：Hearthstone-Decks.net（不需金鑰）
+    # 來源 1：Hearthstone-Decks.net（robots 允許）
     try:
         items += scrape_hsdecks_net(limit=40)
     except Exception as e:
         print(f"  [hearthstone-decks.net 發生錯誤] {e}")
-    # 來源 2：Reddit — 目前此機器/雲端 IP 被 Reddit 封鎖公開 .json 端點，
-    #         待改用官方 OAuth API 後再啟用（程式仍保留在 collector/scraper.py）。
+    # 來源 2：Out of Cards（robots 允許）
+    try:
+        items += scrape_outofcards(limit=25)
+    except Exception as e:
+        print(f"  [outof.cards 發生錯誤] {e}")
+    # 來源 3：Reddit — 需官方 API 事先審核（2025/11 起），暫緩；
+    #         程式仍保留在 collector/scraper.py，取得授權後再啟用。
     # try:
     #     items += scrape_all_subreddits()
     # except Exception as e:
