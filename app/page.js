@@ -242,7 +242,7 @@ export default function Home() {
   return (
     <div style={{ fontFamily: "'Noto Sans TC', 'Inter', sans-serif", background: BG, color: TEXT, minHeight: "100vh" }}>
       <header style={{ borderBottom: `1px solid ${BORDER}`, padding: "14px 16px" }}>
-        <div style={{ maxWidth: 760, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+        <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <h1 style={{ fontSize: 20, fontWeight: 800, color: TEXT, margin: 0, letterSpacing: 0.5 }}>
             HS <span style={{ color: ACCENT }}>Decks</span>
           </h1>
@@ -256,7 +256,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main style={{ maxWidth: 760, margin: "0 auto", padding: "14px 16px" }}>
+      <main style={{ maxWidth: 1200, margin: "0 auto", padding: "14px 16px" }}>
         <div style={{ display: "flex", gap: 6, marginBottom: 8, flexWrap: "wrap" }}>
           {FORMATS.map(f => (
             <button key={f} onClick={() => setFormatFilter(f)} style={pill(formatFilter === f)}>
@@ -289,7 +289,7 @@ export default function Home() {
           </button>
         </div>
 
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: 10 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: 10 }}>
           {filtered.map(deck => <DeckCard key={deck.id} deck={deck} lang={lang} onHover={onHover} />)}
         </div>
 
