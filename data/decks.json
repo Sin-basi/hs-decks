@@ -1,0 +1,80 @@
+[
+  {
+    "id": "a1b2c3d4e5f6",
+    "deckstring": "AAECAf0EBsABobcCnccC7vYCp/cCyIcDDHG7ApUDlgWNCL8ImMQCj9MCAAA=",
+    "format": { "en": "Standard", "zh": "標準", "ja": "スタンダード" },
+    "hero_class": { "en": "Mage", "zh": "法師", "ja": "メイジ" },
+    "total_cards": 30,
+    "dust_cost": 7840,
+    "legend_rank": 11,
+    "winrate": { "wins": 42, "losses": 23, "winrate": 64.6 },
+    "source": { "type": "reddit", "author": "FrostNovaGM", "title": "Quest Mage #11 Legend (Score: 42-23)", "url": "#" },
+    "collected_at": "2026-07-01T08:00:00+00:00",
+    "archetype": "Quest Mage"
+  },
+  {
+    "id": "b2c3d4e5f6a1",
+    "deckstring": "AAECAQcEkbwCnfACm/ACkvgCDRyQA6gF1AXvB7II+wzUswKIsQLMzQKf0wIA",
+    "format": { "en": "Standard", "zh": "標準", "ja": "スタンダード" },
+    "hero_class": { "en": "Warrior", "zh": "戰士", "ja": "ウォリアー" },
+    "total_cards": 30,
+    "dust_cost": 5280,
+    "legend_rank": 215,
+    "winrate": { "wins": 38, "losses": 17, "winrate": 69.1 },
+    "source": { "type": "reddit", "author": "SMOrcKing", "title": "Pirate Warrior #215 Legend 69% WR", "url": "#" },
+    "collected_at": "2026-07-01T07:30:00+00:00",
+    "archetype": "Pirate Warrior"
+  },
+  {
+    "id": "c3d4e5f6a1b2",
+    "deckstring": "AAECAaoIBPbsAvLvApn3Aq2ABw3bA/kD/gP+BdkH8AeTCdkT+6oC9r0Cx8EC",
+    "format": { "en": "Standard", "zh": "標準", "ja": "スタンダード" },
+    "hero_class": { "en": "Shaman", "zh": "薩滿", "ja": "シャーマン" },
+    "total_cards": 30,
+    "dust_cost": 6120,
+    "legend_rank": 42,
+    "winrate": { "wins": 28, "losses": 14, "winrate": 66.7 },
+    "source": { "type": "reddit", "author": "ElementLord", "title": "Evolve Shaman #42 Legend (28-14)", "url": "#" },
+    "collected_at": "2026-07-01T06:45:00+00:00",
+    "archetype": "Evolve Shaman"
+  },
+  {
+    "id": "d4e5f6a1b2c3",
+    "deckstring": "AAECAa0GBJibA5mbA/KsA5GxAw2XAuUE9gf2B40I0QrTCtcK8gz3DO+SA7ulAw==",
+    "format": { "en": "Wild", "zh": "狂野", "ja": "ワイルド" },
+    "hero_class": { "en": "Priest", "zh": "牧師", "ja": "プリースト" },
+    "total_cards": 30,
+    "dust_cost": 9600,
+    "legend_rank": 5,
+    "winrate": { "wins": 51, "losses": 19, "winrate": 72.9 },
+    "source": { "type": "reddit", "author": "ShadowForm", "title": "Reno Priest #5 Legend Wild (51-19)", "url": "#" },
+    "collected_at": "2026-06-30T22:00:00+00:00",
+    "archetype": "Reno Priest"
+  },
+  {
+    "id": "e5f6a1b2c3d4",
+    "deckstring": "AAECAZ8FBKcFucEC2f4CkYADDUanBfQF9QX6BpvCAojHApvLAqbOAvjSAuPjAtj+AgA=",
+    "format": { "en": "Standard", "zh": "標準", "ja": "スタンダード" },
+    "hero_class": { "en": "Paladin", "zh": "聖騎士", "ja": "パラディン" },
+    "total_cards": 30,
+    "dust_cost": 4560,
+    "legend_rank": 88,
+    "winrate": { "wins": 33, "losses": 18, "winrate": 64.7 },
+    "source": { "type": "reddit", "author": "Lightforged", "title": "Aggro Paladin #88 Legend (33-18)", "url": "#" },
+    "collected_at": "2026-06-30T20:15:00+00:00",
+    "archetype": "Aggro Paladin"
+  },
+  {
+    "id": "f6a1b2c3d4e5",
+    "deckstring": "AAECAZICBsUEig6gzgKZ0wKe0gLF8wIM/QLtA+kB5AigBcQGpAf+DJjSAp7SAtvTAgA=",
+    "format": { "en": "Standard", "zh": "標準", "ja": "スタンダード" },
+    "hero_class": { "en": "Druid", "zh": "德魯伊", "ja": "ドルイド" },
+    "total_cards": 30,
+    "dust_cost": 11200,
+    "legend_rank": 3,
+    "winrate": { "wins": 62, "losses": 21, "winrate": 74.7 },
+    "source": { "type": "reddit", "author": "TreeOfLife", "title": "Ramp Druid #3 Legend (62-21)", "url": "#" },
+    "collected_at": "2026-06-30T18:00:00+00:00",
+    "archetype": "Ramp Druid"
+  }
+]
