@@ -181,7 +181,7 @@ def collect_all_sources():
     items = []
     # 來源 1：Hearthstone-Decks.net（robots 允許；標準 + 狂野）
     try:
-        items += scrape_hsdecks_net(per_listing=60)
+        items += scrape_hsdecks_net(per_listing=1500)
     except Exception as e:
         print(f"  [hearthstone-decks.net 發生錯誤] {e}")
     # （Out of Cards 來源已移除：資料過時，2026-07-02）

@@ -35,7 +35,7 @@ LISTING_PAGES = [
 ]
 
 # 每個列表頁往後翻幾頁
-PAGES = 3
+PAGES = 50
 
 # 個別牌組頁的網址：slug 內含 "legend"
 DECK_URL_RE = re.compile(r'https://hearthstone-decks\.net/([a-z0-9\-]*legend[a-z0-9\-]*)/')
@@ -85,11 +85,13 @@ def _collect_deck_urls(per_listing: int) -> list:
             html = _fetch(BASE + page_path)
             if not html:
                 continue
+            before = len(got)
             for slug in DECK_URL_RE.findall(html):
                 u = f"{BASE}/{slug}/"
                 if u not in urls and u not in got:
                     got.append(u)
-            time.sleep(1)
+            print(f"    {base_path} p{pg}: +{len(got)-before} → 累計 {len(got)}", flush=True)
+            time.sleep(0.8)
         urls.extend(got[:per_listing])
     return urls
 
@@ -101,7 +103,10 @@ def scrape_hsdecks_net(per_listing: int = 45) -> list:
     print(f"  → 找到 {len(deck_urls)} 個牌組頁面")
 
     results = []
-    for u in deck_urls:
+    total = len(deck_urls)
+    for i, u in enumerate(deck_urls, 1):
+        if i % 100 == 0 or i == total:
+            print(f"    進度：{i}/{total}（已取得 {len(results)} 副）", flush=True)
         html = _fetch(u)
         if not html:
             continue
@@ -129,7 +134,7 @@ def scrape_hsdecks_net(per_listing: int = 45) -> list:
             "archetype": meta["archetype"],
             "deckstrings": codes[:1],
         })
-        time.sleep(0.5)
+        time.sleep(0.4)
 
     print(f"  → 成功取得 {len(results)} 副含代碼的牌組")
     return results
